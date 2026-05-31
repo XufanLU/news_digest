@@ -1,0 +1,32 @@
+{
+  "dailyLimit": 3,
+  "perChannelLimit": 2,
+  "lookbackDays": 30,
+  "candidateLimit": 15,
+  "channels": [
+    {
+      "name": "硅谷101",
+      "handle": "@valley101podcast",
+      "channelId": "UCKV2yWPB3wn0RTZh3cTD8YA",
+      "url": "https://www.youtube.com/@valley101podcast",
+      "enabled": true,
+      "keywords": []
+    },
+    {
+      "name": "小Lin说",
+      "handle": "@xiao_lin_shuo",
+      "channelId": "UCilwQlk62k1z7aUEZPOB6yw",
+      "url": "https://www.youtube.com/@xiao_lin_shuo",
+      "enabled": true,
+      "keywords": []
+    },
+    {
+      "name": "OpenAI",
+      "handle": "@OpenAI",
+      "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+      "url": "https://www.youtube.com/@OpenAI",
+      "enabled": true,
+      "keywords": []
+    }
+  ]
+}

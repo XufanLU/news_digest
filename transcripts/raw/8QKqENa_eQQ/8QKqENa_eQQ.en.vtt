@@ -1,0 +1,2170 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:13.805 --> 00:00:15.265
+(speaking french)
+
+00:00:15.265 --> 00:00:17.267
+(speaking french)
+
+00:00:17.267 --> 00:00:19.352
+Matias, thank you for joining.
+
+00:00:19.352 --> 00:00:21.062
+Thank you for having me.
+Really happy to be here.
+
+00:00:21.062 --> 00:00:25.066
+I'm really excited to chat
+because you have a very unique background.
+
+00:00:25.066 --> 00:00:27.277
+You've crossed a bunch of worlds.
+
+00:00:27.277 --> 00:00:29.237
+You work in consumer products.
+
+00:00:29.237 --> 00:00:32.323
+You worked on developer platforms
+like at Facebook in the early days
+
+00:00:32.657 --> 00:00:35.660
+and now leading product
+for Alchemy in the crypto space.
+
+00:00:35.952 --> 00:00:40.874
+But what I find even more interesting
+is that you're not an engineer by training,
+
+00:00:40.874 --> 00:00:43.835
+and yet you're building
+more than many engineers that I know.
+
+00:00:44.210 --> 00:00:45.378
+How do you go about it?
+
+00:00:46.880 --> 00:00:49.841
+I think it just comes down
+to being interested in a lot of things
+
+00:00:50.133 --> 00:00:53.178
+and trying a lot of things over time
+
+00:00:53.178 --> 00:00:57.557
+and getting better and better as models,
+I guess, get better as well.
+
+00:00:57.557 --> 00:00:58.266
+That's awesome.
+
+00:00:58.266 --> 00:01:03.313
+So today you're using AI a ton at work
+and outside of work.
+
+00:01:03.313 --> 00:01:06.066
+But let's start with, like, Alchemy.
+
+00:01:06.066 --> 00:01:11.154
+Like what was, aha moment you had maybe
+kind of bringing AI to work?
+
+00:01:11.321 --> 00:01:14.157
+The first thing that I remember
+the first time we used AI,
+
+00:01:14.741 --> 00:01:16.367
+I guess it was Codex in Slack.
+
+00:01:16.618 --> 00:01:17.285
+Right.
+
+00:01:17.285 --> 00:01:19.287
+It's probably a year ago
+or so at this point.
+
+00:01:19.287 --> 00:01:19.788
+Yeah.
+
+00:01:20.163 --> 00:01:23.541
+The first thing we used it
+for was to make small edits
+
+00:01:23.541 --> 00:01:26.711
+to our documentation,
+our developer docs from Slack.
+
+00:01:26.711 --> 00:01:30.090
+So we went from having to run the site locally and 
+doing that whole process
+
+00:01:30.090 --> 00:01:32.133
+that is fairly involved.
+
+00:01:32.133 --> 00:01:36.679
+To just being able to add Codex on Slack in 
+the docs channel in our company Slack
+
+00:01:36.679 --> 00:01:38.765
+and to be able to
+just tell it to make changes.
+
+00:01:38.973 --> 00:01:41.059
+We do that all the time at OpenAI too.
+
+00:01:41.059 --> 00:01:41.601
+We still do it.
+
+00:01:41.601 --> 00:01:43.978
+Now we have a bit
+more of a sophisticated setup
+
+00:01:43.978 --> 00:01:46.314
+but that was really
+the first thing that we used
+
+00:01:47.565 --> 00:01:50.360
+Codex for and AI in general at the company.
+
+00:01:50.360 --> 00:01:53.238
+From there, the other big moment I remember
+
+00:01:53.238 --> 00:01:56.449
+that was probably the bigger turning point,
+was using code review.
+
+00:01:56.991 --> 00:02:00.370
+And so there was this instance,
+we had a small incident
+
+00:02:00.370 --> 00:02:03.540
+that was related to a big migration
+that had happened months prior.
+
+00:02:03.790 --> 00:02:06.501
+And in big migrations,
+some bugs will happen.
+
+00:02:06.501 --> 00:02:08.128
+It was like a lot of code.
+
+00:02:08.128 --> 00:02:12.257
+We had an internal postmortem
+about the incident
+
+00:02:12.257 --> 00:02:15.468
+and we basically identify
+what the race condition was.
+
+00:02:15.468 --> 00:02:21.975
+We fixed it and someone on the team had
+the idea to retroactively run code review, Codex,
+
+00:02:21.975 --> 00:02:24.185
+to see if Codex would have caught the bug.
+
+00:02:24.561 --> 00:02:25.353
+And it did.
+
+00:02:25.353 --> 00:02:25.770
+Wow.
+
+00:02:25.770 --> 00:02:28.231
+And so we did that a couple of times just to see.
+
+00:02:28.231 --> 00:02:30.525
+People were starting to get curious and
+
+00:02:30.525 --> 00:02:34.195
+you could tell that was a bit of a turning point
+in terms of model capability
+
+00:02:34.195 --> 00:02:38.324
+and like a lot of the ingredients were right for for teams to start adopting those tools more.
+
+00:02:38.324 --> 00:02:43.913
+From there, I remember a couple of days after seeing
+one of the engineers on the team
+
+00:02:43.913 --> 00:02:49.252
+essentially using Codex review
+in pull request comments as his teammate.
+
+00:02:49.586 --> 00:02:52.589
+He was just he submitted a PR that I saw
+go through Slack.
+
+00:02:52.589 --> 00:02:55.800
+I click through it
+and I saw him do at Codex review,
+
+00:02:55.800 --> 00:03:00.430
+address the comments that Codex would come up
+with, then review again.
+
+00:03:00.430 --> 00:03:03.892
+Do that again and he was just
+doing this back and forth with Codex.
+
+00:03:03.892 --> 00:03:08.396
+You could tell that people
+were getting over the hurdle of,
+
+00:03:08.396 --> 00:03:13.359
+of like thinking that LLMs weren't
+good enough to help in a professional setting
+
+00:03:13.359 --> 00:03:15.862
+with a really large complex code base,
+
+00:03:15.862 --> 00:03:19.199
+with code that needs to be good enough
+to be served to a lot of people.
+
+00:03:19.199 --> 00:03:19.616
+That’s really cool.
+
+00:03:19.616 --> 00:03:20.742
+That was really a turning point.
+
+00:03:20.742 --> 00:03:22.619
+Yeah, that's
+a very interesting point on code review.
+
+00:03:22.619 --> 00:03:28.082
+I remember talking to many companies
+were just getting into like, you know, AI coding.
+
+00:03:28.082 --> 00:03:31.169
+Code review was the first moment when they realized
+
+00:03:31.169 --> 00:03:35.632
+that many incidents they had could be
+caught actually by Codex automatically.
+
+00:03:35.632 --> 00:03:38.676
+And they replayed some of those similar
+to Alchemy.
+
+00:03:38.968 --> 00:03:41.804
+I remember Datadog, for instance,
+back in January, said that
+
+00:03:41.804 --> 00:03:47.101
+like more than one incident out of five
+would have been saved by Codex.
+
+00:03:47.101 --> 00:03:49.562
+But I'm sure the model capabilities
+now are so good
+
+00:03:49.562 --> 00:03:52.565
+with GPT 5.5,
+it could be more than half, easily.
+
+00:03:52.982 --> 00:03:54.067
+Nine out of ten, maybe.
+
+00:03:54.067 --> 00:03:55.485
+Maybe most of it.
+
+00:03:55.485 --> 00:03:59.989
+Yeah. So code review was really
+a turning point for many companies
+
+00:03:59.989 --> 00:04:03.451
+to get into Codex and really realize the power of AI.
+
+00:04:04.244 --> 00:04:08.456
+Can you tell me a bit more about
+how you're using Codex at work today?
+
+00:04:08.957 --> 00:04:11.042
+I use it a lot for a lot of different things.
+
+00:04:11.042 --> 00:04:15.964
+A lot of those typical product management
+sort of tasks, writing documents.
+
+00:04:16.256 --> 00:04:19.300
+We've created all these skills
+internally to help us
+
+00:04:19.300 --> 00:04:23.137
+do the PM job more easily
+and better and faster.
+
+00:04:23.388 --> 00:04:28.601
+That includes writing PRDs, analyzing customer feedback, like doing all those things.
+
+00:04:29.227 --> 00:04:30.395
+I use Codex for that
+
+00:04:30.395 --> 00:04:33.147
+and several members of the team reuse
+those skills as well.
+
+00:04:33.147 --> 00:04:37.360
+We have this shared, repo of skills across the company,
+
+00:04:37.360 --> 00:04:40.947
+across all the different functions,
+so that not only we can do the same
+
+00:04:41.906 --> 00:04:44.617
+job and the same tasks faster and better
+
+00:04:44.617 --> 00:04:48.454
+but also more people who are not
+necessarily PMs are able to do those things.
+
+00:04:48.454 --> 00:04:49.080
+I'm sure, yeah.
+
+00:04:49.080 --> 00:04:54.794
+And I think it's also telling a lot about,
+like, how we think about developers now,
+
+00:04:54.794 --> 00:04:59.882
+not just as humans but also as agents consuming our own platforms and infrastructure.
+
+00:04:59.882 --> 00:05:03.553
+We have to think about these agents and
+making sure that, like, tools like Codex
+
+00:05:03.553 --> 00:05:07.807
+can actually integrate, like OpenAI’s API
+or Alchemy’s infrastructure very quickly.
+
+00:05:07.807 --> 00:05:10.768
+Yeah, it's really several things
+that change at the same time.
+
+00:05:10.768 --> 00:05:16.482
+First, the way we work has changed and Alchemy
+has a lot of very technical products.
+
+00:05:16.482 --> 00:05:19.277
+It's an infrastructure company first.
+
+00:05:19.277 --> 00:05:22.989
+And so all the developers
+internally have changed the way they work.
+
+00:05:22.989 --> 00:05:25.992
+And so it's
+that's very clear to everyone now.
+
+00:05:25.992 --> 00:05:29.746
+But that also means as builders
+of a developer platform, we have to change
+
+00:05:30.121 --> 00:05:34.542
+the way we build tools
+so that other developers that we know
+
+00:05:34.542 --> 00:05:38.546
+are also changing their workflows with
+AI are able to use Alchemy better.
+
+00:05:38.546 --> 00:05:42.633
+So it's, the developer we're building
+for has evolved.
+
+00:05:42.967 --> 00:05:46.679
+Now, we are very much assuming
+that 100% of developers are building
+
+00:05:46.679 --> 00:05:48.473
+software with the help of AI.
+
+00:05:48.473 --> 00:05:48.931
+Right.
+
+00:05:48.931 --> 00:05:53.019
+And so it's evolving your platform
+to fit that new reality as one thing.
+
+00:05:53.227 --> 00:05:55.063
+And then the other thing that's a bit more nascent
+
+00:05:55.063 --> 00:05:58.107
+but that's also very interesting is, I guess,
+
+00:05:58.107 --> 00:06:01.694
+this new type of developer that's an agent
+sometimes, autonomous agent.
+
+00:06:01.903 --> 00:06:03.780
+And they don't
+always need the same tooling.
+
+00:06:03.905 --> 00:06:04.864
+They need different things.
+
+00:06:04.989 --> 00:06:07.784
+And if an autonomous agent
+shows up on Alchemy
+
+00:06:07.784 --> 00:06:11.746
+and as far as implementation decisions
+go, they're fully autonomous.
+
+00:06:11.746 --> 00:06:15.666
+They have to be able to sign up
+and integrate something
+
+00:06:15.666 --> 00:06:18.211
+and use the blockchain to perform
+some kind of tasks.
+
+00:06:18.211 --> 00:06:20.213
+We need to build the tools for that.
+
+00:06:20.213 --> 00:06:21.589
+And it's building for those two.
+
+00:06:21.589 --> 00:06:23.674
+And over time those two probably converge.
+
+00:06:23.674 --> 00:06:25.510
+But for now
+they're still fairly different needs.
+
+00:06:25.510 --> 00:06:28.638
+And my job is basically
+to try to figure out what we do for both.
+
+00:06:28.888 --> 00:06:29.555
+Awesome.
+
+00:06:29.555 --> 00:06:32.809
+Zooming out of Alchemy
+a little bit, I was reflecting recently
+
+00:06:33.142 --> 00:06:34.477
+about my own startup.
+
+00:06:34.477 --> 00:06:37.480
+And you were a founder before, as well.
+
+00:06:37.730 --> 00:06:42.235
+How do you think now, about this time
+where you had to build without AI?
+
+00:06:42.318 --> 00:06:43.403
+It was very different.
+
+00:06:43.403 --> 00:06:45.947
+And it was hard,
+even if you were not an engineer.
+
+00:06:45.947 --> 00:06:50.493
+Even more difficult, like the typical way
+you'd go about it 6 or 7 years ago
+
+00:06:50.493 --> 00:06:54.330
+was to build some kind of prototype,
+to try to raise enough money
+
+00:06:54.330 --> 00:06:56.749
+to hire a small team, to
+then build the real thing.
+
+00:06:56.749 --> 00:06:59.752
+And that that's pretty much what I did
+with with my company at the time,
+
+00:06:59.836 --> 00:07:01.254
+built the first prototype myself.
+
+00:07:01.254 --> 00:07:07.635
+It was very difficult because it was essentially copy pasting code left and right until something worked.
+
+00:07:07.635 --> 00:07:10.972
+Managed to raise a bit of money,
+hired a team of 3 or 4 engineers
+
+00:07:10.972 --> 00:07:13.975
+to help build the first MVP
+and not only that took,
+
+00:07:15.059 --> 00:07:18.146
+a decent amount of money
+and several people, but also took months.
+
+00:07:18.146 --> 00:07:19.814
+I mean I haven't thought about this much
+
+00:07:19.814 --> 00:07:22.859
+but I wonder how long it would take me
+to build the first version of the app
+
+00:07:22.859 --> 00:07:25.862
+we’re a building at the time with AI today,
+just by myself.
+
+00:07:26.112 --> 00:07:29.198
+My guess is that
+it would take less than a week.
+
+00:07:29.198 --> 00:07:30.908
+I don't know
+what your experience was like.
+
+00:07:30.908 --> 00:07:34.287
+You are building a much more complicated
+product than mine, I guess.
+
+00:07:34.537 --> 00:07:37.039
+How long did I take it back then
+and how many people?
+
+00:07:37.039 --> 00:07:42.128
+It took me a team of like 15 engineers
+for maybe a year and a half
+
+00:07:42.128 --> 00:07:46.799
+to get to like the first
+like milestone of a V1 that we shipped
+
+00:07:46.799 --> 00:07:48.217
+to like many customers.
+
+00:07:48.217 --> 00:07:50.428
+It's pretty incredible how far we've come.
+
+00:07:50.428 --> 00:07:53.723
+Like it's just never been easier
+to do something.
+
+00:07:53.848 --> 00:07:54.223
+Yeah.
+
+00:07:54.223 --> 00:07:55.808
+And to start something from scratch.
+
+00:07:55.808 --> 00:07:56.100
+Yeah.
+
+00:07:56.100 --> 00:07:58.060
+It's probably the best time to be a founder.
+
+00:07:58.060 --> 00:08:00.563
+Like any idea you have,
+you can just build it.
+
+00:08:00.563 --> 00:08:00.938
+Yeah.
+
+00:08:00.938 --> 00:08:04.150
+Anyone who has an idea
+now has the tools to basically try it out.
+
+00:08:04.150 --> 00:08:07.153
+Speaking of things that you do
+on the side, it's a great segue
+
+00:08:07.153 --> 00:08:11.115
+because I wanted to ask you
+about how you're using AI outside of work.
+
+00:08:11.115 --> 00:08:14.202
+It sounds like you're building so many projects these days
+
+00:08:14.202 --> 00:08:15.244
+it's almost like one a day.
+
+00:08:15.995 --> 00:08:19.624
+You know, it's amazing because it's
+never been easier to build things.
+
+00:08:19.624 --> 00:08:22.960
+And yet I just kept feeling
+this sort of anxiety
+
+00:08:22.960 --> 00:08:25.963
+that I, I wasn't doing enough
+pretty much all the time.
+
+00:08:25.963 --> 00:08:27.507
+I think I'm a bit past that.
+
+00:08:27.507 --> 00:08:30.092
+But the reason I am
+is because I try to work
+
+00:08:30.092 --> 00:08:33.346
+on a setup that allows me to spend
+little time on my computer
+
+00:08:33.596 --> 00:08:37.975
+and have essentially Codex work for me
+for hours while I'm doing something else.
+
+00:08:37.975 --> 00:08:38.518
+It's like
+
+00:08:39.519 --> 00:08:43.105
+I had gotten to a point a few months ago
+where I felt bad about going out
+
+00:08:43.105 --> 00:08:46.192
+because I felt like
+I should be taking advantage of this
+
+00:08:46.192 --> 00:08:49.278
+amazing technology we have and I should
+just be building things all the time.
+
+00:08:49.278 --> 00:08:50.530
+I didn't want to do anything else.
+
+00:08:50.530 --> 00:08:51.948
+I didn't want to feel like that either.
+
+00:08:51.948 --> 00:08:53.658
+I didn't like that trade off.
+
+00:08:53.658 --> 00:08:58.162
+And so I invested in a set of skills
+and a process and several things
+
+00:08:58.162 --> 00:09:01.499
+that I set up for myself
+to basically be able to very quickly
+
+00:09:01.499 --> 00:09:04.377
+either describe a new idea
+and have Codex come up
+
+00:09:04.377 --> 00:09:07.505
+with a plan, implement it, test it,
+and let me know when it's done.
+
+00:09:07.505 --> 00:09:10.675
+And it's very easy to to get Codex
+to work for hours at that point.
+
+00:09:11.133 --> 00:09:14.595
+Or if I have an existing product
+and I want to explore new things,
+
+00:09:14.845 --> 00:09:17.640
+I came up with this way
+of essentially having Codex
+
+00:09:17.640 --> 00:09:20.226
+do research for me on what new features
+I should build.
+
+00:09:20.476 --> 00:09:22.853
+It will look at other competitors.
+
+00:09:22.853 --> 00:09:24.313
+It will look at other ideas.
+
+00:09:24.313 --> 00:09:25.856
+It will try to figure out
+what my goals are
+
+00:09:25.856 --> 00:09:28.276
+and what my own preferences are.
+
+00:09:28.276 --> 00:09:31.737
+And I created this set of skills
+that basically gets Codex
+
+00:09:31.737 --> 00:09:33.614
+to build all those things.
+
+00:09:33.614 --> 00:09:34.865
+So it comes up with ideas.
+
+00:09:34.865 --> 00:09:37.034
+It builds them in a modular way.
+
+00:09:37.034 --> 00:09:38.911
+So it's going to feature
+flag them and build them
+
+00:09:38.911 --> 00:09:43.791
+as experiments in the main app
+so that I can prompt Codex before going to bed
+
+00:09:43.791 --> 00:09:45.876
+to go do some research about an app that I have.
+
+00:09:45.876 --> 00:09:48.588
+Tell it to build the top
+ten features it can come up with,
+
+00:09:48.921 --> 00:09:50.965
+build them as experiments in the product.
+
+00:09:50.965 --> 00:09:54.051
+Wake up to ten feature flags
+that I can toggle on and off
+
+00:09:54.594 --> 00:09:57.179
+automatically to basically
+
+00:09:57.179 --> 00:10:00.224
+not be the bottleneck
+when it comes to generating new ideas
+
+00:10:00.224 --> 00:10:04.186
+but still having the control of deciding
+what is good enough to stay in the project or not.
+
+00:10:04.186 --> 00:10:05.938
+ I love that.
+That's really cool.
+
+00:10:05.938 --> 00:10:08.733
+It's like without
+spending a ton of time on a computer
+
+00:10:08.733 --> 00:10:11.819
+have these moments,
+like during my lunch break at work,
+
+00:10:11.819 --> 00:10:14.280
+I have my personal laptop
+and I try to send things to Codex
+
+00:10:14.280 --> 00:10:16.198
+so that it can work
+while I go back to work
+
+00:10:16.198 --> 00:10:20.953
+before going out on weekends to dinner,
+or to have drinks before going to bed.
+
+00:10:20.953 --> 00:10:25.207
+I have these Codex moments, I guess, where
+I just try to dispatch a bunch of work,
+
+00:10:25.708 --> 00:10:28.669
+use all these processes
+and these workflows I have with skills
+
+00:10:28.669 --> 00:10:33.007
+and other actions so that Codex can work
+while I'm not paying attention.
+
+00:10:33.174 --> 00:10:36.469
+And it's amazing how much you can do
+if you kind of invest in it that way.
+
+00:10:36.802 --> 00:10:37.720
+That's so cool.
+
+00:10:37.720 --> 00:10:41.223
+I mean, honestly, I would love to see your setup
+and how you're using the Codex app
+
+00:10:41.223 --> 00:10:43.100
+and kind of bringing all of these tools together. 
+
+00:10:43.100 --> 00:10:43.893
+Yeah. Let's check it out.
+
+00:10:44.935 --> 00:10:46.729
+Let's check out linear to start.
+
+00:10:46.729 --> 00:10:50.566
+So what you see here
+is basically a collection of projects.
+
+00:10:50.566 --> 00:10:53.277
+You see there's this 12 of them
+in progress. At the same time.
+
+00:10:53.277 --> 00:10:55.071
+I'm not working on all of them
+
+00:10:55.071 --> 00:10:58.324
+in one go, but maybe we can pick one
+and I can show you how this works.
+
+00:10:59.033 --> 00:11:02.787
+This one, for example is a mac app
+that since then
+
+00:11:02.787 --> 00:11:05.873
+I've also built it as an iOS app
+that uses Codex App server
+
+00:11:06.082 --> 00:11:09.627
+to essentially help me write better
+while I'm at my computer.
+
+00:11:09.627 --> 00:11:10.878
+It's something that I built for myself
+
+00:11:10.878 --> 00:11:14.256
+for work first, and that,
+I kept building out since.
+
+00:11:14.632 --> 00:11:16.926
+The way it works
+is that you have a global shortcut.
+
+00:11:16.926 --> 00:11:19.637
+In my case,
+it's like command shift spacebar,
+
+00:11:19.637 --> 00:11:21.972
+and it brings up this little window
+that you see there.
+
+00:11:21.972 --> 00:11:22.306
+That's cool.
+
+00:11:22.306 --> 00:11:24.684
+And this is using Codex App Server.
+
+00:11:24.684 --> 00:11:28.604
+So in the settings it's using my GPT
+subscription behind the scenes.
+
+00:11:28.979 --> 00:11:33.192
+And if you were to write something
+in my case, I'm not even going to write.
+
+00:11:33.192 --> 00:11:36.904
+I usually talk to my computer just because
+it's so much faster for everything.
+
+00:11:36.904 --> 00:11:40.616
+Like people at work a year ago
+would make fun of my little headset.
+
+00:11:40.616 --> 00:11:42.785
+I basically looked like a call center.
+
+00:11:42.785 --> 00:11:44.370
+Call center operator.
+
+00:11:44.370 --> 00:11:47.373
+And now a lot of people have those
+similar headsets, so it's okay.
+
+00:11:47.623 --> 00:11:52.002
+But if you say you're on slack
+and you want to write something,
+
+00:11:52.002 --> 00:11:52.420
+Yeah.
+
+00:11:52.420 --> 00:11:53.421
+but you need to clean it up
+
+00:11:53.421 --> 00:11:57.091
+and you want AI to make it sound more professional
+or fix typos or things like that
+
+00:11:57.091 --> 00:11:59.552
+like I'm going to record something
+that would be like,
+
+00:11:59.552 --> 00:12:01.846
+“Hey, I'm not totally sure
+I understand what you're saying.
+
+00:12:01.846 --> 00:12:04.682
+Maybe we should just get together
+and figure it out” or something like that.
+
+00:12:06.767 --> 00:12:08.644
+Obviously, this is not a great sentence.
+
+00:12:08.644 --> 00:12:10.563
+I just dictated that to my computer.
+
+00:12:10.563 --> 00:12:13.315
+And then if you hit command return
+in this case,
+
+00:12:13.315 --> 00:12:17.361
+it's going to rewrite it for me
+in a way that sounds more professional
+
+00:12:17.361 --> 00:12:20.156
+because the professional mode
+was selected.
+
+00:12:20.156 --> 00:12:23.993
+This is basically using Codex Server
+behind the scenes and GPT 5.5.
+
+00:12:23.993 --> 00:12:25.161
+You have a model picker.
+
+00:12:25.161 --> 00:12:28.164
+I just added
+5.5 since it just came out.
+
+00:12:28.414 --> 00:12:32.543
+And this is just an example of a little
+app that I made for myself for Mac.
+
+00:12:32.877 --> 00:12:37.089
+I put the same setup in an iOS app
+after to have
+
+00:12:37.089 --> 00:12:40.342
+like a keyboard extension and help
+you rewrite things quickly and so on.
+
+00:12:40.342 --> 00:12:42.136
+I don't know if a lot of people use their,
+
+00:12:42.136 --> 00:12:44.597
+their Codex subscription
+for things that are not just coding.
+
+00:12:44.597 --> 00:12:47.600
+I know that people use
+the Codex app server to build other
+
+00:12:47.808 --> 00:12:50.978
+coding interfaces,
+but in this case I basically used it
+
+00:12:50.978 --> 00:12:55.566
+because I wanted the inference to be done,
+through my ChatGPT account.
+
+00:12:55.566 --> 00:12:59.236
+And if we go back to to the process
+and how to find time,
+
+00:12:59.904 --> 00:13:02.740
+what you see here is this linear project.
+
+00:13:02.740 --> 00:13:04.241
+I didn't create this project.
+
+00:13:04.241 --> 00:13:08.954
+There are like 159 issues
+that are done, a bunch that are in review
+
+00:13:08.954 --> 00:13:10.122
+and some that are in progress.
+
+00:13:10.122 --> 00:13:12.875
+I did not create
+or write a single one of these.
+
+00:13:12.875 --> 00:13:13.042
+Wow.
+
+00:13:13.042 --> 00:13:13.834
+Codex did.
+
+00:13:13.834 --> 00:13:18.047
+What I did is to talk to Codex
+about what I wanted
+
+00:13:18.506 --> 00:13:22.885
+through these skills
+that I wrote for myself, to basically help
+
+00:13:23.636 --> 00:13:27.223
+me create
+a plan that turns into milestones
+
+00:13:27.223 --> 00:13:31.268
+that you see here, like the foundation
+and the preferences and so on, a bunch of the features.
+
+00:13:31.268 --> 00:13:33.020
+Codex will create that plan,
+
+00:13:33.020 --> 00:13:36.232
+break it down into milestones,
+create the tasks,
+
+00:13:36.649 --> 00:13:42.363
+work on them in a way that makes sense
+based on this agent’s .md file that I created,
+
+00:13:42.363 --> 00:13:44.949
+that essentially summarizes
+the way I like to work.
+
+00:13:44.949 --> 00:13:48.828
+And I put in a bunch of time and,
+putting that in a single file.
+
+00:13:48.828 --> 00:13:52.873
+So when I create a new project
+or I have a new idea, I can basically just
+
+00:13:53.207 --> 00:13:56.710
+initialize that project with that
+agent’s .md file.
+
+00:13:56.710 --> 00:14:00.589
+From there, I use this skill I have to create a plan
+
+00:14:00.589 --> 00:14:04.426
+and after that it's just telling Codex, build the plan.
+
+00:14:04.426 --> 00:14:07.513
+That's really cool because you're
+using linear as the interface
+
+00:14:08.013 --> 00:14:11.725
+as like your backlog and your release
+milestones and things like this.
+
+00:14:11.725 --> 00:14:14.311
+But like Codex is not just writing
+
+00:14:15.437 --> 00:14:18.774
+all the issues, it's also picking them up
+to close them and work on them.
+
+00:14:18.774 --> 00:14:19.191
+Yeah.
+
+00:14:19.191 --> 00:14:22.820
+It's of both delegating the,
+I guess, the project management
+
+00:14:22.820 --> 00:14:26.740
+and the setting up of the project and the
+milestones and the tasks as well as the
+
+00:14:27.366 --> 00:14:29.118
+the execution of the tasks too.
+
+00:14:29.118 --> 00:14:34.164
+I’m initiating the project, sharing the initial idea,
+
+00:14:34.164 --> 00:14:36.917
+giving Codex enough information about my preferences
+
+00:14:36.917 --> 00:14:39.712
+and what I want the product to be
+so that it builds
+
+00:14:39.712 --> 00:14:41.505
+the version of the product that I want.
+
+00:14:41.505 --> 00:14:45.050
+I think the biggest gap
+when you code with LLMs, when
+
+00:14:45.676 --> 00:14:49.096
+if the LLM produces something that's
+surprising to you, in a negative way,
+
+00:14:49.096 --> 00:14:53.601
+it didn't do what you wanted, usually it's
+because it had to make one or
+
+00:14:53.601 --> 00:14:57.187
+multiple assumptions and it just didn't
+make them in the same way you would have.
+
+00:14:57.479 --> 00:15:00.316
+And so in order to avoid that,
+I have this process
+
+00:15:00.316 --> 00:15:03.319
+that requires me to clarify
+all those things upfront.
+
+00:15:03.611 --> 00:15:06.697
+And once Codex has all of that,
+it can just go and build.
+
+00:15:06.697 --> 00:15:07.573
+That's really cool.
+
+00:15:07.573 --> 00:15:10.743
+And so that's the first part and if you go back to
+
+00:15:10.743 --> 00:15:13.787
+to this writing app as an example, the next step after
+
+00:15:14.163 --> 00:15:18.125
+setting up a new project, building a V1 of a product
+
+00:15:18.125 --> 00:15:23.088
+and having Codex essentially do all the work for me, 
+usually while I'm not even on my computer.
+
+00:15:23.088 --> 00:15:26.091
+I wanted to find a way to generate
+
+00:15:26.091 --> 00:15:29.094
+new features and keep working on a
+
+00:15:29.428 --> 00:15:32.640
+on an existing product
+without being the bottleneck.
+
+00:15:32.640 --> 00:15:35.392
+I didn't want all the ideas
+to have to come from me
+
+00:15:35.392 --> 00:15:38.228
+but I still wanted some level of control
+
+00:15:38.228 --> 00:15:41.231
+when it comes to deciding whether or not
+I like that feature.
+
+00:15:41.231 --> 00:15:41.690
+Right.
+
+00:15:41.690 --> 00:15:44.860
+So I came up with this process
+that is basically a way
+
+00:15:44.860 --> 00:15:47.821
+to build experiments
+with Codex on an existing project.
+
+00:15:47.821 --> 00:15:50.491
+And it's a skill, again, that
+
+00:15:51.575 --> 00:15:54.495
+essentially
+has me tell Codex I'm interested
+
+00:15:54.495 --> 00:15:58.374
+in building features in this direction, or
+this is the high level goal that I have.
+
+00:15:58.832 --> 00:16:01.835
+Go do some research about what
+types of features you could build.
+
+00:16:02.795 --> 00:16:06.590
+Go figure out what the competitors to
+my products are building, things like that.
+
+00:16:06.590 --> 00:16:10.928
+And it will come up with a lot of features based on what I'm saying.
+
+00:16:10.928 --> 00:16:14.848
+And it's going to set them up
+and build them with feature flags
+
+00:16:15.015 --> 00:16:17.017
+as experiments in the code base.
+
+00:16:17.017 --> 00:16:22.022
+And what that means is that you're able
+to do things like what you see here.
+
+00:16:22.523 --> 00:16:23.190
+You have
+
+00:16:23.524 --> 00:16:25.609
+You can flip any switch of any feature.
+
+00:16:25.609 --> 00:16:26.068
+That's right.
+
+00:16:26.068 --> 00:16:29.029
+So you have a long list of
+of experimental feature flags.
+
+00:16:29.029 --> 00:16:31.323
+These were all built in one go.
+
+00:16:31.323 --> 00:16:33.283
+One evening while I was sleeping.
+
+00:16:33.283 --> 00:16:36.036
+So before going to bed I said,
+
+00:16:36.036 --> 00:16:39.039
+“Hey Codex, I'm building this
+AI writing assistant for myself.
+
+00:16:39.456 --> 00:16:41.834
+Go figure out who else is building that.
+
+00:16:41.834 --> 00:16:43.794
+What kind of features
+do they have?
+
+00:16:43.794 --> 00:16:47.631
+Score the ones that are most interesting,
+most impactful, something like that.
+
+00:16:48.090 --> 00:16:52.511
+Build all of them but build them
+in a modular way so that when I wake up,
+
+00:16:52.803 --> 00:16:57.433
+I can toggle each one on or off
+independently to see if I like them.
+
+00:16:57.433 --> 00:17:00.602
+And so you basically see
+a list of all of those there.
+
+00:17:01.020 --> 00:17:02.563
+We can pick a few if you want to see.
+
+00:17:02.563 --> 00:17:05.691
+Like we're going to output
+language is basically going to translate
+
+00:17:05.691 --> 00:17:06.025
+Sure.
+
+00:17:06.025 --> 00:17:06.650
+just going to
+
+00:17:06.650 --> 00:17:10.946
+It’s fascinating that you did not use Codex just to make the plan and implement
+
+00:17:10.946 --> 00:17:12.114
+but also use Codex
+
+00:17:12.114 --> 00:17:15.951
+even before to make the research online
+about what the feature should even be.
+
+00:17:16.201 --> 00:17:16.618
+Yeah.
+
+00:17:16.618 --> 00:17:18.620
+And so Codex is great.
+
+00:17:18.620 --> 00:17:21.123
+It's it's way better than me at doing
+research.
+
+00:17:21.123 --> 00:17:24.960
+It doesn't it doesn't get bored of 
+searching for things.
+
+00:17:24.960 --> 00:17:27.296
+And so as long as you tell it
+what to research
+
+00:17:27.296 --> 00:17:30.007
+and how you expect the findings
+to be structured
+
+00:17:30.007 --> 00:17:33.510
+and in my case, you also tell me
+what to do with those findings.
+
+00:17:33.510 --> 00:17:36.889
+It's basically just a sequence of fairly
+small steps.
+
+00:17:36.889 --> 00:17:41.060
+but it will do all of them in one go, because it's all encoded in a skill or a set of skills.
+
+00:17:41.518 --> 00:17:44.521
+And so it's able to come up
+with all of this build all of it,
+
+00:17:44.730 --> 00:17:47.399
+build in a way that makes it easy
+for me to test
+
+00:17:47.399 --> 00:17:51.111
+and makes it easy for me to decide whether or not
+I want it to stay in the product.
+
+00:17:51.111 --> 00:17:53.322
+And so we selected a few here.
+
+00:17:53.322 --> 00:17:56.325
+If we go back to the rewriting.
+
+00:17:56.700 --> 00:17:57.868
+They just showed up instantly.
+
+00:17:57.868 --> 00:17:58.660
+They just show up there.
+
+00:17:58.660 --> 00:18:02.456
+And so in this case you see that
+you have a translation feature.
+
+00:18:02.664 --> 00:18:03.874
+In this case you can change the
+
+00:18:03.874 --> 00:18:06.418
+the output format of the message
+as an example.
+
+00:18:06.418 --> 00:18:07.419
+It's like Slack style.
+
+00:18:07.419 --> 00:18:07.753
+Yeah.
+
+00:18:07.753 --> 00:18:12.758
+And so those are all small features
+that I got Codex to ideate
+
+00:18:13.175 --> 00:18:15.427
+and build in a way that,
+
+00:18:15.427 --> 00:18:18.013
+makes it really easy for me
+to essentially decide
+
+00:18:18.013 --> 00:18:19.556
+if I want that to stay in the product
+or not.
+
+00:18:19.556 --> 00:18:24.853
+So, those are all the things that I ended
+up coming up with to try not to spend
+
+00:18:24.853 --> 00:18:28.524
+too much time building in a way but
+still end up building quite a few things.
+
+00:18:28.524 --> 00:18:29.566
+It's really cool.
+
+00:18:29.566 --> 00:18:32.861
+Instead of starting from scratch, it's
+basically
+
+00:18:33.612 --> 00:18:37.241
+trying to think about the things you do
+repeatedly, or even trying to think
+
+00:18:37.241 --> 00:18:40.661
+about the ways you like to do things,
+putting that into a skills,
+
+00:18:41.078 --> 00:18:43.080
+putting some of that in an agent’s .md file.
+
+00:18:43.080 --> 00:18:47.251
+Sometimes it's additional tooling and other things that make you go even beyond that.
+
+00:18:47.584 --> 00:18:50.921
+And then having AI do most of the work.
+
+00:18:51.255 --> 00:18:52.047
+That's awesome.
+
+00:18:52.047 --> 00:18:55.384
+Have you built any other like projects
+on top of the Codex Observer?
+
+00:18:55.926 --> 00:18:57.719
+Maybe more like on the coding side?
+
+00:18:57.719 --> 00:19:01.515
+I built a few things like,
+this is an AI writing assistant.
+
+00:19:01.515 --> 00:19:03.892
+It's a mac app.
+It's a consumer.
+
+00:19:04.935 --> 00:19:09.982
+I use OpenClaw and I've built a couple
+of other things on my phone, even an Apple Watch app.
+
+00:19:10.274 --> 00:19:11.108
+ That are
+
+00:19:11.775 --> 00:19:15.571
+ It was just me tinkering, trying to see if I could have
+
+00:19:16.363 --> 00:19:20.868
+different or new entry points to start a coding job, essentially.
+
+00:19:20.868 --> 00:19:24.538
+So, in OpenClaw, for example,
+I set up my OpenClaw that my assistant's
+
+00:19:24.538 --> 00:19:28.208
+name is Lou has got a pretty funny
+profile picture if you want to see it.
+
+00:19:28.208 --> 00:19:28.750
+Yeah.
+
+00:19:29.877 --> 00:19:30.419
+It’s
+
+00:19:31.795 --> 00:19:32.671
+look at this guy.
+
+00:19:33.922 --> 00:19:34.673
+[Laughs]
+
+00:19:34.965 --> 00:19:36.592
+So what do you do with your OpenClaw here?
+
+00:19:36.592 --> 00:19:37.467
+What do you talk about?
+
+00:19:38.385 --> 00:19:42.764
+This little guy, Lou, it
+basically, it mostly has two jobs.
+
+00:19:42.764 --> 00:19:46.435
+The first one is to make jokes
+in group chats with friends.
+
+00:19:46.435 --> 00:19:48.729
+It's not very useful
+but it's quite funny.
+
+00:19:48.729 --> 00:19:50.647
+The second one is to just help me code.
+
+00:19:50.647 --> 00:19:52.024
+And so it's connected at home.
+
+00:19:52.024 --> 00:19:54.943
+It's running on a dedicated machine.
+
+00:19:54.943 --> 00:19:58.071
+It's got access to Codex
+and it's got integrations
+
+00:19:58.071 --> 00:20:00.657
+that make it easier for me
+to do certain things on the go.
+
+00:20:00.657 --> 00:20:04.745
+For example, I have an OpenClaw discord and Codex integration,
+
+00:20:04.745 --> 00:20:07.206
+so that I have a bunch
+of discord channels.
+
+00:20:07.206 --> 00:20:09.541
+Each one is bound to a specific repo.
+
+00:20:09.541 --> 00:20:14.213
+And so if I want to do something
+from my phone on the go and I wanted to
+
+00:20:15.047 --> 00:20:18.008
+to be able to run at home
+and do things that maybe aren't so easy
+
+00:20:18.008 --> 00:20:19.968
+to do yet on the cloud
+or things like that.
+
+00:20:19.968 --> 00:20:23.055
+I can just do it
+while I'm walking around somewhere.
+
+00:20:23.055 --> 00:20:28.518
+I talk through discord by talking to Lou
+and it's going to work on Codex.
+
+00:20:28.518 --> 00:20:29.353
+That's an example.
+
+00:20:29.353 --> 00:20:32.606
+Another thing that I did recently
+was try to see if I could
+
+00:20:33.148 --> 00:20:36.235
+build an Apple
+Watch complication on the home screen
+
+00:20:36.235 --> 00:20:42.991
+so that you could record a short voice
+memo and have that trigger a Codex job.
+
+00:20:42.991 --> 00:20:46.912
+So, like, imagine you found a typo
+on a website or something like that.
+
+00:20:46.912 --> 00:20:50.415
+Obviously it mostly works
+for one shot things but you would just
+
+00:20:50.999 --> 00:20:54.711
+very briefly like you would record
+a voice memo to say, “Hey,
+
+00:20:55.837 --> 00:20:58.382
+fix this typo on the landing page of this website.”
+
+00:20:58.382 --> 00:21:01.885
+And you have the watch and you have
+the companion iPhone app to do that.
+
+00:21:01.885 --> 00:21:04.680
+Yeah. So, let me show you this,
+this thing that I built.
+
+00:21:04.680 --> 00:21:06.807
+This is my Apple Watch.
+
+00:21:06.807 --> 00:21:11.645
+What I essentially built here
+is a way to just send a voice memo
+
+00:21:12.229 --> 00:21:16.108
+like create a test.md file
+in my skills repo.
+
+00:21:16.984 --> 00:21:22.072
+And that basically sent that memo
+to this iPhone app.
+
+00:21:22.698 --> 00:21:27.244
+That is now, it transcribed the message,
+it understood the intent.
+
+00:21:27.494 --> 00:21:30.706
+Based on that message is going to route it
+to the correct place.
+
+00:21:30.706 --> 00:21:35.460
+In this case, it's going to understand
+that the skills repo means my own personal skills repo
+
+00:21:35.460 --> 00:21:38.422
+because it has context
+on my GitHub account
+
+00:21:38.672 --> 00:21:42.926
+and then it's going to run the execution of that task.
+
+00:21:43.302 --> 00:21:47.014
+So in a couple of minutes I'm basically going to get a notification
+that says it created a
+
+00:21:47.014 --> 00:21:48.432
+That second one is now successful?
+
+00:21:48.432 --> 00:21:48.849
+Yeah.
+
+00:21:48.849 --> 00:21:50.434
+So now it's running the execution here.
+
+00:21:51.393 --> 00:21:54.271
+And this is all running with
+like Codex app server behind the scenes?
+
+00:21:54.271 --> 00:21:54.604
+Yeah.
+
+00:21:54.604 --> 00:21:56.231
+So if you if you go to the settings here,
+
+00:21:56.231 --> 00:21:59.693
+you basically see that,
+there's two different ways it can run.
+
+00:21:59.901 --> 00:22:04.656
+There's the typical you put an openAI API key and you can do it that way.
+
+00:22:04.656 --> 00:22:07.284
+And the other one,
+what is here called back in session
+
+00:22:07.284 --> 00:22:10.412
+is basically Codex
+app server running somewhere else.
+
+00:22:10.746 --> 00:22:11.455
+That's so cool.
+
+00:22:11.455 --> 00:22:15.375
+Roaming off of my account,
+connected to my GitHub with all my context.
+
+00:22:15.375 --> 00:22:16.293
+I love this.
+
+00:22:16.293 --> 00:22:19.713
+I can basically just start Codex jobs on the go.
+
+00:22:19.838 --> 00:22:20.630
+It's like
+
+00:22:22.090 --> 00:22:25.594
+it's not useful for everything
+but it's one of the ways
+
+00:22:25.594 --> 00:22:28.388
+that I kind of like to play around
+with what becomes possible.
+
+00:22:28.388 --> 00:22:31.391
+It's like one step closer to making
+
+00:22:31.391 --> 00:22:34.561
+I guess, the entire implementation
+and implementation detail.
+
+00:22:34.561 --> 00:22:38.857
+It's like I just talked to my watch for 10 seconds and it did
+absolutely everything the right way.
+
+00:22:38.857 --> 00:22:39.316
+Incredible.
+
+00:22:39.316 --> 00:22:42.319
+I don't think we're always there yet,
+depending on, you know, how complex
+
+00:22:42.652 --> 00:22:46.031
+the actual ask is, but for small things
+it's kind of convenient.
+
+00:22:46.031 --> 00:22:50.077
+It was kind of fun to play around with just to see
+how to work with Codex App Server.
+
+00:22:50.077 --> 00:22:52.704
+And yeah, I just kind of try to do that.
+
+00:22:52.704 --> 00:22:55.082
+And by the way,
+this is exactly what I love to see, right?
+
+00:22:55.082 --> 00:22:58.627
+Like we open sourced
+the Codex CLI, the Codex harness,
+
+00:22:58.627 --> 00:23:04.674
+and we also open sourced the Codex app server just for like fostering this like open ecosystem.
+
+00:23:04.674 --> 00:23:07.260
+Like a builder,
+like you can extend the way
+
+00:23:07.260 --> 00:23:10.263
+you use Codex in this case
+from your watch or your phone.
+
+00:23:10.555 --> 00:23:13.475
+Even though, you know,
+we have not shipped that yet.
+
+00:23:13.475 --> 00:23:16.937
+So this is really, really cool how you can
+use your coding agent the way you want.
+
+00:23:17.104 --> 00:23:18.897
+I think you guys should build that
+
+00:23:18.897 --> 00:23:20.190
+I think we should.
+
+00:23:20.190 --> 00:23:24.569
+That complication on Apple Watch and on my iPhone home screen so I don't have to do it myself.
+
+00:23:24.569 --> 00:23:25.070
+That'd be great.
+
+00:23:25.070 --> 00:23:26.071
+Sounds like a great idea.
+
+00:23:26.071 --> 00:23:26.530
+Let's see.
+
+00:23:26.530 --> 00:23:27.656
+Look at that.
+
+00:23:27.656 --> 00:23:29.282
+The whole request just arrived.
+
+00:23:29.282 --> 00:23:30.242
+The request is right there.
+
+00:23:30.242 --> 00:23:34.454
+Alright, out of this test.md file obviously
+not the most useful task but
+
+00:23:34.788 --> 00:23:37.165
+but it just shows that it works.
+It's kind of fun to build as well.
+
+00:23:37.416 --> 00:23:37.958
+Pretty cool.
+
+00:23:39.334 --> 00:23:40.627
+That's really cool that you build this.
+
+00:23:40.627 --> 00:23:45.132
+And by the way this is exactly why
+we open source not just to the Codex CLI
+
+00:23:45.132 --> 00:23:48.009
+and the Codex harness
+but also the Codex App Server.
+
+00:23:48.009 --> 00:23:49.719
+We want builders like you
+
+00:23:49.719 --> 00:23:53.723
+to be able to kind of poke at it
+and also integrate that in their own ways.
+
+00:23:53.723 --> 00:23:55.851
+It's really cool
+that you can have a coding agent
+
+00:23:55.851 --> 00:23:58.478
+from your watch,
+which we don't have it just yet, you know.
+
+00:23:58.478 --> 00:23:59.646
+You better build it.
+
+00:23:59.646 --> 00:24:01.148
+We we probably should build it.
+
+00:24:01.148 --> 00:24:01.565
+Yeah.
+
+00:24:01.565 --> 00:24:02.441
+It's a great idea.
+
+00:24:02.441 --> 00:24:03.108
+I'm curious,
+
+00:24:03.108 --> 00:24:06.319
+like, we launched a ton of things
+in the past, like, few weeks,
+
+00:24:06.611 --> 00:24:10.824
+both on the Codex side and GPT
+5.5 our latest model.
+
+00:24:11.408 --> 00:24:14.744
+Have you had some, like,
+surprising moments with these two?
+
+00:24:14.744 --> 00:24:16.246
+Yeah, there's a couple of things.
+
+00:24:16.246 --> 00:24:19.708
+The first one I use computer use recently that was,
+
+00:24:19.708 --> 00:24:23.462
+it was a lot better than what I remembered or I guess I was surprised by how good it was.
+
+00:24:23.462 --> 00:24:26.715
+I was at home last weekend
+doing something on a Raspberry Pi
+
+00:24:26.715 --> 00:24:29.009
+and I needed to to do something
+pretty tedious.
+
+00:24:29.009 --> 00:24:34.431
+Like copy paste a bunch of different domain URLs and go
+put them in some admin panel somewhere.
+
+00:24:34.806 --> 00:24:36.641
+And I didn't really want to do it by hand.
+
+00:24:36.641 --> 00:24:40.353
+So I told Codex to basically SSH
+into the Raspberry Pi.
+
+00:24:40.604 --> 00:24:43.690
+It was like dangling from a TV to go
+do it for me.
+
+00:24:43.690 --> 00:24:45.650
+And it just did.
+
+00:24:45.650 --> 00:24:46.026
+Wow.
+
+00:24:46.026 --> 00:24:51.114
+It found a way to just connect
+to the Raspberry Pi through my browser.
+
+00:24:51.114 --> 00:24:55.202
+It basically found all these URLs
+that I had in a file that I gave it.
+
+00:24:55.410 --> 00:24:56.328
+It just did the whole thing.
+
+00:24:56.328 --> 00:24:59.581
+What was funny is that I was trying to use
+computer use, I guess, to save time.
+
+00:24:59.789 --> 00:25:01.750
+And I spent the entire time just watching it.
+
+00:25:02.042 --> 00:25:02.584
+That’s so funny.
+
+00:25:02.584 --> 00:25:06.463
+Doing the thing for me because I was impressed
+by how I was going to the right place,
+
+00:25:06.463 --> 00:25:09.174
+opening the right thing,
+copy pasting stuff for me.
+
+00:25:09.174 --> 00:25:10.467
+It was just the funny thing.
+
+00:25:10.467 --> 00:25:15.472
+I love how the cursor moves also
+in that you can kind of follow along the animations.
+
+00:25:15.472 --> 00:25:18.475
+It's pretty but you don't want to touch it
+but you kind of do at the same time.
+
+00:25:18.475 --> 00:25:20.352
+Because you can actually let it disappear
+in the background too.
+
+00:25:20.352 --> 00:25:22.771
+Yeah, that was pretty cool and recent.
+
+00:25:22.771 --> 00:25:25.982
+The other thing
+I guess is 5.5 just launched
+
+00:25:26.358 --> 00:25:30.570
+and I have this old hackathon
+project that I've had for over ten years
+
+00:25:30.570 --> 00:25:33.949
+that I use almost like my personal eval
+in a way, that is,
+
+00:25:34.533 --> 00:25:37.536
+I know that models
+nowadays can one shot this project
+
+00:25:37.827 --> 00:25:40.121
+but every time a new model comes out I try to do it again
+
+00:25:40.121 --> 00:25:41.706
+just to see how much better it gets.
+
+00:25:41.706 --> 00:25:45.544
+How many more details
+it gets right. How the design improves.
+
+00:25:45.544 --> 00:25:47.879
+It's a bit of a silly project
+but I can tell you about it.
+
+00:25:47.879 --> 00:25:51.591
+It was, it's a thing that was called
+SnapCat, which is a bit absurd.
+
+00:25:51.591 --> 00:25:54.678
+It was basically this app for cats
+to take selfies.
+
+00:25:54.844 --> 00:25:59.099
+And the way that it works is that,
+I mean, I guess I could just show you.
+
+00:26:00.600 --> 00:26:02.018
+But it's essentially
+
+00:26:02.727 --> 00:26:06.106
+a black screen with a red laser dot
+that moves around.
+
+00:26:07.107 --> 00:26:07.732
+And
+
+00:26:07.732 --> 00:26:09.109
+For the cat to catch?
+
+00:26:09.109 --> 00:26:12.445
+Right. And so if you are a cat,
+we can pretend you're a cat for a second.
+
+00:26:12.654 --> 00:26:14.990
+And you try to catch that.
+Every time you did
+
+00:26:14.990 --> 00:26:17.867
+and if you don't mind
+trying to tap to catch the dot.
+
+00:26:17.867 --> 00:26:19.119
+I guess I'm not as fast as a cat.
+
+00:26:19.119 --> 00:26:20.453
+You're really not a very good
+
+00:26:20.453 --> 00:26:21.121
+I just did.
+
+00:26:21.121 --> 00:26:21.830
+I think I got it.
+
+00:26:21.830 --> 00:26:22.205
+There you go.
+
+00:26:22.205 --> 00:26:25.125
+So as you do that,
+every time you hit the viewport
+
+00:26:25.125 --> 00:26:27.711
+you’re basically taking a photo
+with the front facing camera.
+
+00:26:27.711 --> 00:26:28.295
+Woah
+
+00:26:28.295 --> 00:26:31.464
+And so you can exit this cat mode
+with the volume buttons,
+
+00:26:31.464 --> 00:26:34.593
+which cats don't really have easy access to.
+
+00:26:34.593 --> 00:26:36.803
+At that point you go to the gallery.
+
+00:26:36.803 --> 00:26:40.348
+You see the upside down pictures you just took of yourself as a cat.
+
+00:26:40.599 --> 00:26:43.935
+You can basically select one, share it and that kind of stuff.
+
+00:26:43.935 --> 00:26:45.937
+And what's cool here is two things.
+
+00:26:45.937 --> 00:26:49.024
+The first one,
+it easily one shot this project.
+
+00:26:49.024 --> 00:26:51.901
+It's something that over ten years ago
+we did at a hackathon.
+
+00:26:51.901 --> 00:26:53.695
+It took us over a full day to build.
+
+00:26:53.695 --> 00:26:55.155
+We had a team of five people.
+
+00:26:55.155 --> 00:26:57.782
+It was quite difficult
+to do really quickly.
+
+00:26:57.782 --> 00:27:01.828
+Now this is one really well
+crafted prompt and a couple of skills
+
+00:27:01.828 --> 00:27:03.830
+and it can build the whole thing for you
+in one go.
+
+00:27:03.830 --> 00:27:05.165
+How did you build the UI?
+
+00:27:05.165 --> 00:27:08.710
+Was it like 5.5 building the UI? Was it image gen?
+
+00:27:08.710 --> 00:27:14.883
+That's the second thing, so the first thing, it can one shot the skeleton of this app really easily.
+
+00:27:14.883 --> 00:27:17.719
+What it did in this case after that was
+
+00:27:17.719 --> 00:27:21.014
+I described the style of an app
+I wanted.
+
+00:27:21.014 --> 00:27:26.603
+I said I wanted something light and colorful and playful and that kind of stuff given the theme.
+
+00:27:26.603 --> 00:27:31.107
+I generated an image of that UI,
+and then I told Codex to build that.
+
+00:27:31.107 --> 00:27:35.236
+And once it did that with the camera roll
+view that you're looking at right now,
+
+00:27:35.445 --> 00:27:36.446
+I like that style.
+
+00:27:36.446 --> 00:27:39.783
+And I told it “Go redesign
+the settings page based on the same style.”
+
+00:27:39.783 --> 00:27:42.118
+And it generated another image
+and then implemented it.
+
+00:27:42.118 --> 00:27:44.996
+Then it did
+the same for the home screen.
+
+00:27:44.996 --> 00:27:50.627
+So it's a pretty different
+and new way to go about building UI.
+
+00:27:50.627 --> 00:27:53.880
+So that's your eval, every time there's a new model
+you're just rebuilding SnapCat?
+
+00:27:53.880 --> 00:27:56.925
+I basically just look at how easy
+it is for cats to take selfies.
+
+00:27:56.925 --> 00:27:58.551
+Is it the best you've seen so far?
+
+00:27:58.551 --> 00:28:00.178
+It's the best by far.
+
+00:28:00.178 --> 00:28:05.058
+It is, it’s a lot better than the last time
+I tried this a few months ago.
+
+00:28:05.350 --> 00:28:09.521
+It is infinitely better than what
+we managed to build in a full 24 hours.
+
+00:28:09.646 --> 00:28:09.896
+Wow.
+
+00:28:09.896 --> 00:28:14.484
+And I basically made this in one shot
+last night in preparation for today.
+
+00:28:15.318 --> 00:28:17.362
+Incredible, I love this.
+
+00:28:17.362 --> 00:28:20.365
+Well, I guess now you have selfies of me 
+among your cats.
+
+00:28:20.365 --> 00:28:21.282
+I'll text you one of them.
+
+00:28:23.493 --> 00:28:24.494
+That's so cool.
+
+00:28:24.494 --> 00:28:26.329
+Thanks so much for showing me your setup.
+
+00:28:26.329 --> 00:28:28.707
+I love watching users
+building with the Codex app.
+
+00:28:29.624 --> 00:28:31.126
+Maybe to to close out,
+
+00:28:31.126 --> 00:28:37.006
+what would be your advice for other founders or builders, who would like to master the codex the way you do?
+
+00:28:37.006 --> 00:28:39.718
+You know,
+I think it boils down to a few assumptions
+
+00:28:39.718 --> 00:28:43.430
+that I've made early on that I think
+have been really, really helpful for me.
+
+00:28:43.680 --> 00:28:45.849
+The first one is assume it's possible.
+
+00:28:45.849 --> 00:28:50.770
+Like if you have an idea, more often than not, it can probably be done.
+
+00:28:51.521 --> 00:28:53.356
+The second one is assume you can do it.
+
+00:28:53.356 --> 00:28:54.607
+That one's a bit more personal
+
+00:28:54.607 --> 00:28:57.110
+but a lot of people
+could be building these things.
+
+00:28:57.110 --> 00:28:59.487
+And I think the blockers
+that they think they can't.
+
+00:28:59.487 --> 00:29:01.531
+I think assume you can.
+
+00:29:01.531 --> 00:29:05.326
+In this case, maybe be in denial even that you can't do it.
+
+00:29:05.577 --> 00:29:08.037
+It's usually true.
+
+00:29:08.037 --> 00:29:12.917
+And the third one is when you try to get
+something out of an LLM and it doesn't work,
+
+00:29:12.917 --> 00:29:13.918
+this one's a bit difficult,
+
+00:29:13.918 --> 00:29:16.713
+you have to put your ego aside,
+assume it's your fault.
+
+00:29:16.713 --> 00:29:19.257
+Don't assume that the tool isn't capable.
+
+00:29:19.257 --> 00:29:24.262
+Assume you haven't found a way to communicate it or convey what you want just yet.
+
+00:29:24.262 --> 00:29:26.973
+And I guess try again.
+Like I've done a lot of trying again.
+
+00:29:26.973 --> 00:29:30.852
+And I think that's what's gotten me
+quite a long way into building things.
+
+00:29:30.852 --> 00:29:33.605
+So that's probably the advice
+I give to people.
+
+00:29:33.605 --> 00:29:36.608
+I love that and it feels like the perfect note to end.
+
+00:29:37.233 --> 00:29:38.860
+Anyone can just build anything.
+
+00:29:38.860 --> 00:29:39.527
+It's true.
+
+00:29:39.527 --> 00:29:40.820
+It sounds cheesy but it's true.
+
+00:29:41.279 --> 00:29:43.656
+Thank you so much Matias. This was a great conversation.
+
+00:29:44.073 --> 00:29:44.324
+Merci.
+
+00:29:44.324 --> 00:29:44.824
+Thank you.
+
+00:29:45.283 --> 00:29:45.909
+(speaking french)
+

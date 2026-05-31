@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Digest Learning</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">D</div>
+          <div>
+            <h1>Daily Digest</h1>
+            <p>Learning inbox</p>
+          </div>
+        </div>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Sources</h2>
+            <span id="source-count">0</span>
+          </div>
+          <div id="sources" class="source-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Routine</h2>
+          </div>
+          <dl class="stats">
+            <div><dt>Daily limit</dt><dd id="daily-limit">-</dd></div>
+            <div><dt>Per channel</dt><dd id="per-channel-limit">-</dd></div>
+            <div><dt>Lookback</dt><dd id="lookback-days">-</dd></div>
+            <div><dt>Notes</dt><dd id="note-count">-</dd></div>
+          </dl>
+          <button id="run-intake" class="primary-button" type="button">
+            <span>Run intake</span>
+          </button>
+          <p id="run-status" class="status-line"></p>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Latest Run</p>
+            <h2 id="latest-run-title">Loading</h2>
+          </div>
+          <a class="ghost-button" href="https://www.youtube.com/@valley101podcast" target="_blank" rel="noreferrer">Open channel</a>
+        </header>
+
+        <section class="overview-band">
+          <div>
+            <span class="metric-label">Processed videos</span>
+            <strong id="processed-count">-</strong>
+          </div>
+          <div>
+            <span class="metric-label">Latest intake</span>
+            <strong id="latest-video-count">-</strong>
+          </div>
+          <div>
+            <span class="metric-label">Candidate pool</span>
+            <strong id="candidate-limit">-</strong>
+          </div>
+        </section>
+
+        <div class="content-grid">
+          <section class="notes-pane">
+            <div class="section-title">
+              <h2>Notes</h2>
+              <input id="search" type="search" placeholder="Search notes">
+            </div>
+            <div id="notes-list" class="notes-list"></div>
+          </section>
+
+          <section class="reader-pane">
+            <div id="empty-state" class="empty-state">
+              <h2>Select a note</h2>
+              <p>Generated learning notes and transcript previews will appear here.</p>
+            </div>
+            <article id="reader" class="reader hidden"></article>
+            <details id="transcript-panel" class="transcript hidden">
+              <summary>Transcript preview</summary>
+              <pre id="transcript"></pre>
+            </details>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,931 @@
+(speaking french)
+Matias, thank you for joining.
+Thank you for having me.
+Really happy to be here.
+I'm really excited to chat
+because you have a very unique background.
+You've crossed a bunch of worlds.
+You work in consumer products.
+You worked on developer platforms
+like at Facebook in the early days
+and now leading product
+for Alchemy in the crypto space.
+But what I find even more interesting
+is that you're not an engineer by training,
+and yet you're building
+more than many engineers that I know.
+How do you go about it?
+I think it just comes down
+to being interested in a lot of things
+and trying a lot of things over time
+and getting better and better as models,
+I guess, get better as well.
+That's awesome.
+So today you're using AI a ton at work
+and outside of work.
+But let's start with, like, Alchemy.
+Like what was, aha moment you had maybe
+kind of bringing AI to work?
+The first thing that I remember
+the first time we used AI,
+I guess it was Codex in Slack.
+Right.
+It's probably a year ago
+or so at this point.
+Yeah.
+The first thing we used it
+for was to make small edits
+to our documentation,
+our developer docs from Slack.
+So we went from having to run the site locally and
+doing that whole process
+that is fairly involved.
+To just being able to add Codex on Slack in
+the docs channel in our company Slack
+and to be able to
+just tell it to make changes.
+We do that all the time at OpenAI too.
+We still do it.
+Now we have a bit
+more of a sophisticated setup
+but that was really
+the first thing that we used
+Codex for and AI in general at the company.
+From there, the other big moment I remember
+that was probably the bigger turning point,
+was using code review.
+And so there was this instance,
+we had a small incident
+that was related to a big migration
+that had happened months prior.
+And in big migrations,
+some bugs will happen.
+It was like a lot of code.
+We had an internal postmortem
+about the incident
+and we basically identify
+what the race condition was.
+We fixed it and someone on the team had
+the idea to retroactively run code review, Codex,
+to see if Codex would have caught the bug.
+And it did.
+Wow.
+And so we did that a couple of times just to see.
+People were starting to get curious and
+you could tell that was a bit of a turning point
+in terms of model capability
+and like a lot of the ingredients were right for for teams to start adopting those tools more.
+From there, I remember a couple of days after seeing
+one of the engineers on the team
+essentially using Codex review
+in pull request comments as his teammate.
+He was just he submitted a PR that I saw
+go through Slack.
+I click through it
+and I saw him do at Codex review,
+address the comments that Codex would come up
+with, then review again.
+Do that again and he was just
+doing this back and forth with Codex.
+You could tell that people
+were getting over the hurdle of,
+of like thinking that LLMs weren't
+good enough to help in a professional setting
+with a really large complex code base,
+with code that needs to be good enough
+to be served to a lot of people.
+That’s really cool.
+That was really a turning point.
+Yeah, that's
+a very interesting point on code review.
+I remember talking to many companies
+were just getting into like, you know, AI coding.
+Code review was the first moment when they realized
+that many incidents they had could be
+caught actually by Codex automatically.
+And they replayed some of those similar
+to Alchemy.
+I remember Datadog, for instance,
+back in January, said that
+like more than one incident out of five
+would have been saved by Codex.
+But I'm sure the model capabilities
+now are so good
+with GPT 5.5,
+it could be more than half, easily.
+Nine out of ten, maybe.
+Maybe most of it.
+Yeah. So code review was really
+a turning point for many companies
+to get into Codex and really realize the power of AI.
+Can you tell me a bit more about
+how you're using Codex at work today?
+I use it a lot for a lot of different things.
+A lot of those typical product management
+sort of tasks, writing documents.
+We've created all these skills
+internally to help us
+do the PM job more easily
+and better and faster.
+That includes writing PRDs, analyzing customer feedback, like doing all those things.
+I use Codex for that
+and several members of the team reuse
+those skills as well.
+We have this shared, repo of skills across the company,
+across all the different functions,
+so that not only we can do the same
+job and the same tasks faster and better
+but also more people who are not
+necessarily PMs are able to do those things.
+I'm sure, yeah.
+And I think it's also telling a lot about,
+like, how we think about developers now,
+not just as humans but also as agents consuming our own platforms and infrastructure.
+We have to think about these agents and
+making sure that, like, tools like Codex
+can actually integrate, like OpenAI’s API
+or Alchemy’s infrastructure very quickly.
+Yeah, it's really several things
+that change at the same time.
+First, the way we work has changed and Alchemy
+has a lot of very technical products.
+It's an infrastructure company first.
+And so all the developers
+internally have changed the way they work.
+And so it's
+that's very clear to everyone now.
+But that also means as builders
+of a developer platform, we have to change
+the way we build tools
+so that other developers that we know
+are also changing their workflows with
+AI are able to use Alchemy better.
+So it's, the developer we're building
+for has evolved.
+Now, we are very much assuming
+that 100% of developers are building
+software with the help of AI.
+And so it's evolving your platform
+to fit that new reality as one thing.
+And then the other thing that's a bit more nascent
+but that's also very interesting is, I guess,
+this new type of developer that's an agent
+sometimes, autonomous agent.
+And they don't
+always need the same tooling.
+They need different things.
+And if an autonomous agent
+shows up on Alchemy
+and as far as implementation decisions
+go, they're fully autonomous.
+They have to be able to sign up
+and integrate something
+and use the blockchain to perform
+some kind of tasks.
+We need to build the tools for that.
+And it's building for those two.
+And over time those two probably converge.
+But for now
+they're still fairly different needs.
+And my job is basically
+to try to figure out what we do for both.
+Awesome.
+Zooming out of Alchemy
+a little bit, I was reflecting recently
+about my own startup.
+And you were a founder before, as well.
+How do you think now, about this time
+where you had to build without AI?
+It was very different.
+And it was hard,
+even if you were not an engineer.
+Even more difficult, like the typical way
+you'd go about it 6 or 7 years ago
+was to build some kind of prototype,
+to try to raise enough money
+to hire a small team, to
+then build the real thing.
+And that that's pretty much what I did
+with with my company at the time,
+built the first prototype myself.
+It was very difficult because it was essentially copy pasting code left and right until something worked.
+Managed to raise a bit of money,
+hired a team of 3 or 4 engineers
+to help build the first MVP
+and not only that took,
+a decent amount of money
+and several people, but also took months.
+I mean I haven't thought about this much
+but I wonder how long it would take me
+to build the first version of the app
+we’re a building at the time with AI today,
+just by myself.
+My guess is that
+it would take less than a week.
+I don't know
+what your experience was like.
+You are building a much more complicated
+product than mine, I guess.
+How long did I take it back then
+and how many people?
+It took me a team of like 15 engineers
+for maybe a year and a half
+to get to like the first
+like milestone of a V1 that we shipped
+to like many customers.
+It's pretty incredible how far we've come.
+Like it's just never been easier
+to do something.
+And to start something from scratch.
+It's probably the best time to be a founder.
+Like any idea you have,
+you can just build it.
+Anyone who has an idea
+now has the tools to basically try it out.
+Speaking of things that you do
+on the side, it's a great segue
+because I wanted to ask you
+about how you're using AI outside of work.
+It sounds like you're building so many projects these days
+it's almost like one a day.
+You know, it's amazing because it's
+never been easier to build things.
+And yet I just kept feeling
+this sort of anxiety
+that I, I wasn't doing enough
+pretty much all the time.
+I think I'm a bit past that.
+But the reason I am
+is because I try to work
+on a setup that allows me to spend
+little time on my computer
+and have essentially Codex work for me
+for hours while I'm doing something else.
+It's like
+I had gotten to a point a few months ago
+where I felt bad about going out
+because I felt like
+I should be taking advantage of this
+amazing technology we have and I should
+just be building things all the time.
+I didn't want to do anything else.
+I didn't want to feel like that either.
+I didn't like that trade off.
+And so I invested in a set of skills
+and a process and several things
+that I set up for myself
+to basically be able to very quickly
+either describe a new idea
+and have Codex come up
+with a plan, implement it, test it,
+and let me know when it's done.
+And it's very easy to to get Codex
+to work for hours at that point.
+Or if I have an existing product
+and I want to explore new things,
+I came up with this way
+of essentially having Codex
+do research for me on what new features
+I should build.
+It will look at other competitors.
+It will look at other ideas.
+It will try to figure out
+what my goals are
+and what my own preferences are.
+And I created this set of skills
+that basically gets Codex
+to build all those things.
+So it comes up with ideas.
+It builds them in a modular way.
+So it's going to feature
+flag them and build them
+as experiments in the main app
+so that I can prompt Codex before going to bed
+to go do some research about an app that I have.
+Tell it to build the top
+ten features it can come up with,
+build them as experiments in the product.
+Wake up to ten feature flags
+that I can toggle on and off
+automatically to basically
+not be the bottleneck
+when it comes to generating new ideas
+but still having the control of deciding
+what is good enough to stay in the project or not.
+I love that.
+That's really cool.
+It's like without
+spending a ton of time on a computer
+have these moments,
+like during my lunch break at work,
+I have my personal laptop
+and I try to send things to Codex
+so that it can work
+while I go back to work
+before going out on weekends to dinner,
+or to have drinks before going to bed.
+I have these Codex moments, I guess, where
+I just try to dispatch a bunch of work,
+use all these processes
+and these workflows I have with skills
+and other actions so that Codex can work
+while I'm not paying attention.
+And it's amazing how much you can do
+if you kind of invest in it that way.
+That's so cool.
+I mean, honestly, I would love to see your setup
+and how you're using the Codex app
+and kind of bringing all of these tools together.
+Yeah. Let's check it out.
+Let's check out linear to start.
+So what you see here
+is basically a collection of projects.
+You see there's this 12 of them
+in progress. At the same time.
+I'm not working on all of them
+in one go, but maybe we can pick one
+and I can show you how this works.
+This one, for example is a mac app
+that since then
+I've also built it as an iOS app
+that uses Codex App server
+to essentially help me write better
+while I'm at my computer.
+It's something that I built for myself
+for work first, and that,
+I kept building out since.
+The way it works
+is that you have a global shortcut.
+In my case,
+it's like command shift spacebar,
+and it brings up this little window
+that you see there.
+That's cool.
+And this is using Codex App Server.
+So in the settings it's using my GPT
+subscription behind the scenes.
+And if you were to write something
+in my case, I'm not even going to write.
+I usually talk to my computer just because
+it's so much faster for everything.
+Like people at work a year ago
+would make fun of my little headset.
+I basically looked like a call center.
+Call center operator.
+And now a lot of people have those
+similar headsets, so it's okay.
+But if you say you're on slack
+and you want to write something,
+but you need to clean it up
+and you want AI to make it sound more professional
+or fix typos or things like that
+like I'm going to record something
+that would be like,
+“Hey, I'm not totally sure
+I understand what you're saying.
+Maybe we should just get together
+and figure it out” or something like that.
+Obviously, this is not a great sentence.
+I just dictated that to my computer.
+And then if you hit command return
+in this case,
+it's going to rewrite it for me
+in a way that sounds more professional
+because the professional mode
+was selected.
+This is basically using Codex Server
+behind the scenes and GPT 5.5.
+You have a model picker.
+I just added
+5.5 since it just came out.
+And this is just an example of a little
+app that I made for myself for Mac.
+I put the same setup in an iOS app
+after to have
+like a keyboard extension and help
+you rewrite things quickly and so on.
+I don't know if a lot of people use their,
+their Codex subscription
+for things that are not just coding.
+I know that people use
+the Codex app server to build other
+coding interfaces,
+but in this case I basically used it
+because I wanted the inference to be done,
+through my ChatGPT account.
+And if we go back to to the process
+and how to find time,
+what you see here is this linear project.
+I didn't create this project.
+There are like 159 issues
+that are done, a bunch that are in review
+and some that are in progress.
+I did not create
+or write a single one of these.
+Codex did.
+What I did is to talk to Codex
+about what I wanted
+through these skills
+that I wrote for myself, to basically help
+me create
+a plan that turns into milestones
+that you see here, like the foundation
+and the preferences and so on, a bunch of the features.
+Codex will create that plan,
+break it down into milestones,
+create the tasks,
+work on them in a way that makes sense
+based on this agent’s .md file that I created,
+that essentially summarizes
+the way I like to work.
+And I put in a bunch of time and,
+putting that in a single file.
+So when I create a new project
+or I have a new idea, I can basically just
+initialize that project with that
+agent’s .md file.
+From there, I use this skill I have to create a plan
+and after that it's just telling Codex, build the plan.
+That's really cool because you're
+using linear as the interface
+as like your backlog and your release
+milestones and things like this.
+But like Codex is not just writing
+all the issues, it's also picking them up
+to close them and work on them.
+It's of both delegating the,
+I guess, the project management
+and the setting up of the project and the
+milestones and the tasks as well as the
+the execution of the tasks too.
+I’m initiating the project, sharing the initial idea,
+giving Codex enough information about my preferences
+and what I want the product to be
+so that it builds
+the version of the product that I want.
+I think the biggest gap
+when you code with LLMs, when
+if the LLM produces something that's
+surprising to you, in a negative way,
+it didn't do what you wanted, usually it's
+because it had to make one or
+multiple assumptions and it just didn't
+make them in the same way you would have.
+And so in order to avoid that,
+I have this process
+that requires me to clarify
+all those things upfront.
+And once Codex has all of that,
+it can just go and build.
+And so that's the first part and if you go back to
+to this writing app as an example, the next step after
+setting up a new project, building a V1 of a product
+and having Codex essentially do all the work for me,
+usually while I'm not even on my computer.
+I wanted to find a way to generate
+new features and keep working on a
+on an existing product
+without being the bottleneck.
+I didn't want all the ideas
+to have to come from me
+but I still wanted some level of control
+when it comes to deciding whether or not
+I like that feature.
+So I came up with this process
+that is basically a way
+to build experiments
+with Codex on an existing project.
+And it's a skill, again, that
+essentially
+has me tell Codex I'm interested
+in building features in this direction, or
+this is the high level goal that I have.
+Go do some research about what
+types of features you could build.
+Go figure out what the competitors to
+my products are building, things like that.
+And it will come up with a lot of features based on what I'm saying.
+And it's going to set them up
+and build them with feature flags
+as experiments in the code base.
+And what that means is that you're able
+to do things like what you see here.
+You have
+You can flip any switch of any feature.
+That's right.
+So you have a long list of
+of experimental feature flags.
+These were all built in one go.
+One evening while I was sleeping.
+So before going to bed I said,
+“Hey Codex, I'm building this
+AI writing assistant for myself.
+Go figure out who else is building that.
+What kind of features
+do they have?
+Score the ones that are most interesting,
+most impactful, something like that.
+Build all of them but build them
+in a modular way so that when I wake up,
+I can toggle each one on or off
+independently to see if I like them.
+And so you basically see
+a list of all of those there.
+We can pick a few if you want to see.
+Like we're going to output
+language is basically going to translate
+Sure.
+just going to
+It’s fascinating that you did not use Codex just to make the plan and implement
+but also use Codex
+even before to make the research online
+about what the feature should even be.
+And so Codex is great.
+It's it's way better than me at doing
+research.
+It doesn't it doesn't get bored of
+searching for things.
+And so as long as you tell it
+what to research
+and how you expect the findings
+to be structured
+and in my case, you also tell me
+what to do with those findings.
+It's basically just a sequence of fairly
+small steps.
+but it will do all of them in one go, because it's all encoded in a skill or a set of skills.
+And so it's able to come up
+with all of this build all of it,
+build in a way that makes it easy
+for me to test
+and makes it easy for me to decide whether or not
+I want it to stay in the product.
+And so we selected a few here.
+If we go back to the rewriting.
+They just showed up instantly.
+They just show up there.
+And so in this case you see that
+you have a translation feature.
+In this case you can change the
+the output format of the message
+as an example.
+It's like Slack style.
+And so those are all small features
+that I got Codex to ideate
+and build in a way that,
+makes it really easy for me
+to essentially decide
+if I want that to stay in the product
+or not.
+So, those are all the things that I ended
+up coming up with to try not to spend
+too much time building in a way but
+still end up building quite a few things.
+It's really cool.
+Instead of starting from scratch, it's
+basically
+trying to think about the things you do
+repeatedly, or even trying to think
+about the ways you like to do things,
+putting that into a skills,
+putting some of that in an agent’s .md file.
+Sometimes it's additional tooling and other things that make you go even beyond that.
+And then having AI do most of the work.
+Have you built any other like projects
+on top of the Codex Observer?
+Maybe more like on the coding side?
+I built a few things like,
+this is an AI writing assistant.
+It's a mac app.
+It's a consumer.
+I use OpenClaw and I've built a couple
+of other things on my phone, even an Apple Watch app.
+That are
+It was just me tinkering, trying to see if I could have
+different or new entry points to start a coding job, essentially.
+So, in OpenClaw, for example,
+I set up my OpenClaw that my assistant's
+name is Lou has got a pretty funny
+profile picture if you want to see it.
+It’s
+look at this guy.
+[Laughs]
+So what do you do with your OpenClaw here?
+What do you talk about?
+This little guy, Lou, it
+basically, it mostly has two jobs.
+The first one is to make jokes
+in group chats with friends.
+It's not very useful
+but it's quite funny.
+The second one is to just help me code.
+And so it's connected at home.
+It's running on a dedicated machine.
+It's got access to Codex
+and it's got integrations
+that make it easier for me
+to do certain things on the go.
+For example, I have an OpenClaw discord and Codex integration,
+so that I have a bunch
+of discord channels.
+Each one is bound to a specific repo.
+And so if I want to do something
+from my phone on the go and I wanted to
+to be able to run at home
+and do things that maybe aren't so easy
+to do yet on the cloud
+or things like that.
+I can just do it
+while I'm walking around somewhere.
+I talk through discord by talking to Lou
+and it's going to work on Codex.
+That's an example.
+Another thing that I did recently
+was try to see if I could
+build an Apple
+Watch complication on the home screen
+so that you could record a short voice
+memo and have that trigger a Codex job.
+So, like, imagine you found a typo
+on a website or something like that.
+Obviously it mostly works
+for one shot things but you would just
+very briefly like you would record
+a voice memo to say, “Hey,
+fix this typo on the landing page of this website.”
+And you have the watch and you have
+the companion iPhone app to do that.
+Yeah. So, let me show you this,
+this thing that I built.
+This is my Apple Watch.
+What I essentially built here
+is a way to just send a voice memo
+like create a test.md file
+in my skills repo.
+And that basically sent that memo
+to this iPhone app.
+That is now, it transcribed the message,
+it understood the intent.
+Based on that message is going to route it
+to the correct place.
+In this case, it's going to understand
+that the skills repo means my own personal skills repo
+because it has context
+on my GitHub account
+and then it's going to run the execution of that task.
+So in a couple of minutes I'm basically going to get a notification
+that says it created a
+That second one is now successful?
+So now it's running the execution here.
+And this is all running with
+like Codex app server behind the scenes?
+So if you if you go to the settings here,
+you basically see that,
+there's two different ways it can run.
+There's the typical you put an openAI API key and you can do it that way.
+And the other one,
+what is here called back in session
+is basically Codex
+app server running somewhere else.
+Roaming off of my account,
+connected to my GitHub with all my context.
+I love this.
+I can basically just start Codex jobs on the go.
+it's not useful for everything
+but it's one of the ways
+that I kind of like to play around
+with what becomes possible.
+It's like one step closer to making
+I guess, the entire implementation
+and implementation detail.
+It's like I just talked to my watch for 10 seconds and it did
+absolutely everything the right way.
+Incredible.
+I don't think we're always there yet,
+depending on, you know, how complex
+the actual ask is, but for small things
+it's kind of convenient.
+It was kind of fun to play around with just to see
+how to work with Codex App Server.
+And yeah, I just kind of try to do that.
+And by the way,
+this is exactly what I love to see, right?
+Like we open sourced
+the Codex CLI, the Codex harness,
+and we also open sourced the Codex app server just for like fostering this like open ecosystem.
+Like a builder,
+like you can extend the way
+you use Codex in this case
+from your watch or your phone.
+Even though, you know,
+we have not shipped that yet.
+So this is really, really cool how you can
+use your coding agent the way you want.
+I think you guys should build that
+I think we should.
+That complication on Apple Watch and on my iPhone home screen so I don't have to do it myself.
+That'd be great.
+Sounds like a great idea.
+Let's see.
+Look at that.
+The whole request just arrived.
+The request is right there.
+Alright, out of this test.md file obviously
+not the most useful task but
+but it just shows that it works.
+It's kind of fun to build as well.
+Pretty cool.
+That's really cool that you build this.
+And by the way this is exactly why
+we open source not just to the Codex CLI
+and the Codex harness
+but also the Codex App Server.
+We want builders like you
+to be able to kind of poke at it
+and also integrate that in their own ways.
+It's really cool
+that you can have a coding agent
+from your watch,
+which we don't have it just yet, you know.
+You better build it.
+We we probably should build it.
+It's a great idea.
+I'm curious,
+like, we launched a ton of things
+in the past, like, few weeks,
+both on the Codex side and GPT
+5.5 our latest model.
+Have you had some, like,
+surprising moments with these two?
+Yeah, there's a couple of things.
+The first one I use computer use recently that was,
+it was a lot better than what I remembered or I guess I was surprised by how good it was.
+I was at home last weekend
+doing something on a Raspberry Pi
+and I needed to to do something
+pretty tedious.
+Like copy paste a bunch of different domain URLs and go
+put them in some admin panel somewhere.
+And I didn't really want to do it by hand.
+So I told Codex to basically SSH
+into the Raspberry Pi.
+It was like dangling from a TV to go
+do it for me.
+And it just did.
+It found a way to just connect
+to the Raspberry Pi through my browser.
+It basically found all these URLs
+that I had in a file that I gave it.
+It just did the whole thing.
+What was funny is that I was trying to use
+computer use, I guess, to save time.
+And I spent the entire time just watching it.
+That’s so funny.
+Doing the thing for me because I was impressed
+by how I was going to the right place,
+opening the right thing,
+copy pasting stuff for me.
+It was just the funny thing.
+I love how the cursor moves also
+in that you can kind of follow along the animations.
+It's pretty but you don't want to touch it
+but you kind of do at the same time.
+Because you can actually let it disappear
+in the background too.
+Yeah, that was pretty cool and recent.
+The other thing
+I guess is 5.5 just launched
+and I have this old hackathon
+project that I've had for over ten years
+that I use almost like my personal eval
+in a way, that is,
+I know that models
+nowadays can one shot this project
+but every time a new model comes out I try to do it again
+just to see how much better it gets.
+How many more details
+it gets right. How the design improves.
+It's a bit of a silly project
+but I can tell you about it.
+It was, it's a thing that was called
+SnapCat, which is a bit absurd.
+It was basically this app for cats
+to take selfies.
+And the way that it works is that,
+I mean, I guess I could just show you.
+But it's essentially
+a black screen with a red laser dot
+that moves around.
+And
+For the cat to catch?
+Right. And so if you are a cat,
+we can pretend you're a cat for a second.
+And you try to catch that.
+Every time you did
+and if you don't mind
+trying to tap to catch the dot.
+I guess I'm not as fast as a cat.
+You're really not a very good
+I just did.
+I think I got it.
+There you go.
+So as you do that,
+every time you hit the viewport
+you’re basically taking a photo
+with the front facing camera.
+Woah
+And so you can exit this cat mode
+with the volume buttons,
+which cats don't really have easy access to.
+At that point you go to the gallery.
+You see the upside down pictures you just took of yourself as a cat.
+You can basically select one, share it and that kind of stuff.
+And what's cool here is two things.
+The first one,
+it easily one shot this project.
+It's something that over ten years ago
+we did at a hackathon.
+It took us over a full day to build.
+We had a team of five people.
+It was quite difficult
+to do really quickly.
+Now this is one really well
+crafted prompt and a couple of skills
+and it can build the whole thing for you
+in one go.
+How did you build the UI?
+Was it like 5.5 building the UI? Was it image gen?
+That's the second thing, so the first thing, it can one shot the skeleton of this app really easily.
+What it did in this case after that was
+I described the style of an app
+I wanted.
+I said I wanted something light and colorful and playful and that kind of stuff given the theme.
+I generated an image of that UI,
+and then I told Codex to build that.
+And once it did that with the camera roll
+view that you're looking at right now,
+I like that style.
+And I told it “Go redesign
+the settings page based on the same style.”
+And it generated another image
+and then implemented it.
+Then it did
+the same for the home screen.
+So it's a pretty different
+and new way to go about building UI.
+So that's your eval, every time there's a new model
+you're just rebuilding SnapCat?
+I basically just look at how easy
+it is for cats to take selfies.
+Is it the best you've seen so far?
+It's the best by far.
+It is, it’s a lot better than the last time
+I tried this a few months ago.
+It is infinitely better than what
+we managed to build in a full 24 hours.
+And I basically made this in one shot
+last night in preparation for today.
+Incredible, I love this.
+Well, I guess now you have selfies of me
+among your cats.
+I'll text you one of them.
+Thanks so much for showing me your setup.
+I love watching users
+building with the Codex app.
+Maybe to to close out,
+what would be your advice for other founders or builders, who would like to master the codex the way you do?
+You know,
+I think it boils down to a few assumptions
+that I've made early on that I think
+have been really, really helpful for me.
+The first one is assume it's possible.
+Like if you have an idea, more often than not, it can probably be done.
+The second one is assume you can do it.
+That one's a bit more personal
+but a lot of people
+could be building these things.
+And I think the blockers
+that they think they can't.
+I think assume you can.
+In this case, maybe be in denial even that you can't do it.
+It's usually true.
+And the third one is when you try to get
+something out of an LLM and it doesn't work,
+this one's a bit difficult,
+you have to put your ego aside,
+assume it's your fault.
+Don't assume that the tool isn't capable.
+Assume you haven't found a way to communicate it or convey what you want just yet.
+And I guess try again.
+Like I've done a lot of trying again.
+And I think that's what's gotten me
+quite a long way into building things.
+So that's probably the advice
+I give to people.
+I love that and it feels like the perfect note to end.
+Anyone can just build anything.
+It's true.
+It sounds cheesy but it's true.
+Thank you so much Matias. This was a great conversation.
+Merci.
+Thank you.

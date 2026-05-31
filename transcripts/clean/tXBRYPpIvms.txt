@@ -1,0 +1,37 @@
+When we used GPT 5.5, as we increased
+the number of tools, we actually saw an
+upward trend on our evaluation set. And
+to us, that was a clear sign that this
+model is better able to synthesize
+information.
+My name is Chaitana. I am the head of
+engineer for our clinical decision
+support at a bridge. What we're trying
+to build is effectively how can we use
+the world's medical information, how can
+we use all the patient context, the live
+conversation between a patient and
+doctor [music] to help clinicians in
+making decisions. What was amazing about
+leveraging GPD 5.5 [music] is that we
+saw higher better clinical reasoning and
+tool use. Basically [music] the
+information density is much better now
+and for clinicians because medicine is
+quite complicated. What we want to do is
+we want to bring [music] the most
+information density right at the point
+of care and then they can make the
+ultimate decision. The thing that
+excites me the most about this model is
+that as [music] we keep adding tools and
+context, we believe the model will
+actually be able to keep up with that
+complexity and as such it's able to
+deliver far more value to our users at
+the rigor that we want and that [music]
+we need for such a product. We saw a
+clear clear jump in the results and it's
+been really exciting partnering with
+open eye on this.
+[music]
