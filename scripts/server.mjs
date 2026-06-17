@@ -4,6 +4,7 @@ import { spawn } from "node:child_process";
 import { extname, join, normalize, relative, resolve } from "node:path";
 import { existsSync } from "node:fs";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { createNoteRecord, parseFrontmatter, renderMarkdown } from "./content.mjs";
 
 const ROOT = process.cwd();
 const PUBLIC_DIR = join(ROOT, "web");
@@ -82,18 +83,11 @@ async function getNotes() {
   const notes = await Promise.all(files.map(async (file) => {
     const filePath = join(notesDir, file);
     const markdown = await readFile(filePath, "utf8");
-    const meta = parseFrontmatter(markdown);
+    const note = createNoteRecord(file, markdown);
     return {
-      id: file,
-      file,
+      ...note,
       path: filePath,
-      title: meta.title ?? file.replace(/\.md$/, ""),
-      channel: meta.channel ?? "",
-      status: meta.status ?? "",
-      published: meta.published ?? "",
-      videoUrl: meta.video_url ?? "",
-      transcript: meta.transcript ?? "",
-      excerpt: firstBodyText(markdown)
+      html: undefined
     };
   }));
 
@@ -250,89 +244,6 @@ function readRequestJson(req) {
     });
     req.on("error", reject);
   });
-}
-
-function parseFrontmatter(markdown) {
-  const match = markdown.match(/^---\n([\s\S]*?)\n---/);
-  if (!match) return {};
-
-  return Object.fromEntries(match[1].split("\n").map((line) => {
-    const separator = line.indexOf(":");
-    if (separator === -1) return null;
-    const key = line.slice(0, separator).trim();
-    const value = line.slice(separator + 1).trim().replace(/^"|"$/g, "");
-    return [key, value];
-  }).filter(Boolean));
-}
-
-function firstBodyText(markdown) {
-  return markdown
-    .replace(/^---\n[\s\S]*?\n---/, "")
-    .split("\n")
-    .map((line) => line.trim())
-    .filter((line) => line && !line.startsWith("#") && !line.startsWith("-"))
-    .slice(0, 2)
-    .join(" ")
-    .slice(0, 180);
-}
-
-function renderMarkdown(markdown) {
-  const body = markdown.replace(/^---\n[\s\S]*?\n---\n?/, "");
-  const lines = body.split(/\r?\n/);
-  const html = [];
-  let listOpen = false;
-
-  for (const rawLine of lines) {
-    const line = rawLine.trim();
-    if (!line) {
-      if (listOpen) {
-        html.push("</ul>");
-        listOpen = false;
-      }
-      continue;
-    }
-
-    if (line.startsWith("## ")) {
-      if (listOpen) {
-        html.push("</ul>");
-        listOpen = false;
-      }
-      html.push(`<h2>${escapeHtml(line.slice(3))}</h2>`);
-    } else if (line.startsWith("# ")) {
-      if (listOpen) {
-        html.push("</ul>");
-        listOpen = false;
-      }
-      html.push(`<h1>${escapeHtml(line.slice(2))}</h1>`);
-    } else if (line.startsWith("- ")) {
-      if (!listOpen) {
-        html.push("<ul>");
-        listOpen = true;
-      }
-      html.push(`<li>${inlineMarkdown(line.slice(2))}</li>`);
-    } else {
-      if (listOpen) {
-        html.push("</ul>");
-        listOpen = false;
-      }
-      html.push(`<p>${inlineMarkdown(line)}</p>`);
-    }
-  }
-
-  if (listOpen) html.push("</ul>");
-  return html.join("\n");
-}
-
-function inlineMarkdown(value) {
-  return escapeHtml(value).replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-}
-
-function escapeHtml(value) {
-  return value
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll("\"", "&quot;");
 }
 
 function sendJson(res, data, status = 200) {

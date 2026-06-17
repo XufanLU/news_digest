@@ -7,7 +7,7 @@
     <title>Daily Digest | Learning Notes</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
-  <body>
+  <body data-app-mode="static">
     <div class="app-shell">
       <aside class="sidebar">
         <div class="brand">
@@ -36,10 +36,6 @@
             <div><dt>Lookback</dt><dd id="lookback-days">-</dd></div>
             <div><dt>Notes</dt><dd id="note-count">-</dd></div>
           </dl>
-          <button id="run-intake" class="primary-button local-only" type="button">
-            <span>Run intake</span>
-          </button>
-          <p id="run-status" class="status-line local-only"></p>
         </section>
       </aside>
 
@@ -79,13 +75,9 @@
           <section class="reader-pane">
             <div id="empty-state" class="empty-state">
               <h2>Select a note</h2>
-              <p>Generated learning notes and transcript previews will appear here.</p>
+              <p>Generated learning notes will appear here.</p>
             </div>
             <article id="reader" class="reader hidden"></article>
-            <details id="transcript-panel" class="transcript hidden">
-              <summary>Transcript preview</summary>
-              <pre id="transcript"></pre>
-            </details>
           </section>
         </div>
       </main>

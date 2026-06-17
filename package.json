@@ -7,7 +7,11 @@
     "dev": "node scripts/server.mjs",
     "start": "node scripts/server.mjs",
     "intake": "node scripts/daily-intake.mjs",
-    "intake:dry-run": "node scripts/daily-intake.mjs --dry-run"
+    "intake:dry-run": "node scripts/daily-intake.mjs --dry-run",
+    "build:site": "node scripts/build-static.mjs",
+    "preview:site": "node scripts/preview-static.mjs",
+    "publish:site": "node scripts/publish-site.mjs",
+    "test": "node --test"
   },
   "engines": {
     "node": ">=18"
