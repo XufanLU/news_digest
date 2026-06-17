@@ -36,7 +36,7 @@ export async function buildStaticSite({ root = ROOT, outputDir = join(root, "dis
   ]);
 
   const siteData = {
-    generatedAt: new Date().toISOString(),
+    generatedAt: latestIntake.createdAt ?? new Date().toISOString(),
     summary: {
       channels: (channels.channels ?? []).map(({ name, handle, url }) => ({ name, handle, url })),
       dailyLimit: channels.dailyLimit ?? 3,
