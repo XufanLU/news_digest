@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T11:38:32.722Z",
+  "generatedAt": "2026-06-19T11:02:51.068Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-06-18T11:38:32.722Z",
+    "latestRunAt": "2026-06-19T11:02:51.068Z",
     "latestVideoCount": 3,
-    "processedCount": 60,
-    "noteCount": 57
+    "processedCount": 63,
+    "noteCount": 60
   },
   "notes": [
+    {
+      "id": "2026-06-19-apple-s-worst-nightmare-apple-google-gemini.md",
+      "file": "2026-06-19-apple-s-worst-nightmare-apple-google-gemini.md",
+      "title": "Apple’s Worst Nightmare #apple #google #gemini",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-06-19T03:00:21+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=SzSL54SrSVE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SzSL54SrSVE/mqdefault.jpg",
+      "excerpt": "The video argues that Apple's use of Google Gemini technology is less a simple AI failure than a strategic choice about where Apple wants to compete. Apple may source model capabil",
+      "html": "<h1>Apple’s Worst Nightmare #apple #google #gemini</h1>\n<h2>What This Is About</h2>\n<p>The video argues that Apple's use of Google Gemini technology is less a simple AI failure than a strategic choice about where Apple wants to compete. Apple may source model capability and cloud infrastructure while retaining control of the device, operating system, permissions, developer platform, and Siri experience.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li><strong>Model capability as a supplier layer:</strong> If frontier-model performance becomes easier to source, owning the model may matter less than owning its distribution and user experience.</li>\n<li><strong>Control of the user-facing layer:</strong> Apple's advantage is its installed device base, operating systems, app ecosystem, permission model, and user trust.</li>\n<li><strong>Device-plus-private-cloud architecture:</strong> Apple's AI strategy combines on-device inference with private cloud compute rather than relying exclusively on local models.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Vertical integration does not require building every component internally; it can mean controlling the interface and system boundaries that users experience.</li>\n<li>Apple's defensibility depends on integrating outside models without weakening privacy, reliability, or its control of the platform.</li>\n<li>The relevant comparison is not simply “Apple model versus Gemini,” but who captures value across models, infrastructure, devices, and software distribution.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>How much differentiation can Apple create if competitors can access similar underlying models?</li>\n<li>What workloads remain on-device, and what triggers a handoff to private cloud compute?</li>\n<li>How will Apple prevent external model suppliers from gaining leverage over its roadmap or economics?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Compare Apple's published Private Cloud Compute architecture with its on-device model documentation.</li>\n<li>Track which Apple Intelligence features use Apple models, Gemini-family technology, or other providers.</li>\n<li>Use a value-chain map—model, compute, operating system, application, distribution—to analyze where control and margins accumulate.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Apple using Gemini does not automatically mean Google “won.” The deeper strategic question is who owns the layer users touch. Models and cloud capacity can be sourced; a billion devices, a mature OS, trusted permissions, and a developer ecosystem cannot. Apple's bet is that AI value will accrue to the integrated device-plus-cloud experience—even when some intelligence comes from suppliers.</p>"
+    },
+    {
+      "id": "2026-06-18-record-replay-in-codex.md",
+      "file": "2026-06-18-record-replay-in-codex.md",
+      "title": "Record & Replay in Codex",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-06-18T18:57:34+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=ZK3JhU73W18",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZK3JhU73W18/mqdefault.jpg",
+      "excerpt": "The video demonstrates Codex's Record & Replay workflow: a user performs a repeatable browser task once while Codex observes, and Codex converts the demonstrated process and prefer",
+      "html": "<h1>Record &amp; Replay in Codex</h1>\n<h2>What This Is About</h2>\n<p>The video demonstrates Codex's Record &amp; Replay workflow: a user performs a repeatable browser task once while Codex observes, and Codex converts the demonstrated process and preferences into a reusable skill. The example teaches Codex to publish YouTube videos from a spreadsheet and asset package.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li><strong>Demonstration-based instruction:</strong> The user teaches a workflow by performing it instead of writing a detailed procedure from scratch.</li>\n<li><strong>Reusable skills:</strong> Codex extracts locations, conventions, steps, and verification criteria into instructions that can be applied in a fresh thread.</li>\n<li><strong>Cross-tool execution:</strong> A learned skill can combine computer use, browser interaction, and connected plugins.</li>\n<li><strong>Verification as part of the process:</strong> The demonstrated workflow includes checking that metadata, assets, captions, visibility, and saved state are correct.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Repetitive knowledge-work tasks are good automation candidates when inputs change but the sequence and quality bar remain stable.</li>\n<li>A useful recorded workflow captures preferences and validation steps, not only clicks.</li>\n<li>Testing the skill in a fresh thread is an important check that the learned process is portable rather than dependent on hidden context.</li>\n<li>Sensitive or irreversible actions still need explicit boundaries, such as uploading videos as private before publication.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>How does Codex handle a website layout change or missing input during replay?</li>\n<li>What parts of a recording are retained, and how can sensitive information be excluded?</li>\n<li>How should teams review, version, and update a generated skill as their process changes?</li>\n<li>Which checkpoints should require human approval before an external action becomes public?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Example workflow: match a video package to spreadsheet metadata, add its thumbnail and English captions, save it as private, then verify every field.</li>\n<li>Other candidates: formatting and sharing pull requests or creating calendar invites with team-specific preferences.</li>\n<li>Add a compact checklist of inputs, expected outputs, failure handling, and verification criteria to any generated skill.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>The interesting part of Record &amp; Replay is not replaying clicks—it is turning an observed process into a reusable skill. Show Codex where inputs live, how you make decisions, and what “done” looks like. Then test the skill in a fresh thread. The highest-value recordings are stable, repetitive workflows with clear verification and safe approval boundaries.</p>"
+    },
+    {
+      "id": "2026-06-18-improving-health-intelligence-in-chatgpt.md",
+      "file": "2026-06-18-improving-health-intelligence-in-chatgpt.md",
+      "title": "Improving health intelligence in ChatGPT",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-06-18T19:10:18+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=UxY8zJKRrHU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UxY8zJKRrHU/mqdefault.jpg",
+      "excerpt": "OpenAI physicians describe how practicing clinicians evaluate health-related model conversations for accuracy, safety, real-world impact, and communication quality. Their goal is t",
+      "html": "<h1>Improving health intelligence in ChatGPT</h1>\n<h2>What This Is About</h2>\n<p>OpenAI physicians describe how practicing clinicians evaluate health-related model conversations for accuracy, safety, real-world impact, and communication quality. Their goal is to make reliable health information more accessible while retaining the judgment and compassion expected in clinical care.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li><strong>Clinician-in-the-loop evaluation:</strong> Practicing doctors review example conversations and bring current medical experience into model assessment.</li>\n<li><strong>Impact beyond factual accuracy:</strong> A health response must be medically sound, but its framing, empathy, and likely effect on the user also matter.</li>\n<li><strong>Knowledge accessibility:</strong> AI can distribute specialized medical knowledge beyond the limited number of patients an individual specialist can see.</li>\n<li><strong>Trust through continuous evaluation:</strong> Repeated expert review helps identify weaknesses and measure whether responses improve over time.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Health AI quality is multidimensional: accuracy alone is insufficient without safety, clarity, appropriate uncertainty, and compassionate communication.</li>\n<li>Evaluators who still see patients can test model behavior against changing clinical practice and realistic user needs.</li>\n<li>The strongest near-term role is empowering people with understandable health information, not replacing the patient-clinician relationship.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>How are clinical accuracy, harmful omissions, bedside manner, and uncertainty scored consistently?</li>\n<li>Which health questions should trigger stronger caution or referral to professional care?</li>\n<li>How does evaluation account for different countries, access constraints, cultures, and standards of care?</li>\n<li>What evidence would demonstrate improved health outcomes rather than merely better-rated answers?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Build evaluation sets from realistic, de-identified health conversations across specialties and risk levels.</li>\n<li>Use separate rubrics for factual correctness, safety, communication, uncertainty, and recommended next steps.</li>\n<li>Compare specialist and generalist reviews to identify topics that require deeper expertise.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Better health AI is not just about getting the diagnosis-shaped facts right. Practicing clinicians also evaluate what a response might cause someone to do, how uncertainty is communicated, and whether the language is compassionate. The opportunity is enormous: specialist knowledge can reach millions—but trust has to be built through continuous, real-world medical review.</p>"
+    },
     {
       "id": "2026-06-17-siri-is-finally-getting-an-upgrade-siri-apple-ios.md",
       "file": "2026-06-17-siri-is-finally-getting-an-upgrade-siri-apple-ios.md",
