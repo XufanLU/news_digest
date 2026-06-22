@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T11:02:51.068Z",
+  "generatedAt": "2026-06-22T11:02:25.245Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-06-19T11:02:51.068Z",
+    "latestRunAt": "2026-06-22T11:02:25.245Z",
     "latestVideoCount": 3,
-    "processedCount": 63,
-    "noteCount": 60
+    "processedCount": 66,
+    "noteCount": 63
   },
   "notes": [
+    {
+      "id": "2026-06-22-员工蒸馏-水没有了-鱼要变成-四维生物.md",
+      "file": "2026-06-22-员工蒸馏-水没有了-鱼要变成-四维生物.md",
+      "title": "员工蒸馏：水没有了，鱼要变成“四维生物”",
+      "channel": "硅谷101",
+      "status": "generated",
+      "published": "2026-06-22T05:05:38+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=TnauzVQkmBo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TnauzVQkmBo/mqdefault.jpg",
+      "excerpt": "这段讨论把 Meta 引发争议的“员工蒸馏”放进更大的 AI 就业转型中：公司希望把员工经验沉淀进模型，但员工若预期自己会被替代，就可能减少知识分享甚至污染训练数据。长期来看，大厂岗位可能持续收缩，个人需要从“在公司之间跳槽”转向建立更独立的价值创造方式。 如果大厂岗位是水坑，跳槽只是鱼从一个水坑跳到另一个水坑。AI 真正带来的挑战，是水本身在减少。下一步不",
+      "html": "<h1>员工蒸馏：水没有了，鱼要变成“四维生物”</h1>\n<h2>What This Is About</h2>\n<p>这段讨论把 Meta 引发争议的“员工蒸馏”放进更大的 AI 就业转型中：公司希望把员工经验沉淀进模型，但员工若预期自己会被替代，就可能减少知识分享甚至污染训练数据。长期来看，大厂岗位可能持续收缩，个人需要从“在公司之间跳槽”转向建立更独立的价值创造方式。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li><strong>员工蒸馏</strong>：把员工的流程、判断与隐性知识转成公司可复用的 AI 能力。</li>\n<li><strong>激励错位</strong>：公司追求知识资产化，员工则担心知识被提取后失去岗位，双方因此产生对立。</li>\n<li><strong>知识投毒风险</strong>：强制采集可能促使员工隐藏关键经验、提供低质量样本或故意加入错误信息。</li>\n<li><strong>“水坑干涸”比喻</strong>：在大厂之间跳槽只是鱼换水坑；当岗位总量下降时，真正的适应是获得离开水也能生存的能力。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI 转型不仅是技术部署问题，也是组织激励与信任问题；没有合理的利益安排，最宝贵的隐性知识反而最难被捕获。</li>\n<li>企业减少用工可能是渐进但快速的结构性变化，未来三到五年内更多人会被迫重新定义职业身份。</li>\n<li>与其只优化下一次求职，更值得培养可独立交付、创业协作和直接服务市场的能力。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>企业如何让员工分享知识，同时避免“教会模型后被替代”的恐惧？</li>\n<li>哪些专业能力可以被流程化蒸馏，哪些依赖关系、判断和责任承担而难以复制？</li>\n<li>个人应优先建设哪些资产，才能从雇员转向创业者或小团队联合创始人？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Meta“员工蒸馏”争议可作为研究 AI 知识管理与劳动关系的案例。</li>\n<li>《三体》中“把水弄干”的比喻适合解释岗位池整体收缩，而非单一公司的裁员。</li>\n<li>可建立个人能力清单：可自动化任务、不可替代判断、客户关系、分发渠道与可复用作品。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>如果大厂岗位是水坑，跳槽只是鱼从一个水坑跳到另一个水坑。AI 真正带来的挑战，是水本身在减少。下一步不只是学会用 AI 提效，而是把能力变成可以独立交付、直接创造价值的产品或服务——让鱼长出翅膀。</p>"
+    },
+    {
+      "id": "2026-06-22-anthropic-just-proved-they-re-ahead-of-openai-airace-tech-news-full-video-tomorr.md",
+      "file": "2026-06-22-anthropic-just-proved-they-re-ahead-of-openai-airace-tech-news-full-video-tomorr.md",
+      "title": "Anthropic Just Proved They're Ahead of OpenAI #AIRace #Tech #News - Full Video Tomorrow!",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-06-22T01:00:13+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=Dyi4y7o4FB8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dyi4y7o4FB8/mqdefault.jpg",
+      "excerpt": "这是一段完整视频的预告。作者提出一个反直觉判断：尽管 Anthropic 的模型遭遇禁令，它近期的表现可能仍优于 OpenAI；但 OpenAI 与 Anthropic 的二元竞赛也可能掩盖了 AI 领域其他参与者的创新动能。具体论据和第三方进展将在后续完整视频中展开。 “谁在 AI 竞赛中领先”取决于你看什么：模型能力、产品采用、收入，还是监管风险？一段预",
+      "html": "<h1>Anthropic Just Proved They're Ahead of OpenAI #AIRace #Tech #News - Full Video Tomorrow!</h1>\n<h2>What This Is About</h2>\n<p>这是一段完整视频的预告。作者提出一个反直觉判断：尽管 Anthropic 的模型遭遇禁令，它近期的表现可能仍优于 OpenAI；但 OpenAI 与 Anthropic 的二元竞赛也可能掩盖了 AI 领域其他参与者的创新动能。具体论据和第三方进展将在后续完整视频中展开。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li><strong>领先的衡量方式</strong>：监管或产品挫折不一定等同于技术、市场或战略落后。</li>\n<li><strong>叙事偏差</strong>：只关注 OpenAI 与 Anthropic，容易忽略其他模型厂商和生态层的进展。</li>\n<li><strong>预告性质</strong>：当前片段只提出论点，没有给出足够证据支持排名结论。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>判断“谁领先”前应先定义指标，例如模型能力、开发者采用、收入、可靠性或产品发布速度。</li>\n<li>单一负面事件不能替代完整的趋势分析；需要比较同一时间窗内的可验证数据。</li>\n<li>对 AI 产业的观察应扩大到两家头部公司之外，关注新模型、开源生态与应用层创新。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>作者所说的“更好的一个月”具体依据哪些发布、基准或商业结果？</li>\n<li>Anthropic 模型被禁的范围、原因和实际影响是什么？</li>\n<li>片尾提到的非 OpenAI、非 Anthropic 的重大进展来自哪家公司？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>后续完整视频是验证本预告论点的必要材料。</li>\n<li>可用统一评分表比较厂商：能力、成本、可靠性、采用率、监管风险与发布节奏。</li>\n<li>视频链接：https://www.youtube.com/watch?v=Dyi4y7o4FB8</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>“谁在 AI 竞赛中领先”取决于你看什么：模型能力、产品采用、收入，还是监管风险？一段预告提出 Anthropic 最近可能比 OpenAI 表现更好，但真正值得记住的是：别让两强叙事遮住生态里其他创新者。结论先保留，等完整证据。</p>"
+    },
+    {
+      "id": "2026-06-21-you-can-t-run-ai-agents-without-this.md",
+      "file": "2026-06-21-you-can-t-run-ai-agents-without-this.md",
+      "title": "You Can't Run AI Agents Without This",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-06-21T17:00:12+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=rh_PcL26zls",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rh_PcL26zls/mqdefault.jpg",
+      "excerpt": "视频的核心不是如何“造一个 agent”，而是如何长期负责它所做的工作。只要一个 AI 系统能基于上下文跨步骤完成可复用任务，并对文件、消息、代码或业务记录产生实际影响，就应按 agentic workflow 管理。可靠运行需要明确的单一负责人、清晰任务、健康上下文、受控权限和持续复盘。 AI agent 最危险的状态，不是能力太强，而是“人人都在用、没人",
+      "html": "<h1>You Can't Run AI Agents Without This</h1>\n<h2>What This Is About</h2>\n<p>视频的核心不是如何“造一个 agent”，而是如何长期负责它所做的工作。只要一个 AI 系统能基于上下文跨步骤完成可复用任务，并对文件、消息、代码或业务记录产生实际影响，就应按 agentic workflow 管理。可靠运行需要明确的单一负责人、清晰任务、健康上下文、受控权限和持续复盘。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li><strong>Assistant 与 agentic workflow</strong>：一次问答更像助手；持续读取资料、调用工具并交付工作结果，则已接近 agent。</li>\n<li><strong>单一责任人</strong>：使用 agent 的业务团队必须指定一个真正关心结果质量的人，而不是把责任抽象地交给“AI 团队”。</li>\n<li><strong>Job（任务）</strong>：用一句话定义明确产出，例如“为 backlog refinement 准备候选故事包”。</li>\n<li><strong>Diet（信息饮食）</strong>：agent 的质量取决于它读取的文档、样例、工单和指令是否准确、精简且最新。</li>\n<li><strong>Boundaries（边界）</strong>：读取、起草、写入系统、发送消息和合并代码属于不同风险等级，应从只读或仅草稿开始。</li>\n<li><strong>Review loop（复盘闭环）</strong>：运行、人工检查、更新输入或权限，再运行，而不是上线后无人维护。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>风险最大的不是“邪恶 AI”，而是无人负责的自动化工作在长期积累中悄悄产生真实后果。</li>\n<li>品牌和“是不是 agent”的标签不重要；是否委派了一个有后果的工作才决定治理强度。</li>\n<li>agent 应通过稳定表现逐步获得更多权限，越接近系统记录、客户沟通或生产代码，审查越严格。</li>\n<li>维护 agent 往往不需要庞大治理流程；删除旧文档、补充好样例和收紧数据范围就能显著改善结果。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>团队里的每个 agent 是否都有一位单一、明确且有业务责任的 owner？</li>\n<li>哪些指标能证明 agent 的产出减少了返工，而不是把错误隐藏得更漂亮？</li>\n<li>输入资料应按什么频率审查、淘汰和版本化？</li>\n<li>从“仅草稿”升级到自动写入或发送，需要满足哪些质量与审计门槛？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li><strong>产品故事准备 agent</strong>：读取最新 PRD、设计简报、支持工单、backlog 和优秀样例，输出候选故事、客户证据、验收标准、依赖、假设与待决策项。</li>\n<li><strong>轻量运营清单</strong>：owner、单句任务、允许的数据源、权限级别、每次运行的审查点、定期质量复盘。</li>\n<li>适用工具包括 ChatGPT 自定义 GPT、Claude Projects/Claude Code、Codex、Cursor 和工作流自动化平台；选择取决于任务，而非标签。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>AI agent 最危险的状态，不是能力太强，而是“人人都在用、没人真正负责”。上线前问五件事：它的工作是什么？吃什么上下文？能碰哪些系统？谁审查结果？谁对长期质量负责？先只读、再草稿，让权限靠表现挣来。</p>"
+    },
     {
       "id": "2026-06-19-apple-s-worst-nightmare-apple-google-gemini.md",
       "file": "2026-06-19-apple-s-worst-nightmare-apple-google-gemini.md",
