@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T11:02:25.245Z",
+  "generatedAt": "2026-06-23T11:12:57.518Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,24 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-06-22T11:02:25.245Z",
+    "latestRunAt": "2026-06-23T11:12:57.518Z",
     "latestVideoCount": 3,
-    "processedCount": 66,
-    "noteCount": 63
+    "processedCount": 69,
+    "noteCount": 66
   },
   "notes": [
+    {
+      "id": "2026-06-23-why-anthropic-hired-the-smartest-person-in-ai-ai-research-news.md",
+      "file": "2026-06-23-why-anthropic-hired-the-smartest-person-in-ai-ai-research-news.md",
+      "title": "Why Anthropic Hired the Smartest Person in AI #AI #Research #News",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-06-23T03:00:11+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=V4sGSp2VMe4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V4sGSp2VMe4/mqdefault.jpg",
+      "excerpt": "This short analysis argues that Anthropic's hiring of John Jumper from Google DeepMind may matter more than the louder AI-news cycle around Fable. The speaker frames Jumper's move ",
+      "html": "<h1>Why Anthropic Hired the Smartest Person in AI #AI #Research #News</h1>\n<h2>What This Is About</h2>\n<p>This short analysis argues that Anthropic's hiring of John Jumper from Google DeepMind may matter more than the louder AI-news cycle around Fable. The speaker frames Jumper's move as a talent signal: if a Nobel-winning AlphaFold researcher joins Anthropic, it may reveal where frontier AI labs believe the next valuable work will happen.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Talent movement as strategy: senior researchers changing labs can indicate where important research agendas are forming.</li>\n<li>John Jumper and AlphaFold: Jumper won a Nobel Prize for chemistry-related AI work on AlphaFold with Demis Hassabis.</li>\n<li>AI for science: the clip implicitly connects frontier AI progress with scientific discovery, especially chemistry and biology.</li>\n<li>Wider field of view: the speaker encourages looking past headline stories to less obvious signals.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Hiring can be a stronger signal than product announcements because top researchers choose environments where they think meaningful work is possible.</li>\n<li>Anthropic's position in frontier AI may be broader than model releases or consumer-facing news suggest.</li>\n<li>Google DeepMind losing a high-profile AlphaFold researcher to Anthropic could be read as a competitive research signal, not just a personnel update.</li>\n<li>The next phase of AI competition may depend heavily on people who can connect models to scientific discovery.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What role will AI-for-science researchers play inside general-purpose model labs?</li>\n<li>Does Anthropic have a distinct research agenda around scientific reasoning, biology, chemistry, or model interpretability that would attract someone like Jumper?</li>\n<li>How should we weigh individual talent moves against published benchmarks, product releases, and funding news?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>AlphaFold as an example of AI producing high-impact scientific capability.</li>\n<li>John Jumper's move from Google DeepMind to Anthropic as a case study in reading talent flow.</li>\n<li>Anthropic and Google DeepMind as labs to watch for research-driven competitive signals.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Anthropic's biggest signal this week may not be a product headline. It may be talent.</p>\n<p>John Jumper, one of the AlphaFold leaders and a Nobel Prize winner, moved from Google DeepMind to Anthropic. That matters because researchers at this level usually optimize for where they think important work can actually happen.</p>\n<p>Worth watching: whether the next frontier is not just better chatbots, but AI systems that help with scientific discovery.</p>"
+    },
     {
       "id": "2026-06-22-员工蒸馏-水没有了-鱼要变成-四维生物.md",
       "file": "2026-06-22-员工蒸馏-水没有了-鱼要变成-四维生物.md",
@@ -46,6 +58,18 @@
       "html": "<h1>员工蒸馏：水没有了，鱼要变成“四维生物”</h1>\n<h2>What This Is About</h2>\n<p>这段讨论把 Meta 引发争议的“员工蒸馏”放进更大的 AI 就业转型中：公司希望把员工经验沉淀进模型，但员工若预期自己会被替代，就可能减少知识分享甚至污染训练数据。长期来看，大厂岗位可能持续收缩，个人需要从“在公司之间跳槽”转向建立更独立的价值创造方式。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li><strong>员工蒸馏</strong>：把员工的流程、判断与隐性知识转成公司可复用的 AI 能力。</li>\n<li><strong>激励错位</strong>：公司追求知识资产化，员工则担心知识被提取后失去岗位，双方因此产生对立。</li>\n<li><strong>知识投毒风险</strong>：强制采集可能促使员工隐藏关键经验、提供低质量样本或故意加入错误信息。</li>\n<li><strong>“水坑干涸”比喻</strong>：在大厂之间跳槽只是鱼换水坑；当岗位总量下降时，真正的适应是获得离开水也能生存的能力。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI 转型不仅是技术部署问题，也是组织激励与信任问题；没有合理的利益安排，最宝贵的隐性知识反而最难被捕获。</li>\n<li>企业减少用工可能是渐进但快速的结构性变化，未来三到五年内更多人会被迫重新定义职业身份。</li>\n<li>与其只优化下一次求职，更值得培养可独立交付、创业协作和直接服务市场的能力。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>企业如何让员工分享知识，同时避免“教会模型后被替代”的恐惧？</li>\n<li>哪些专业能力可以被流程化蒸馏，哪些依赖关系、判断和责任承担而难以复制？</li>\n<li>个人应优先建设哪些资产，才能从雇员转向创业者或小团队联合创始人？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Meta“员工蒸馏”争议可作为研究 AI 知识管理与劳动关系的案例。</li>\n<li>《三体》中“把水弄干”的比喻适合解释岗位池整体收缩，而非单一公司的裁员。</li>\n<li>可建立个人能力清单：可自动化任务、不可替代判断、客户关系、分发渠道与可复用作品。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>如果大厂岗位是水坑，跳槽只是鱼从一个水坑跳到另一个水坑。AI 真正带来的挑战，是水本身在减少。下一步不只是学会用 AI 提效，而是把能力变成可以独立交付、直接创造价值的产品或服务——让鱼长出翅膀。</p>"
     },
     {
+      "id": "2026-06-22-meet-the-chatgpt-futures-class-of-2026.md",
+      "file": "2026-06-22-meet-the-chatgpt-futures-class-of-2026.md",
+      "title": "Meet the ChatGPT Futures, Class of 2026",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-06-22T21:06:32+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=GhCP2eDrKHk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GhCP2eDrKHk/mqdefault.jpg",
+      "excerpt": "This OpenAI video introduces the ChatGPT Futures Class of 2026 through a fast montage of young builders using AI across science, accessibility, education, aviation, national securi",
+      "html": "<h1>Meet the ChatGPT Futures, Class of 2026</h1>\n<h2>What This Is About</h2>\n<p>This OpenAI video introduces the ChatGPT Futures Class of 2026 through a fast montage of young builders using AI across science, accessibility, education, aviation, national security, robotics, medicine, dating, scholarships, and disaster response. The central message is that AI lowers the cost of turning ambitious ideas into working projects.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>AI as a creation accelerator: builders use ChatGPT to move from idea to working project faster.</li>\n<li>Cross-domain use cases: examples span astronomy, accessibility, education, aviation, national security, robotics, medicine, consumer products, scholarships, and emergency response.</li>\n<li>Student and early-career entrepreneurship: the video emphasizes young people building serious projects now.</li>\n<li>Opportunity expansion: AI can make high-skill workflows more approachable to people without traditional starting advantages.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI's impact is not limited to software; it can support research, learning, robotics, search, planning, and public-interest applications.</li>\n<li>The strongest examples connect AI to a specific bottleneck: searching galaxy images, designing accessible education, finding scholarships, or improving rescue work.</li>\n<li>AI tools are most compelling when they help people act on an existing mission, not when they are treated as the whole project.</li>\n<li>The video frames 2026 as a moment when creative ambition has unusually high leverage.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What makes a youth AI project robust enough to move beyond demo stage?</li>\n<li>Which domains benefit most from AI lowering the cost of prototyping?</li>\n<li>How should programs like ChatGPT Futures measure impact: shipped products, learning outcomes, research progress, or community benefit?</li>\n<li>What support do young builders need after the first prototype works?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>A search engine for 100 million galaxy images.</li>\n<li>An educational game platform for blind and visually impaired students.</li>\n<li>Using ChatGPT to go from zero to a fully licensed pilot.</li>\n<li>AI for national security.</li>\n<li>A robot being sent to the International Space Station.</li>\n<li>AI-supported drug discovery, dating apps, scholarship discovery, and disaster survivor search.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>The most interesting part of ChatGPT Futures is the range of projects.</p>\n<p>Students are using AI for galaxy search, accessible education, aviation, robotics, medicine, scholarships, and disaster response. The pattern is not “AI replaces the project.” It is “AI helps someone move faster on a real problem.”</p>\n<p>Good reminder: the next wave of AI builders may come from people who know a problem deeply, then use AI to remove the first few barriers to building.</p>"
+    },
+    {
       "id": "2026-06-22-anthropic-just-proved-they-re-ahead-of-openai-airace-tech-news-full-video-tomorr.md",
       "file": "2026-06-22-anthropic-just-proved-they-re-ahead-of-openai-airace-tech-news-full-video-tomorr.md",
       "title": "Anthropic Just Proved They're Ahead of OpenAI #AIRace #Tech #News - Full Video Tomorrow!",
@@ -56,6 +80,18 @@
       "thumbnailUrl": "https://i.ytimg.com/vi/Dyi4y7o4FB8/mqdefault.jpg",
       "excerpt": "这是一段完整视频的预告。作者提出一个反直觉判断：尽管 Anthropic 的模型遭遇禁令，它近期的表现可能仍优于 OpenAI；但 OpenAI 与 Anthropic 的二元竞赛也可能掩盖了 AI 领域其他参与者的创新动能。具体论据和第三方进展将在后续完整视频中展开。 “谁在 AI 竞赛中领先”取决于你看什么：模型能力、产品采用、收入，还是监管风险？一段预",
       "html": "<h1>Anthropic Just Proved They're Ahead of OpenAI #AIRace #Tech #News - Full Video Tomorrow!</h1>\n<h2>What This Is About</h2>\n<p>这是一段完整视频的预告。作者提出一个反直觉判断：尽管 Anthropic 的模型遭遇禁令，它近期的表现可能仍优于 OpenAI；但 OpenAI 与 Anthropic 的二元竞赛也可能掩盖了 AI 领域其他参与者的创新动能。具体论据和第三方进展将在后续完整视频中展开。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li><strong>领先的衡量方式</strong>：监管或产品挫折不一定等同于技术、市场或战略落后。</li>\n<li><strong>叙事偏差</strong>：只关注 OpenAI 与 Anthropic，容易忽略其他模型厂商和生态层的进展。</li>\n<li><strong>预告性质</strong>：当前片段只提出论点，没有给出足够证据支持排名结论。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>判断“谁领先”前应先定义指标，例如模型能力、开发者采用、收入、可靠性或产品发布速度。</li>\n<li>单一负面事件不能替代完整的趋势分析；需要比较同一时间窗内的可验证数据。</li>\n<li>对 AI 产业的观察应扩大到两家头部公司之外，关注新模型、开源生态与应用层创新。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>作者所说的“更好的一个月”具体依据哪些发布、基准或商业结果？</li>\n<li>Anthropic 模型被禁的范围、原因和实际影响是什么？</li>\n<li>片尾提到的非 OpenAI、非 Anthropic 的重大进展来自哪家公司？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>后续完整视频是验证本预告论点的必要材料。</li>\n<li>可用统一评分表比较厂商：能力、成本、可靠性、采用率、监管风险与发布节奏。</li>\n<li>视频链接：https://www.youtube.com/watch?v=Dyi4y7o4FB8</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>“谁在 AI 竞赛中领先”取决于你看什么：模型能力、产品采用、收入，还是监管风险？一段预告提出 Anthropic 最近可能比 OpenAI 表现更好，但真正值得记住的是：别让两强叙事遮住生态里其他创新者。结论先保留，等完整证据。</p>"
+    },
+    {
+      "id": "2026-06-22-ai编程火了之后-下一个被资本押注的方向会是什么.md",
+      "file": "2026-06-22-ai编程火了之后-下一个被资本押注的方向会是什么.md",
+      "title": "AI编程火了之后，下一个被资本押注的方向会是什么？",
+      "channel": "硅谷101",
+      "status": "generated",
+      "published": "2026-06-22T23:00:16+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=4y9DR2WwW3o",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4y9DR2WwW3o/mqdefault.jpg",
+      "excerpt": "这段讨论在问：AI 编程之后，资本下一个会重押什么方向？回答是 AI 研究，尤其是让 AI 承担一部分科研、算法发现和自我改进工作。核心理由是 ROI：软件工程师已经很贵，大模型研究人才更稀缺、更昂贵，如果能自动化部分研究过程，潜在回报会非常高。 AI 编程之后，资本下一个可能押注什么？",
+      "html": "<h1>AI编程火了之后，下一个被资本押注的方向会是什么？</h1>\n<h2>What This Is About</h2>\n<p>这段讨论在问：AI 编程之后，资本下一个会重押什么方向？回答是 AI 研究，尤其是让 AI 承担一部分科研、算法发现和自我改进工作。核心理由是 ROI：软件工程师已经很贵，大模型研究人才更稀缺、更昂贵，如果能自动化部分研究过程，潜在回报会非常高。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>AI research automation: 让 AI 执行原本由研究人员完成的探索、组合、验证和发现任务。</li>\n<li>ROI: AI 编程火起来，是因为模型能替代或增强高薪软件工程劳动；AI 研究如果可自动化，潜在回报更大。</li>\n<li>AI for science: 新药、新材料、科学知识发现都可能带来极高商业价值。</li>\n<li>AlphaEvolve: DeepMind 用 LLM 变异、组合和优化算法的例子。</li>\n<li>递归自我改进: 不只是让 AI 优化某段代码，而是让 AI 参与优化自身能力。</li>\n<li>大公司与小公司差异: 大公司资源多但押注分散，小公司资源少但使命和注意力更集中。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI 编程之后的投资逻辑可能会转向“让 AI 变强的 AI”，也就是自动化研究与模型改进本身。</li>\n<li>AI 研究的商业化不一定像 coding 工具一样直接按席位收费，但一旦产出新药、新材料或训练方法，回报可能是数量级更大的。</li>\n<li>这个方向高风险、高回报，因为研究发现本身不确定，但成功后的价值可能非常大。</li>\n<li>大公司会做很多方向的实验，小公司如果使命明确，可能在单一方向上更专注。</li>\n<li>AlphaEvolve 代表“用 AI 优化具体对象”，而递归自我改进的野心是“让 AI 优化 AI 自己”。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>AI 研究自动化最先会在哪些领域产生可验证的商业回报：药物、材料、算法，还是模型训练方法？</li>\n<li>递归自我改进如何避免只是在局部任务上优化，而不能真正提升通用能力？</li>\n<li>大公司分散押注和创业公司专注押注，哪种结构更适合突破性 AI 研究？</li>\n<li>自动化科研是否需要新的评估体系，而不是沿用 coding benchmark？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>DeepMind AlphaFold: AI for science 的标志性案例。</li>\n<li>DeepMind AlphaEvolve: 用 LLM 变异和组合算法的案例。</li>\n<li>AI coding 工具: 作为理解“高薪知识劳动自动化 ROI”的前一波样板。</li>\n<li>递归自我改进公司/团队: 值得关注其差异化是否真的来自让 AI 优化自身。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>AI 编程之后，资本下一个可能押注什么？</p>\n<p>一个很有意思的答案：AI 研究。</p>\n<p>逻辑不是“再做一个 coding agent”，而是让 AI 去做让 AI 变强的研究。因为大模型研究人才比软件工程师还稀缺、更贵，如果能自动化一部分研究过程，ROI 可能更高。</p>\n<p>真正的大机会可能不只是写代码，而是发现新药、新材料、新算法，甚至让模型参与改进模型自己。</p>"
     },
     {
       "id": "2026-06-21-you-can-t-run-ai-agents-without-this.md",
