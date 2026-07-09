@@ -224,6 +224,11 @@ body[data-app-mode="static"] .local-only {
   color: var(--ink);
 }
 
+.ghost-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
 .workspace {
   min-width: 0;
   padding: 26px;
@@ -295,6 +300,42 @@ body[data-app-mode="static"] .local-only {
 .notes-list {
   display: grid;
   gap: 10px;
+}
+
+.notes-empty {
+  display: grid;
+  min-height: 132px;
+  place-content: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  text-align: center;
+}
+
+.notes-empty strong {
+  color: var(--ink);
+}
+
+.pagination {
+  display: grid;
+  grid-template-columns: minmax(92px, auto) minmax(0, 1fr) minmax(92px, auto);
+  gap: 10px;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.page-button {
+  width: 100%;
+  min-width: 92px;
+}
+
+.page-summary {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .note-row {
@@ -585,5 +626,14 @@ body[data-app-mode="static"] .local-only {
 
   .note-meta {
     max-width: 110px;
+  }
+
+  .pagination {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .page-summary {
+    grid-column: 1 / -1;
+    grid-row: 1;
   }
 }

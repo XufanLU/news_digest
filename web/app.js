@@ -1,9 +1,11 @@
 const staticMode = document.body.dataset.appMode === "static";
+const notesPageSize = 12;
 
 const state = {
   notes: [],
   selectedId: null,
-  selectedNote: null
+  selectedNote: null,
+  currentPage: 1
 };
 
 const els = {
@@ -23,6 +25,10 @@ const els = {
   transcriptPanel: document.querySelector("#transcript-panel"),
   transcript: document.querySelector("#transcript"),
   search: document.querySelector("#search"),
+  pagination: document.querySelector("#notes-pagination"),
+  pageSummary: document.querySelector("#page-summary"),
+  prevPage: document.querySelector("#prev-page"),
+  nextPage: document.querySelector("#next-page"),
   runIntake: document.querySelector("#run-intake"),
   runStatus: document.querySelector("#run-status")
 };
@@ -30,7 +36,12 @@ const els = {
 init();
 
 async function init() {
-  els.search.addEventListener("input", renderNotes);
+  els.search.addEventListener("input", () => {
+    state.currentPage = 1;
+    renderNotes();
+  });
+  els.prevPage.addEventListener("click", () => changePage(-1));
+  els.nextPage.addEventListener("click", () => changePage(1));
   if (!staticMode) els.runIntake.addEventListener("click", runIntake);
 
   try {
@@ -95,8 +106,12 @@ function renderNotes() {
     const haystack = `${note.title} ${note.channel} ${note.excerpt}`.toLowerCase();
     return haystack.includes(query);
   });
+  const pageCount = Math.max(1, Math.ceil(notes.length / notesPageSize));
+  state.currentPage = Math.min(Math.max(state.currentPage, 1), pageCount);
+  const startIndex = (state.currentPage - 1) * notesPageSize;
+  const pageNotes = notes.slice(startIndex, startIndex + notesPageSize);
 
-  els.notesList.innerHTML = notes.map((note) => {
+  els.notesList.innerHTML = pageNotes.length ? pageNotes.map((note) => {
     const thumbnail = note.thumbnailUrl
       ? `<img class="note-thumbnail" src="${escapeHtml(note.thumbnailUrl)}" alt="" loading="lazy">`
       : '<div class="note-thumbnail note-thumbnail-fallback" aria-hidden="true">D</div>';
@@ -117,11 +132,37 @@ function renderNotes() {
         </span>
       </button>
     `;
-  }).join("");
+  }).join("") : `
+    <div class="notes-empty">
+      <strong>No notes found</strong>
+      <span>Try a different search.</span>
+    </div>
+  `;
+
+  renderPagination({ total: notes.length, pageCount, startIndex, pageSize: pageNotes.length });
 
   els.notesList.querySelectorAll(".note-row").forEach((button) => {
     button.addEventListener("click", () => selectNote(button.dataset.noteId, { focusReader: true }));
   });
+}
+
+function renderPagination({ total, pageCount, startIndex, pageSize }) {
+  const hasResults = total > 0;
+  const firstItem = hasResults ? startIndex + 1 : 0;
+  const lastItem = startIndex + pageSize;
+
+  els.pagination.classList.toggle("hidden", total <= notesPageSize && !els.search.value.trim());
+  els.pageSummary.textContent = hasResults
+    ? `Showing ${firstItem}-${lastItem} of ${total} · Page ${state.currentPage} of ${pageCount}`
+    : "No notes to show";
+  els.prevPage.disabled = state.currentPage <= 1;
+  els.nextPage.disabled = state.currentPage >= pageCount;
+}
+
+function changePage(direction) {
+  state.currentPage += direction;
+  renderNotes();
+  els.notesList.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 async function selectNote(noteId, { focusReader = false } = {}) {
