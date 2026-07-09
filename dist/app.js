@@ -26,7 +26,7 @@ const els = {
   transcript: document.querySelector("#transcript"),
   search: document.querySelector("#search"),
   pagination: document.querySelector("#notes-pagination"),
-  pageSummary: document.querySelector("#page-summary"),
+  pageLinks: document.querySelector("#page-links"),
   prevPage: document.querySelector("#prev-page"),
   nextPage: document.querySelector("#next-page"),
   runIntake: document.querySelector("#run-intake"),
@@ -42,6 +42,11 @@ async function init() {
   });
   els.prevPage.addEventListener("click", () => changePage(-1));
   els.nextPage.addEventListener("click", () => changePage(1));
+  els.pageLinks.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-page]");
+    if (!button) return;
+    changePageTo(Number(button.dataset.page));
+  });
   if (!staticMode) els.runIntake.addEventListener("click", runIntake);
 
   try {
@@ -139,30 +144,56 @@ function renderNotes() {
     </div>
   `;
 
-  renderPagination({ total: notes.length, pageCount, startIndex, pageSize: pageNotes.length });
+  renderPagination({ total: notes.length, pageCount });
 
   els.notesList.querySelectorAll(".note-row").forEach((button) => {
     button.addEventListener("click", () => selectNote(button.dataset.noteId, { focusReader: true }));
   });
 }
 
-function renderPagination({ total, pageCount, startIndex, pageSize }) {
-  const hasResults = total > 0;
-  const firstItem = hasResults ? startIndex + 1 : 0;
-  const lastItem = startIndex + pageSize;
-
-  els.pagination.classList.toggle("hidden", total <= notesPageSize && !els.search.value.trim());
-  els.pageSummary.textContent = hasResults
-    ? `Showing ${firstItem}-${lastItem} of ${total} · Page ${state.currentPage} of ${pageCount}`
-    : "No notes to show";
+function renderPagination({ total, pageCount }) {
+  els.pagination.classList.toggle("hidden", total === 0 || pageCount <= 1);
+  els.pageLinks.innerHTML = getPaginationItems(state.currentPage, pageCount).map((item) => {
+    if (item === "gap") return '<span class="page-gap" aria-hidden="true">...</span>';
+    const isCurrent = item === state.currentPage;
+    return `
+      <button
+        class="page-number ${isCurrent ? "active" : ""}"
+        type="button"
+        data-page="${item}"
+        ${isCurrent ? 'aria-current="page"' : ""}
+      >${item}</button>
+    `;
+  }).join("");
   els.prevPage.disabled = state.currentPage <= 1;
   els.nextPage.disabled = state.currentPage >= pageCount;
 }
 
 function changePage(direction) {
-  state.currentPage += direction;
+  changePageTo(state.currentPage + direction);
+}
+
+function changePageTo(page) {
+  if (!Number.isInteger(page) || page === state.currentPage) return;
+  state.currentPage = page;
   renderNotes();
   els.notesList.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function getPaginationItems(currentPage, pageCount) {
+  if (pageCount <= 9) return Array.from({ length: pageCount }, (_, index) => index + 1);
+
+  const pages = new Set([1, pageCount, currentPage - 1, currentPage, currentPage + 1]);
+  if (currentPage <= 4) [2, 3, 4, 5].forEach((page) => pages.add(page));
+  if (currentPage >= pageCount - 3) {
+    [pageCount - 4, pageCount - 3, pageCount - 2, pageCount - 1].forEach((page) => pages.add(page));
+  }
+
+  const sortedPages = [...pages].filter((page) => page >= 1 && page <= pageCount).sort((a, b) => a - b);
+  return sortedPages.flatMap((page, index) => {
+    const previous = sortedPages[index - 1];
+    return previous && page - previous > 1 ? ["gap", page] : [page];
+  });
 }
 
 async function selectNote(noteId, { focusReader = false } = {}) {

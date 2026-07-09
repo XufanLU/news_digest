@@ -319,23 +319,59 @@ body[data-app-mode="static"] .local-only {
 }
 
 .pagination {
-  display: grid;
-  grid-template-columns: minmax(92px, auto) minmax(0, 1fr) minmax(92px, auto);
-  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   align-items: center;
+  justify-content: center;
   margin-top: 14px;
 }
 
 .page-button {
-  width: 100%;
   min-width: 92px;
 }
 
-.page-summary {
+.page-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-number {
+  display: inline-grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.page-number:hover {
+  border-color: var(--line);
+  background: var(--surface);
+}
+
+.page-number.active {
+  border-color: var(--accent);
+  background: #e0f2f1;
+  color: var(--ink);
+  cursor: default;
+}
+
+.page-gap {
+  display: inline-grid;
+  width: 28px;
+  height: 36px;
+  place-items: center;
   color: var(--muted);
   font-size: 13px;
   font-weight: 700;
-  text-align: center;
 }
 
 .note-row {
@@ -628,12 +664,12 @@ body[data-app-mode="static"] .local-only {
     max-width: 110px;
   }
 
-  .pagination {
-    grid-template-columns: 1fr 1fr;
+  .page-button {
+    min-width: 86px;
   }
 
-  .page-summary {
-    grid-column: 1 / -1;
-    grid-row: 1;
+  .page-links {
+    order: -1;
+    width: 100%;
   }
 }
