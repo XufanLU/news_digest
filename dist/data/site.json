@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:02:39.714Z",
+  "generatedAt": "2026-07-09T08:40:58.903Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-07-06T11:02:39.714Z",
+    "latestRunAt": "2026-07-09T08:40:58.903Z",
     "latestVideoCount": 3,
-    "processedCount": 99,
-    "noteCount": 92
+    "processedCount": 102,
+    "noteCount": 95
   },
   "notes": [
+    {
+      "id": "2026-07-09-when-everyone-can-code-this-is-what-s-scarce-ai-careers-aijobs-coding-tech.md",
+      "file": "2026-07-09-when-everyone-can-code-this-is-what-s-scarce-ai-careers-aijobs-coding-tech.md",
+      "title": "When everyone can code, this is what's scarce #AI #careers #AIjobs #coding #tech",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-07-09T03:00:25+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=s1QIY2AhD5k",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s1QIY2AhD5k/mqdefault.jpg",
+      "excerpt": "The clip argues that as AI agents take on more coding and code review work, the scarce organizational skill shifts toward translating vague business needs into precise specs and ju",
+      "html": "<h1>When everyone can code, this is what's scarce #AI #careers #AIjobs #coding #tech</h1>\n<h2>What This Is About</h2>\n<p>The clip argues that as AI agents take on more coding and code review work, the scarce organizational skill shifts toward translating vague business needs into precise specs and judging whether the result actually helps customers.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Spec translation: turning messy business intent into clear requirements an AI system or engineering team can execute.</li>\n<li>Judgment over output: knowing whether generated work solves the real customer problem, not just whether it compiles or passes review.</li>\n<li>Role fluidity: the valuable person may not have a traditional coding title; the center of gravity is precision plus product judgment.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Coding skill remains useful, but the differentiator becomes problem framing, decomposition, and evaluation.</li>\n<li>AI agents may absorb more implementation and pull-request review work, raising the premium on people who can direct them well.</li>\n<li>Strong specs are not bureaucracy; they become the interface between business ambiguity and machine execution.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What would a high-quality spec look like for a recurring business workflow in this organization?</li>\n<li>Which parts of current engineering review are really code checks, and which are product judgment checks?</li>\n<li>How should teams train non-engineers to express needs with enough precision for AI-assisted execution?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Video: https://www.youtube.com/watch?v=s1QIY2AhD5k</li>\n<li>Practice exercise: take a vague customer request and rewrite it as acceptance criteria, constraints, and testable examples.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>When everyone can ask AI to write code, the scarce skill is not typing syntax faster.</p>\n<p>It is the ability to turn a vague business need into a sharp spec, then judge whether the result actually solves a customer problem. The new leverage point is precision plus taste.</p>"
+    },
+    {
+      "id": "2026-07-08-the-next-generation-of-chatgpt-voice.md",
+      "file": "2026-07-08-the-next-generation-of-chatgpt-voice.md",
+      "title": "The next generation of ChatGPT Voice",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-07-08T21:13:26+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=9f-Ew_lDtxc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9f-Ew_lDtxc/mqdefault.jpg",
+      "excerpt": "OpenAI introduces the next generation of ChatGPT Voice powered by GPT Live 1. The demo emphasizes a more natural, full-duplex voice interface that can listen and speak at the same ",
+      "html": "<h1>The next generation of ChatGPT Voice</h1>\n<h2>What This Is About</h2>\n<p>OpenAI introduces the next generation of ChatGPT Voice powered by GPT Live 1. The demo emphasizes a more natural, full-duplex voice interface that can listen and speak at the same time, handle interruptions, translate in real time, search the web, reason through tasks, and delegate harder work to a stronger model while staying conversational.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Full duplex conversation: the model continuously processes audio input and produces audio output at the same time, closer to a normal phone call than turn-based voice commands.</li>\n<li>Continuous interaction: ChatGPT can follow interruptions, pauses, corrections, backchannels, laughter, and mid-thought changes without waiting for a strict end-of-turn.</li>\n<li>Delegation for deeper work: GPT Live can stay in the conversation while delegating complex reasoning or search-heavy questions to GPT-5.5 in parallel.</li>\n<li>Proactive assistance: in the language-coaching demo, the model jumps in at the requested moments to correct grammar and explain more natural phrasing.</li>\n<li>Semantic translation: the translation demo highlights meaning and flow across English and Chinese rather than word-by-word conversion.</li>\n<li>Intelligence picker: users can choose faster interaction or deeper reasoning for more complicated queries.</li>\n<li>Safety emphasis: the closing notes mention safeguards and steering away from risky conversations as naturalness and intelligence increase.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Voice becomes much more useful when it stops behaving like a command line and starts managing timing, overlap, and context like a conversation partner.</li>\n<li>The product architecture separates conversational responsiveness from deeper reasoning, which helps avoid forcing every query into a slow blocking interaction.</li>\n<li>The best demos are not just &quot;the voice sounds human&quot;; they show practical workflows: lecture fact-checking, transit/weather lookup, live translation, language coaching, and sports research.</li>\n<li>Real-time voice AI changes the interface expectation: users can think aloud, revise themselves, interrupt, and ask follow-up questions without resetting the interaction.</li>\n<li>Trust still depends on intelligence and verification. The demo explicitly connects better voice UX with search, reasoning, and stronger frontier-model delegation.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What workflows are meaningfully better in voice than text: coaching, accessibility, field work, live translation, commuting, or hands-busy tasks?</li>\n<li>How should voice agents signal when they are searching, reasoning, guessing, or translating rather than simply conversing?</li>\n<li>What safety and consent expectations change when an AI is continuously listening instead of being manually activated for each turn?</li>\n<li>How should product teams design interruption behavior so proactive help is useful rather than annoying?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Video: https://www.youtube.com/watch?v=9f-Ew_lDtxc</li>\n<li>Model/product terms mentioned: GPT Live 1, ChatGPT Voice, GPT-5.5 delegation, intelligence picker.</li>\n<li>Demo scenarios: knitting advice, lecture fact-checking, BART/weather lookup, French negotiation translation, English language coaching, English-Chinese live translation, sports search and summarization.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>The key shift in the new ChatGPT Voice is not just better audio.</p>\n<p>It is full duplex interaction: the AI can listen while speaking, handle interruptions, and stay present while deeper reasoning or web search happens in the background. That turns voice from a command interface into something closer to a live collaborator.</p>"
+    },
+    {
+      "id": "2026-07-08-how-bain-capital-is-scaling-ai-with-chatgpt.md",
+      "file": "2026-07-08-how-bain-capital-is-scaling-ai-with-chatgpt.md",
+      "title": "How Bain Capital Is Scaling AI with ChatGPT",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-07-08T22:51:23+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=8xqQzrLf0co",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8xqQzrLf0co/mqdefault.jpg",
+      "excerpt": "This OpenAI customer story frames Bain Capital's enterprise ChatGPT rollout as a force multiplier across 2,700 employees and uses portfolio company Zelis as an example of AI improv",
+      "html": "<h1>How Bain Capital Is Scaling AI with ChatGPT</h1>\n<h2>What This Is About</h2>\n<p>This OpenAI customer story frames Bain Capital's enterprise ChatGPT rollout as a force multiplier across 2,700 employees and uses portfolio company Zelis as an example of AI improving high-volume healthcare claims and payments workflows.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Enterprise-wide access: every Bain Capital employee has an enterprise ChatGPT license, making AI a shared operating layer rather than a niche tool.</li>\n<li>Portfolio operations: AI is positioned not only for Bain's internal work, but also for improving companies Bain invests in.</li>\n<li>Claims processing automation: Zelis handles large-scale payer-provider payments and claims clearinghouse work, where manual review creates cost and friction.</li>\n<li>Industry-level cost takeout: the claimed benefit is not only company efficiency, but reducing labor-intensive overhead across healthcare administration.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>The strongest enterprise AI cases are attached to concrete operational bottlenecks: high volume, repetitive decisions, and costly manual handling.</li>\n<li>Private equity firms can use AI adoption as a portfolio value-creation lever, not just an internal productivity tool.</li>\n<li>Readiness matters on both sides: Bain's message is that models and enterprises have crossed a threshold where deployment is now practical.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which portfolio or business workflows have Zelis-like properties: high volume, high cost, rule-heavy, and still manual?</li>\n<li>What governance is needed before automating healthcare claims, payments, or kickback-related workflows?</li>\n<li>How should an enterprise measure AI value: employee productivity, cost removed, cycle time, accuracy, or industry-wide savings?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Video: https://www.youtube.com/watch?v=8xqQzrLf0co</li>\n<li>Example domain: healthcare payer-provider claims processing and payment clearinghouse operations.</li>\n<li>Tool referenced: ChatGPT Enterprise.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Bain Capital's AI story is less about chatbots and more about operating leverage.</p>\n<p>Give 2,700 employees ChatGPT, then point the capability at portfolio-company workflows where the numbers are huge: hundreds of millions of claims, hundreds of billions of dollars processed, and too much manual labor. That is where enterprise AI starts to look like real cost transformation.</p>"
+    },
     {
       "id": "2026-07-06-this-time-the-rumors-are-true-claudefable5-fable5-claude-ai-aitools.md",
       "file": "2026-07-06-this-time-the-rumors-are-true-claudefable5-fable5-claude-ai-aitools.md",
