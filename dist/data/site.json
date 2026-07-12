@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T11:03:33.697Z",
+  "generatedAt": "2026-07-12T11:01:07.334Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,36 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-07-10T11:03:33.697Z",
+    "latestRunAt": "2026-07-12T11:01:07.334Z",
     "latestVideoCount": 3,
-    "processedCount": 111,
-    "noteCount": 101
+    "processedCount": 114,
+    "noteCount": 104
   },
   "notes": [
+    {
+      "id": "2026-07-12-with-ai-going-slow-is-the-dangerous-move-ai-productivity-mindset-technology.md",
+      "file": "2026-07-12-with-ai-going-slow-is-the-dangerous-move-ai-productivity-mindset-technology.md",
+      "title": "With AI, going slow is the dangerous move #AI #productivity #mindset #technology",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-07-12T03:00:02+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=CqNBsMlZKa4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CqNBsMlZKa4/mqdefault.jpg",
+      "excerpt": "This short argues that working with AI can feel less safe when you move slowly, the same way a bicycle feels unstable at very low speed. The point is not reckless speed; it is that",
+      "html": "<h1>With AI, going slow is the dangerous move #AI #productivity #mindset #technology</h1>\n<h2>What This Is About</h2>\n<p>This short argues that working with AI can feel less safe when you move slowly, the same way a bicycle feels unstable at very low speed. The point is not reckless speed; it is that confidence and balance often come from leaning in, practicing faster cycles, and learning by doing.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Bike analogy for AI adoption: too much caution can make the experience feel harder to control.</li>\n<li>Speed as a learning mechanism: faster feedback loops can create steadier judgment.</li>\n<li>Safety through fluency: the speaker frames active practice as safer than hanging back.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Treat AI work as a skill that improves through repeated motion, not only careful observation.</li>\n<li>Moving slowly can preserve a feeling of control while delaying the experience needed to actually control the tool.</li>\n<li>The practical learning target is steadiness: becoming comfortable enough to iterate without freezing.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Where am I moving slowly with AI because I am being careful, and where is slowness just avoidance?</li>\n<li>What small workflow could I run at a faster cadence this week to build real fluency?</li>\n<li>What guardrails would let me lean in without creating unnecessary risk?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Example: compare learning AI workflows to learning to ride a bike; stability improves once there is enough forward motion.</li>\n<li>Video: https://www.youtube.com/watch?v=CqNBsMlZKa4</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Going slow with AI can feel safer, but it may be the thing that keeps you unstable. Like riding a bike, balance comes from enough forward motion to learn what control feels like. Pick one low-risk workflow and run faster loops until the tool feels less mysterious.</p>"
+    },
+    {
+      "id": "2026-07-11-the-ai-skill-nobody-talks-about-and-it-isn-t-prompting-ai-prompting-productivity.md",
+      "file": "2026-07-11-the-ai-skill-nobody-talks-about-and-it-isn-t-prompting-ai-prompting-productivity.md",
+      "title": "The AI skill nobody talks about (and it isn't prompting) #AI #prompting #productivity #tech",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-07-11T03:00:30+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=gROqcBXoz_c",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gROqcBXoz_c/mqdefault.jpg",
+      "excerpt": "This short contrasts a basic 2025-style chatbot request with a 2026-style agent handoff. The central skill is writing a structured specification up front so the same model can prod",
+      "html": "<h1>The AI skill nobody talks about (and it isn't prompting) #AI #prompting #productivity #tech</h1>\n<h2>What This Is About</h2>\n<p>This short contrasts a basic 2025-style chatbot request with a 2026-style agent handoff. The central skill is writing a structured specification up front so the same model can produce work that meets explicit quality bars with much less back-and-forth.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Specification before generation: the prompt becomes a detailed work order, not a loose request.</li>\n<li>Agentic handoff: the user frames the chatbot as an autonomous worker that can complete a defined task while the user steps away.</li>\n<li>Quality bars: success criteria are written into the prompt before output begins.</li>\n<li>Scale through parallelization: the gain comes from repeating structured handoffs across multiple deliverables.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Prompting skill is shifting from clever wording to clear task design.</li>\n<li>Taking longer to specify the work can reduce total time by preventing vague 80% outputs.</li>\n<li>The same model can produce radically different value depending on whether the user gives it executable standards.</li>\n<li>Good AI leverage often looks like preparing five clean handoffs, not micromanaging one draft.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What does an 11-minute structured specification need to include for a deck, memo, or analysis?</li>\n<li>Which recurring work products already have enough quality criteria to be handed off agentically?</li>\n<li>How should I review outputs when I define the quality bar up front?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Example: PowerPoint deck request versus a structured specification with quality bars.</li>\n<li>Pattern: write role, context, deliverable, constraints, acceptance criteria, and review checklist before execution.</li>\n<li>Video: https://www.youtube.com/watch?v=gROqcBXoz_c</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>The underrated AI skill is not &quot;better prompting&quot; in the old sense. It is specification. Spend 10 minutes defining the deliverable, constraints, and quality bar, then hand the work to the model like an agent. Same model, very different output.</p>"
+    },
     {
       "id": "2026-07-10-the-one-question-that-tells-you-if-your-role-is-safe-ai-careers-aijobs-jobs-tech.md",
       "file": "2026-07-10-the-one-question-that-tells-you-if-your-role-is-safe-ai-careers-aijobs-jobs-tech.md",
@@ -44,6 +68,18 @@
       "thumbnailUrl": "https://i.ytimg.com/vi/SvMFPKLqYSU/mqdefault.jpg",
       "excerpt": "This short career note proposes a blunt test for role resilience: if the company were half or a quarter of its current size, would the role still exist? If not, the role may depend",
       "html": "<h1>The one question that tells you if your role is safe #AI #careers #AIjobs #jobs #tech</h1>\n<h2>What This Is About</h2>\n<p>This short career note proposes a blunt test for role resilience: if the company were half or a quarter of its current size, would the role still exist? If not, the role may depend mainly on coordination work, which is vulnerable when organizations get leaner and AI tools reduce coordination overhead.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Role safety is tied to direct value creation, not just activity or organizational visibility.</li>\n<li>Coordination-heavy work is exposed when companies shrink or automate handoffs.</li>\n<li>&quot;Ring the cash register&quot; means moving closer to revenue, customer value, product creation, or decision-driving data.</li>\n<li>An engineering mindset means making knowledge work precise, testable, falsifiable, and tool-aware.</li>\n<li>AI-era knowledge workers need enough tool fluency to know when automated outputs are wrong.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>A useful self-audit is: would this job survive in a much smaller version of the company?</li>\n<li>If the answer is no, the next move is not panic; it is migration toward work with measurable business impact.</li>\n<li>Knowledge workers should describe their work in terms of outcomes, tests, and evidence rather than meetings or coordination load.</li>\n<li>Learning technical judgment is becoming a general career skill, even for non-engineering roles.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which parts of my current work directly create revenue, customer value, or decision-quality data?</li>\n<li>Which recurring coordination tasks could be automated, simplified, or removed?</li>\n<li>What would make my contribution easier to test or falsify?</li>\n<li>Which tools do I rely on, and where am I still unable to detect their mistakes?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Career diagnostic: &quot;If my company were half or a quarter of its current size, would my role exist?&quot;</li>\n<li>Example direction: customer-facing product work, revenue-generating workflows, business-direction analysis, or data systems that improve decisions.</li>\n<li>Useful practice: write a weekly work log in terms of measurable outputs, assumptions tested, and decisions improved.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>One AI-era career question:</p>\n<p>If your company were half its size, would your role still exist?</p>\n<p>If the answer is no, the role may be mostly coordination. That does not mean you are doomed. It means the smart move is to get closer to direct value: revenue, product, customers, or the data that guides business decisions.</p>\n<p>The new baseline for knowledge work: be precise, testable, falsifiable, and fluent enough with tools to know when they are wrong.</p>"
+    },
+    {
+      "id": "2026-07-10-ringcentral-scales-customer-programs-with-chatgpt-work.md",
+      "file": "2026-07-10-ringcentral-scales-customer-programs-with-chatgpt-work.md",
+      "title": "RingCentral Scales Customer Programs with ChatGPT Work",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-07-10T21:21:13+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=MdTqoR-7oHg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MdTqoR-7oHg/mqdefault.jpg",
+      "excerpt": "This OpenAI customer clip describes how RingCentral uses ChatGPT with Codex to turn scattered PMO notes and chat history into a more active operating system for customer programs. ",
+      "html": "<h1>RingCentral Scales Customer Programs with ChatGPT Work</h1>\n<h2>What This Is About</h2>\n<p>This OpenAI customer clip describes how RingCentral uses ChatGPT with Codex to turn scattered PMO notes and chat history into a more active operating system for customer programs. The speaker says this helped scale tracking from 6 pilot customers to about 80 customers after launch.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Knowledge consolidation: scattered notes and conversations become a living program-management system.</li>\n<li>Customer-program scaling: AI support expands the number of accounts or programs a PMO can track.</li>\n<li>Agentic AI capabilities: the speaker emphasizes moving from reviewing insights to executing on them.</li>\n<li>Review plane versus execution plane: value comes when information turns into concrete next actions.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI is most useful in operational roles when it connects memory, status, and execution rather than only summarizing.</li>\n<li>A practical scaling metric is how many customers or workstreams one person can track with the same quality.</li>\n<li>Codex-style workflows can help turn internal knowledge into repeatable operating processes.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What kinds of PMO notes or chat history are safe and useful to convert into a living operating system?</li>\n<li>Which parts of customer-program management should remain human-reviewed before execution?</li>\n<li>What changed between tracking 6 pilot customers and 80 launched customers: data model, cadence, or automation?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Example: consolidating PMO knowledge from notes and chat history into a working customer-program system.</li>\n<li>Tool mentioned: ChatGPT with Codex.</li>\n<li>Video: https://www.youtube.com/watch?v=MdTqoR-7oHg</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>RingCentral's example is a useful framing for AI at work: do not stop at summarizing scattered notes. Turn them into an operating system that helps track customers, surface insights, and move into execution. The leverage is in the handoff from knowledge to action.</p>"
     },
     {
       "id": "2026-07-10-how-deutsche-telekom-is-rewiring-telecommunications-with-ai.md",
