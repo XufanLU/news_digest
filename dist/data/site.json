@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T11:01:07.334Z",
+  "generatedAt": "2026-07-13T11:01:15.481Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-07-12T11:01:07.334Z",
+    "latestRunAt": "2026-07-13T11:01:15.481Z",
     "latestVideoCount": 3,
-    "processedCount": 114,
-    "noteCount": 104
+    "processedCount": 117,
+    "noteCount": 107
   },
   "notes": [
+    {
+      "id": "2026-07-13-国际足联腐败史-英国老头-足球的权力共生网络与-免死金牌.md",
+      "file": "2026-07-13-国际足联腐败史-英国老头-足球的权力共生网络与-免死金牌.md",
+      "title": "国际足联腐败史：英国老头、足球的权力共生网络与“免死金牌”",
+      "channel": "硅谷101",
+      "status": "generated",
+      "published": "2026-07-13T06:00:30+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=i0t3RyLILnw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i0t3RyLILnw/mqdefault.jpg",
+      "excerpt": "这期用2015年苏黎世抓捕行动作为切入口，梳理国际足联长期腐败网络的形成、运转和被美国司法系统击穿的过程。核心人物包括布拉特、阿维兰热、安德鲁·詹宁斯、查克·布雷泽和IRS探员史蒂夫·贝里曼；核心机制包括世界杯转播与赞助权、主办权投票、发展援助、瑞士非营利协会身份、FIFA反政府干预规则，以及美国通过电汇系统和RICO法案建立的长臂管辖。 FIFA腐败案最值",
+      "html": "<h1>国际足联腐败史：英国老头、足球的权力共生网络与“免死金牌”</h1>\n<h2>What This Is About</h2>\n<p>这期用2015年苏黎世抓捕行动作为切入口，梳理国际足联长期腐败网络的形成、运转和被美国司法系统击穿的过程。核心人物包括布拉特、阿维兰热、安德鲁·詹宁斯、查克·布雷泽和IRS探员史蒂夫·贝里曼；核心机制包括世界杯转播与赞助权、主办权投票、发展援助、瑞士非营利协会身份、FIFA反政府干预规则，以及美国通过电汇系统和RICO法案建立的长臂管辖。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>“现金换选票”：FIFA一国一票制度让小国足协拥有与足球强国同等的主席选票，发展基金、世界杯名额和商业资源被用来稳固政治支持。</li>\n<li>ISL模式：体育营销公司代理世界杯转播权和赞助权，从商业交易中抽取巨额利润，再以回扣形式输送给高层，形成权钱闭环。</li>\n<li>准入权交易：传统体育媒体依赖采访证、独家访问和赛事资源，容易被FIFA的准入控制压制调查动力。</li>\n<li>免死金牌体系：瑞士非营利协会身份、FIFA禁止政府干预足球事务、少数执委秘密决策，共同削弱外部监管。</li>\n<li>美国突破口：国际电汇经过美国清算系统，加上RICO对“犯罪企业”的定义，让美国司法部能追查跨国足球腐败。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>腐败不是单个坏人的问题，而是规则、资金流、投票结构和监管真空共同设计出的系统性结果。</li>\n<li>调查记者的价值在于建立可信任的外部通道：詹宁斯的公开质问让内部线人相信证据交给他是安全的。</li>\n<li>商业赞助和转播权把FIFA从清水衙门变成全球商业机器，也把不透明治理的风险成倍放大。</li>\n<li>“反政府干预”表面保护体育独立，实际也可能成为组织逃避国家司法监督的盾牌。</li>\n<li>真正有效的问责常来自组织外部：银行记录、税务记录、司法传票和卧底录音比内部伦理调查更难被公关化。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>体育组织应如何在保持竞赛独立的同时接受公共问责？</li>\n<li>一国一票是否适合管理高度商业化的全球赛事？</li>\n<li>FIFA改革后的211个成员公开投票，是否真正降低了贿选空间？</li>\n<li>美国长臂管辖在跨国反腐中是必要工具，还是会带来新的权力不平衡？</li>\n<li>当商业价值继续上升时，世界杯主办权还需要哪些更强的透明机制？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>2015年苏黎世FIFA高官抓捕：美国司法部用RICO、电信欺诈、洗钱等罪名起诉足球官员和体育营销高管。</li>\n<li>安德鲁·詹宁斯：通过公开质问、线人文件和长期调查，持续揭露FIFA和体育组织腐败。</li>\n<li>ISL行贿清单：记录1989年至1999年间大量回扣支付，是理解FIFA商业腐败的重要线索。</li>\n<li>查克·布雷泽案：逃税和未申报海外账户成为美国执法机关撬开FIFA高层的关键杠杆。</li>\n<li>瑞士“FIFA法案”：2016年起将私营部门商业贿赂纳入刑法，但管辖范围仍有限。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>FIFA腐败案最值得学的不是“谁收了钱”，而是一个系统怎样让腐败长期稳定运行。</p>\n<p>一国一票让小国足协成为选举机器；转播权和赞助权提供现金流；瑞士非营利协会身份降低监管；“政府不得干预足球”又让各国司法投鼠忌器。最后真正撬开局面的，反而是调查记者、税务记录、国际电汇和RICO法案。</p>\n<p>很多组织问题也是这样：如果激励、信息和问责都错位，坏结果就不是事故，而是系统自然产物。</p>"
+    },
+    {
+      "id": "2026-07-13-claude-is-quietly-taking-over-your-company-s-data-ai-claude-anthropic-data-enter.md",
+      "file": "2026-07-13-claude-is-quietly-taking-over-your-company-s-data-ai-claude-anthropic-data-enter.md",
+      "title": "Claude is quietly taking over your company's data #AI #Claude #Anthropic #data #enterprise",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-07-13T03:00:31+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=EzVeeD_j8ko",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EzVeeD_j8ko/mqdefault.jpg",
+      "excerpt": "这条短视频提醒企业重新审视“把公司上下文交给前沿模型供应商”这件事。观点是：企业一直把数据视为竞争优势，但当Claude进入Slack等团队协作层并贴近日常工作流时，公司可能实际上是在把自己的核心上下文交给外部供应商，再以租用服务的方式把上下文租回来。 一个很现实的AI采购问题：",
+      "html": "<h1>Claude is quietly taking over your company's data #AI #Claude #Anthropic #data #enterprise</h1>\n<h2>What This Is About</h2>\n<p>这条短视频提醒企业重新审视“把公司上下文交给前沿模型供应商”这件事。观点是：企业一直把数据视为竞争优势，但当Claude进入Slack等团队协作层并贴近日常工作流时，公司可能实际上是在把自己的核心上下文交给外部供应商，再以租用服务的方式把上下文租回来。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Data is alpha：数据和内部上下文是企业形成判断、速度和差异化的核心资产。</li>\n<li>Context renting：当关键工作流被模型供应商承载时，企业可能对自己的业务上下文形成外部依赖。</li>\n<li>Team-level harness：Claude嵌入Slack等协作环境后，不只是单点工具，而可能成为团队工作流的执行外壳。</li>\n<li>Switching cost：一旦AI工具深度贴近团队知识、历史决策和沟通习惯，迁移成本会快速上升。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>企业采用AI协作工具时，不能只看生产力提升，也要评估上下文所有权和可迁移性。</li>\n<li>进入Slack、文档和项目系统的AI助手会接触到比单次提示更有价值的隐性组织知识。</li>\n<li>“不可替换”不一定来自模型能力本身，也可能来自积累的上下文、权限、集成和团队习惯。</li>\n<li>AI采购应包含数据边界、导出能力、审计日志、保留策略和供应商锁定风险评估。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>哪些企业上下文可以交给外部AI供应商，哪些必须留在自有系统或受控环境？</li>\n<li>如果明天要迁移出Claude或其他团队级AI工具，公司能否带走历史上下文和工作流配置？</li>\n<li>AI工具进入Slack后，谁负责定义权限边界、数据保留和敏感信息处理？</li>\n<li>企业是否需要内部“上下文资产清单”，像管理数据资产一样管理AI可读上下文？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Claude in Slack / team collaboration workflows：视频中用来说明模型供应商贴近团队日常工作流的例子。</li>\n<li>数据治理清单：数据分类、权限分层、日志审计、保留期限、供应商导出能力。</li>\n<li>供应商锁定评估：检查集成深度、上下文迁移难度、团队操作习惯和替代方案成熟度。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>一个很现实的AI采购问题：</p>\n<p>如果公司一直相信“数据就是护城河”，那把Slack、项目讨论、决策记录和团队上下文都交给前沿模型供应商时，到底是在增强自己，还是在把护城河外包？</p>\n<p>AI工具进入协作层之后，锁定效应不只来自模型效果，而来自它越来越懂你的团队。买工具之前，最好先问清楚：数据怎么留、上下文怎么导出、权限怎么控、迁移成本谁承担。</p>"
+    },
+    {
+      "id": "2026-07-12-your-roadmap-is-why-you-re-losing-to-ai-native-teams.md",
+      "file": "2026-07-12-your-roadmap-is-why-you-re-losing-to-ai-native-teams.md",
+      "title": "Your Roadmap Is Why You're Losing to AI-Native Teams.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-07-12T16:00:37+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=hYcOFTMesGc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hYcOFTMesGc/mqdefault.jpg",
+      "excerpt": "这期讨论为什么OpenAI、Anthropic和AI原生创业团队能以更快节奏发布，而许多传统公司即使用了AI仍然很慢。作者认为差异不只是模型能力，而是组织操作系统：把可重复的人类协调迁移到代码、文档和代理可执行的系统里，让稀缺的人类判断更靠近客户、产品和真实构建过程。 为什么AI原生团队发布那么快？",
+      "html": "<h1>Your Roadmap Is Why You're Losing to AI-Native Teams.</h1>\n<h2>What This Is About</h2>\n<p>这期讨论为什么OpenAI、Anthropic和AI原生创业团队能以更快节奏发布，而许多传统公司即使用了AI仍然很慢。作者认为差异不只是模型能力，而是组织操作系统：把可重复的人类协调迁移到代码、文档和代理可执行的系统里，让稀缺的人类判断更靠近客户、产品和真实构建过程。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>学习循环速度：AI降低了草稿、原型、分析和代码的边际成本，真正稀缺的是把有用东西放到客户面前并从证据中学习。</li>\n<li>Product in the terminal：产品经理不能只通过路线图和工单管理工程，而要每天接触代码、原型和真实产物。</li>\n<li>Documentation as code：文档不只是给人读，也会被代理读取，用来理解标准、权限、升级路径和完成定义。</li>\n<li>设计进入代码和SDK：体验不只在屏幕上，也在错误处理、权限边界、代理解释和系统回退中。</li>\n<li>全系统采用：取消路线图、减少会议、让PM进代码、提高文档质量和保护团队信任必须配套实施，单点复制会制造混乱。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI时代的速度不是“多用AI”，而是缩短从证据到产品改进的路径。</li>\n<li>当构建成本接近零，选择什么不做、什么值得被用户看见，变得更重要。</li>\n<li>传统路线图在高速度环境里容易过期，远期协调需要被日常协作、清晰责任和可判断的客户体验替代。</li>\n<li>模糊文档会把混乱传递给代理；清晰写作成为组织执行力的一部分。</li>\n<li>小团队仍然重要：便宜的个人产出不等于有品味、有领域知识、可信赖的客户体验。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>哪些会议可以被更清晰的决策文档、标准或代理可执行流程替代？</li>\n<li>产品经理进入代码和终端后，工程质量责任与产品判断边界应如何划分？</li>\n<li>团队的文档是否足够清楚，让新人和AI代理都能正确执行？</li>\n<li>如果取消传统路线图，公司用什么机制确保方向、优先级和客户价值一致？</li>\n<li>哪些可重复协调工作最适合先迁移到代码或自动化系统？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>15条“AI时代组织规则”：视频中用来组织变革建议的框架，包括加快工程、限制会议、文档即代码、PM进终端、设计进SDK等。</li>\n<li>数字摄影类比：当拍照成本归零，选择和整理变得更重要；AI让工作产出也出现类似变化。</li>\n<li>会议审计工具：作者提到可用工具审计定期会议，把时间重新分配给构建和高价值协作。</li>\n<li>Amazon式写作训练：反复打磨叙事文档，用写作迫使意图清晰。</li>\n<li>代理可读文档模板：标准、来源优先级、权限、升级路径、完成定义、风险边界。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>为什么AI原生团队发布那么快？</p>\n<p>不只是因为他们用了更强模型，而是公司“住”的地方变了：决策进入文档，流程进入代码，产品进入终端，设计进入SDK，代理能直接读取标准和上下文。</p>\n<p>AI把原型、分析、代码的成本打到很低以后，真正贵的是判断：什么值得做、什么不该做、什么能让客户马上验证。路线图如果还停留在季度会议里，就会变成速度的上限。</p>"
+    },
     {
       "id": "2026-07-12-with-ai-going-slow-is-the-dangerous-move-ai-productivity-mindset-technology.md",
       "file": "2026-07-12-with-ai-going-slow-is-the-dangerous-move-ai-productivity-mindset-technology.md",
