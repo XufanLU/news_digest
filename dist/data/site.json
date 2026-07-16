@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T11:01:15.481Z",
+  "generatedAt": "2026-07-16T11:02:04.409Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-07-13T11:01:15.481Z",
+    "latestRunAt": "2026-07-16T11:02:04.409Z",
     "latestVideoCount": 3,
-    "processedCount": 117,
-    "noteCount": 107
+    "processedCount": 120,
+    "noteCount": 110
   },
   "notes": [
+    {
+      "id": "2026-07-16-the-real-problem-with-ai-aiagents-claude-openclaw-productivity.md",
+      "file": "2026-07-16-the-real-problem-with-ai-aiagents-claude-openclaw-productivity.md",
+      "title": "The real problem with AI #aiagents #Claude #OpenClaw #productivity",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-07-16T03:00:39+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=xeid_wnpfJs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xeid_wnpfJs/mqdefault.jpg",
+      "excerpt": "This short reflection argues that experienced AI users can still get stuck because their work is split across several specialized systems. The example is an agency operator who use",
+      "html": "<h1>The real problem with AI #aiagents #Claude #OpenClaw #productivity</h1>\n<h2>What This Is About</h2>\n<p>This short reflection argues that experienced AI users can still get stuck because their work is split across several specialized systems. The example is an agency operator who uses Claude Code, automation loops, OpenClaw, and OpenAI tools, but still has to manually carry context and outputs between them.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Tool fragmentation: different AI products may each be strong at one part of the workflow, but the user becomes the integration layer.</li>\n<li>Capability specialization: the speaker frames Claude as more intuitive for front-end design and OpenAI as strong in back-end engineering.</li>\n<li>Agent orchestration gap: agents that do &quot;real work&quot; still need connective tissue across tools, state, approvals, and handoffs.</li>\n<li>Hidden labor: productivity gains can be offset when humans must coordinate multiple systems all day.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>The practical problem is not only whether an AI model is powerful; it is whether the overall workflow reduces handoff burden.</li>\n<li>A multi-tool AI stack should be evaluated by end-to-end throughput, not by isolated model strengths.</li>\n<li>For agency or operator workflows, durable memory, shared context, and clean tool-to-tool handoffs may matter more than another narrow capability boost.</li>\n<li>If the user is still moving information between five systems, the automation design is incomplete.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which tasks in my own workflow require moving context between separate AI systems?</li>\n<li>What should live in a shared memory or project workspace so different tools do not need repeated setup?</li>\n<li>When is it better to standardize on one weaker tool versus coordinate several stronger specialized tools?</li>\n<li>What governance or review steps are still useful even when agents can hand work to each other?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Example workflow: an agency operator using Claude Code, OpenAI tools, OpenClaw, and automation loops.</li>\n<li>Tool categories mentioned: front-end coding assistants, back-end engineering assistants, and agent systems for delegated work.</li>\n<li>Design prompt: map every human handoff between AI tools and ask whether it can be removed, logged, or turned into a reusable workflow.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>The real bottleneck in AI work may not be model quality.</p>\n<p>It is the handoff.</p>\n<p>One tool is better at front-end design. Another is better at back-end engineering. Another runs agents. Another handles a specific daily loop. Suddenly the &quot;AI-powered&quot; worker is still the person carrying context between five systems.</p>\n<p>Useful test: after adding an AI tool, ask whether it removed coordination work or just moved it somewhere less visible.</p>"
+    },
+    {
+      "id": "2026-07-15-schedule-tasks-with-chatgpt.md",
+      "file": "2026-07-15-schedule-tasks-with-chatgpt.md",
+      "title": "Schedule tasks with ChatGPT",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-07-15T22:50:17+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=CToxp125mhc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CToxp125mhc/mqdefault.jpg",
+      "excerpt": "This demo shows how ChatGPT desktop scheduled tasks can turn recurring work into background workflows. The examples are a daily chief-of-staff brief that gathers context from work ",
+      "html": "<h1>Schedule tasks with ChatGPT</h1>\n<h2>What This Is About</h2>\n<p>This demo shows how ChatGPT desktop scheduled tasks can turn recurring work into background workflows. The examples are a daily chief-of-staff brief that gathers context from work apps and a weekly feedback triage flow that summarizes inputs and posts the output for a team.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Scheduled tasks: recurring ChatGPT runs that deliver briefs or perform repeatable workflows without a fresh manual prompt each time.</li>\n<li>Connected work context: Slack, email, calendar, Notion, and Drive can provide the inputs for prioritization or triage.</li>\n<li>Separate workflow chats: recurring work can live in named chats such as &quot;Chief of Staff&quot; or &quot;Feedback Triage.&quot;</li>\n<li>Workspace Agent: a local scheduled workflow can be moved to the cloud so a team can use it from ChatGPT or Slack.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>A good scheduled task starts from a repeatable decision or synthesis need, such as &quot;what needs attention today?&quot;</li>\n<li>The value comes from combining multiple work sources into one actionable summary, not from simply reminding the user.</li>\n<li>Weekly triage is a strong pattern for scattered feedback because the system can gather inputs, summarize themes, and publish a team artifact.</li>\n<li>Local personal workflows can become shared agents once the process is stable enough for team use.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which recurring brief would save the most context-switching: daily priorities, weekly feedback, or meeting prep?</li>\n<li>What source permissions are required before a scheduled task can safely read Slack, email, calendar, Notion, or Drive?</li>\n<li>What quality checks should run before an agent posts a generated document to a team channel?</li>\n<li>Which personal scheduled tasks are mature enough to convert into Workspace Agents?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Daily Chief of Staff brief: gathers urgent tasks, deadlines, meetings, and context before the workday starts.</li>\n<li>Weekly Feedback Triage: pulls onboarding feedback from Slack, Notion, and Drive, creates a Google Doc, and posts it to Slack.</li>\n<li>ChatGPT desktop app scheduled tasks.</li>\n<li>Workspace Agent for cloud-hosted, team-usable workflows.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Scheduled tasks are more useful when they do synthesis, not reminders.</p>\n<p>Example:</p>\n<ul>\n<li>Every weekday: pull Slack, email, and calendar into one &quot;what needs attention&quot; brief.</li>\n<li>Every week: gather onboarding feedback from Slack, Notion, and Drive, summarize it into a doc, and post it to the team.</li>\n</ul>\n<p>The pattern is simple: if you ask the same operational question every week, turn it into a workflow.</p>"
+    },
+    {
+      "id": "2026-07-15-introducing-the-codex-micro.md",
+      "file": "2026-07-15-introducing-the-codex-micro.md",
+      "title": "Introducing the Codex Micro",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-07-15T19:42:38+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=m8uUUUsMD3Y",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m8uUUUsMD3Y/mqdefault.jpg",
+      "excerpt": "This product demo introduces Codex Micro, a customizable keyboard made with Work Louder for steering Codex workflows. The demo shows voice dictation, task switching, plan mode, rea",
+      "html": "<h1>Introducing the Codex Micro</h1>\n<h2>What This Is About</h2>\n<p>This product demo introduces Codex Micro, a customizable keyboard made with Work Louder for steering Codex workflows. The demo shows voice dictation, task switching, plan mode, reasoning-effort control, permission approval, and customizable shortcuts while building a browser game.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Hardware control surface: Codex Micro maps common Codex actions to physical keys, a dial, and an analog stick.</li>\n<li>Voice-first prompting: holding a key can dictate a full Codex task without using the laptop keyboard.</li>\n<li>Mode and effort switching: the analog stick can enter Plan mode, while the dial adjusts reasoning effort for quick versus deeper tasks.</li>\n<li>Multi-task navigation: pinned Codex tasks can map to keys so users can jump between active workstreams and see which need attention.</li>\n<li>Permission flow: the device can surface permission prompts and accept them without losing workflow context.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>For agentic coding, ergonomics matter: reducing small interaction costs can make delegation feel more continuous.</li>\n<li>Physical controls are useful when they map to repeated actions such as prompt entry, task switching, reasoning level, and approvals.</li>\n<li>The Codex workflow shown is not just &quot;ask once and wait&quot;; it is an iterative loop of prompting, reviewing, permissioning, and refining.</li>\n<li>Customizable mappings make the device more like a personal workflow console than a fixed keyboard accessory.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which Codex actions do I repeat often enough to deserve a dedicated key or dial mapping?</li>\n<li>Does hardware control meaningfully improve throughput, or mostly reduce friction and context switching?</li>\n<li>How should permission prompts be handled so fast approval does not weaken safety review?</li>\n<li>Which workflows benefit most from voice dictation: prototyping, issue triage, design iteration, or PR prep?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Codex Micro, built with Work Louder.</li>\n<li>Demo task: build a browser game called &quot;One Letter Off&quot; with a 30-second timer, streaks, and tile animations.</li>\n<li>Codex features shown: Plan mode, pinned tasks, reasoning-effort control, voice dictation, permission approval, and customizable action mappings.</li>\n<li>Product link mentioned: openai.com/supply.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Codex Micro is interesting because it treats coding agents like an active workspace, not a chat box.</p>\n<p>The useful controls are not flashy:</p>\n<ul>\n<li>hold to dictate a task</li>\n<li>switch between pinned Codex tasks</li>\n<li>change reasoning effort with a dial</li>\n<li>jump into Plan mode</li>\n<li>approve a permission prompt</li>\n</ul>\n<p>The lesson: as AI coding becomes more agentic, the bottleneck shifts from typing code to steering many small loops cleanly.</p>"
+    },
     {
       "id": "2026-07-13-国际足联腐败史-英国老头-足球的权力共生网络与-免死金牌.md",
       "file": "2026-07-13-国际足联腐败史-英国老头-足球的权力共生网络与-免死金牌.md",
