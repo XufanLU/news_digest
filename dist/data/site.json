@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T11:02:04.409Z",
+  "generatedAt": "2026-07-17T13:54:22.833Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,36 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-07-16T11:02:04.409Z",
+    "latestRunAt": "2026-07-17T13:54:22.833Z",
     "latestVideoCount": 3,
-    "processedCount": 120,
-    "noteCount": 110
+    "processedCount": 123,
+    "noteCount": 112
   },
   "notes": [
+    {
+      "id": "2026-07-17-virgin-atlantic-turns-weeks-of-work-into-hours-with-chatgpt-work.md",
+      "file": "2026-07-17-virgin-atlantic-turns-weeks-of-work-into-hours-with-chatgpt-work.md",
+      "title": "Virgin Atlantic Turns Weeks of Work Into Hours with ChatGPT Work",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-07-17T12:55:22+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=tyAO2zR_qZI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tyAO2zR_qZI/mqdefault.jpg",
+      "excerpt": "Virgin Atlantic describes how ChatGPT Work helps its customer experience and product teams turn customer signals into faster decisions and shipped internal tools. The core example ",
+      "html": "<h1>Virgin Atlantic Turns Weeks of Work Into Hours with ChatGPT Work</h1>\n<h2>What This Is About</h2>\n<p>Virgin Atlantic describes how ChatGPT Work helps its customer experience and product teams turn customer signals into faster decisions and shipped internal tools. The core example is using ChatGPT and Codex to build custom dashboards and reporting interfaces that combine multiple datasets, shortening the path from idea to feature.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Customer experience teams can use AI to spot recurring needs, decide what matters, and prioritize operational changes.</li>\n<li>Codex is positioned as a way to build internal dashboards and reporting tools from several data sources without waiting through a long product cycle.</li>\n<li>The value is not just faster coding; it is faster movement from customer insight to usable feature.</li>\n<li>The business case combines time savings, cost efficiency, and better end-to-end customer journey decisions.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI tools are most useful when tied to a specific operational loop: observe customers, synthesize needs, build a tool, and act on the result.</li>\n<li>Custom dashboards become more valuable when they consolidate fragmented data sources into one decision surface.</li>\n<li>Shortening the product lifecycle matters because customer-facing improvements only count once they reach users.</li>\n<li>For enterprise adoption stories, look for the concrete workflow being accelerated rather than the generic claim that AI saves time.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which customer experience metrics did Virgin Atlantic connect into these dashboards?</li>\n<li>How much of the workflow is handled by non-technical teams versus product or engineering teams?</li>\n<li>What governance process checks AI-generated dashboards before they influence customer decisions?</li>\n<li>Are the biggest gains coming from faster prototyping, faster reporting, or faster stakeholder alignment?</li>\n</ul>\n<h2>Useful Examples/Tools/Links</h2>\n<ul>\n<li>ChatGPT Work for customer experience prioritization and decision support.</li>\n<li>Codex for building custom dashboards and reporting interfaces.</li>\n<li>Multi-source reporting as a practical enterprise use case for AI-assisted product work.</li>\n<li>Video references: https://www.youtube.com/watch?v=5gBQzz_5_jU and https://www.youtube.com/watch?v=tyAO2zR_qZI</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Virgin Atlantic's example is a useful reminder that enterprise AI value often shows up in quiet internal workflows, not flashy demos. The interesting pattern: customer signals flow into dashboards, dashboards drive decisions, and Codex helps teams move from idea to feature faster. The real question to ask in any AI rollout is: what decision loop got shorter?</p>"
+    },
+    {
+      "id": "2026-07-17-sk海力士崛起史-一个荒诞又狗血的财阀故事-如何卡住全球ai的脖子.md",
+      "file": "2026-07-17-sk海力士崛起史-一个荒诞又狗血的财阀故事-如何卡住全球ai的脖子.md",
+      "title": "SK海力士崛起史：一个荒诞又狗血的财阀故事，如何卡住全球AI的脖子",
+      "channel": "硅谷101",
+      "status": "generated",
+      "published": "2026-07-17T12:30:32+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=nilNLfW7izg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nilNLfW7izg/mqdefault.jpg",
+      "excerpt": "这期视频用 SK 海力士的崛起史解释为什么 HBM 成为 AI 基础设施的关键瓶颈。内容从 SK 财阀的能源、电信收购讲到海力士在存储周期中的濒死重组，再到 SK 收购后押注 HBM、绑定英伟达，并穿插韩国财阀政治与崔泰源离婚案对市场叙事的影响。 为什么 SK 海力士能“卡住 AI 的脖子”？答案不是一句“内存涨价”这么简单。AI 需要 GPU，也需要 HB",
+      "html": "<h1>SK海力士崛起史：一个荒诞又狗血的财阀故事，如何卡住全球AI的脖子</h1>\n<h2>What This Is About</h2>\n<p>这期视频用 SK 海力士的崛起史解释为什么 HBM 成为 AI 基础设施的关键瓶颈。内容从 SK 财阀的能源、电信收购讲到海力士在存储周期中的濒死重组，再到 SK 收购后押注 HBM、绑定英伟达，并穿插韩国财阀政治与崔泰源离婚案对市场叙事的影响。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>存储行业长期是高资本开支、高周期性、低差异化的艰难生意，企业必须在低谷中继续投资才能留在牌桌上。</li>\n<li>HBM 的价值来自突破“内存墙”：AI 训练和推理不仅需要算力，也需要足够快的数据搬运能力。</li>\n<li>HBM 的关键技术包括 3D 堆叠、TSV 硅通孔和 MR-MUF 封装；SK 海力士在 MR-MUF 量产和散热上形成领先。</li>\n<li>SK 海力士与英伟达深度绑定，因为 HBM 不能像普通 DRAM 一样随便替换，涉及封装、热特性、功耗、信号完整性和良率验证。</li>\n<li>SK 的半导体生态通过材料、硅片、NAND、SSD、代工等收购补强，降低了单一存储周期的风险。</li>\n<li>韩国财阀的发展与政策、国家银行、产业战略高度交织，视频把 SK 的关键收购放在这种制度背景下理解。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI 基础设施的瓶颈不只在 GPU，内存带宽和先进封装同样决定模型训练、推理和 agent 工作流的速度。</li>\n<li>技术路线的长期小众押注可能在需求爆发时突然变成核心卡点；HBM 从消费显卡里的昂贵方案变成了 AI 时代的稀缺资源。</li>\n<li>SK 海力士领先的原因不是单点技术，而是时间点、量产良率、封装工艺、客户认证和持续资本投入共同作用。</li>\n<li>存储行业即使在 AI 需求下仍有周期风险；“这次不一样”的叙事需要和扩产周期、竞争者追赶、价格弹性一起看。</li>\n<li>财阀治理、政治资本和股权结构会影响市场对科技公司的定价，但不一定直接改变核心资产的经营能力。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>SK 海力士、三星、美光在 HBM4/HBM4E 的良率和英伟达认证进展分别到什么阶段？</li>\n<li>如果云厂商转向更多自研 AI 芯片，定制化 HBM 的利润和议价权会如何变化？</li>\n<li>HBM 扩产在 2028 年后释放时，会不会触发新一轮存储价格周期下行？</li>\n<li>MR-MUF 与 TC-NCF 在 HBM5 时代的优劣是否会继续延续，还是会被新封装路线改写？</li>\n<li>SK 海力士赴美上市和美国建厂会如何改变投资者结构、供应链安全和地缘政治风险？</li>\n</ul>\n<h2>Useful Examples/Tools/Links</h2>\n<ul>\n<li>HBM: High Bandwidth Memory，高带宽内存，是 AI 加速器关键配套。</li>\n<li>TSV: Through Silicon Via，硅通孔，用于芯片堆叠后的垂直互连。</li>\n<li>MR-MUF: Mass Reflow Molded Underfill，SK 海力士强调的 HBM 量产封装路线。</li>\n<li>TC-NCF: Thermal Compression Non-Conductive Film，三星押注的逐片热压路线。</li>\n<li>关键产品线：HBM3/HBM3E、HBM4/HBM4E、DDR5、LPDDR、NAND、企业级 SSD。</li>\n<li>关键客户和平台：英伟达 H100、H200、B200、Vera Rubin、Rubin Ultra，以及 AMD、谷歌 TPU、亚马逊 Trainium 等潜在需求方。</li>\n<li>Video: https://www.youtube.com/watch?v=nilNLfW7izg</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>为什么 SK 海力士能“卡住 AI 的脖子”？答案不是一句“内存涨价”这么简单。AI 需要 GPU，也需要 HBM 把数据高速喂给 GPU；没有足够带宽，再强的算力也会等内存。SK 海力士押中了 HBM，并且在封装、散热、良率和英伟达认证上跑得更快，所以从存储行业的“万年老二”变成了 AI 基建最稀缺的供应商之一。但别忘了，存储行业最危险的词一直是：“这次不一样”。</p>"
+    },
     {
       "id": "2026-07-16-the-real-problem-with-ai-aiagents-claude-openclaw-productivity.md",
       "file": "2026-07-16-the-real-problem-with-ai-aiagents-claude-openclaw-productivity.md",
