@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T11:01:34.853Z",
+  "generatedAt": "2026-07-24T11:02:43.101Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-07-23T11:01:34.853Z",
+    "latestRunAt": "2026-07-24T11:02:43.101Z",
     "latestVideoCount": 3,
-    "processedCount": 132,
-    "noteCount": 121
+    "processedCount": 135,
+    "noteCount": 124
   },
   "notes": [
+    {
+      "id": "2026-07-24-building-at-the-pace-of-ai-innovation-grant-lee-gamma.md",
+      "file": "2026-07-24-building-at-the-pace-of-ai-innovation-grant-lee-gamma.md",
+      "title": "Building at the pace of AI innovation | Grant Lee, Gamma",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-07-24T09:12:21+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=PB7DBemxl3E",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PB7DBemxl3E/mqdefault.jpg",
+      "excerpt": "Grant Lee describes how Gamma uses OpenAI models to help people create and share visual ideas faster. The clip frames OpenAI as both a product partner for generation features and a",
+      "html": "<h1>Building at the pace of AI innovation | Grant Lee, Gamma</h1>\n<h2>What This Is About</h2>\n<p>Grant Lee describes how Gamma uses OpenAI models to help people create and share visual ideas faster. The clip frames OpenAI as both a product partner for generation features and an internal workflow partner through Codex.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>AI-native presentation creation: Gamma uses AI for initial slide generation, images, and visual content workflows.</li>\n<li>Visual language: the product goal is not just faster slides, but easier expression of ideas in a polished visual format.</li>\n<li>Partner-led velocity: fast-moving AI capabilities matter most when teams can integrate them quickly into the product.</li>\n<li>Codex as internal leverage: Gamma uses Codex internally to move faster and give feedback into the tool loop.</li>\n<li>Small, adaptable decision teams: Lee argues enterprises need close-knit, nimble groups making AI integration decisions.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI product strategy depends on integration speed, not just access to strong models.</li>\n<li>Enterprise AI adoption works better when model providers, product teams, and users stay in a tight feedback loop.</li>\n<li>The advantage shifts toward teams that can absorb rapid capability changes without slowing down on process.</li>\n<li>AI features should be tied to concrete user value, such as reducing the effort required to create useful content.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which parts of a creative workflow should be automated first: blank-page generation, editing, visual polish, or sharing?</li>\n<li>What feedback mechanisms help an AI vendor and product team improve together fastest?</li>\n<li>How should enterprises decide which AI capabilities are stable enough to build into core workflows?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Gamma: AI-assisted presentation and visual content creation.</li>\n<li>OpenAI image and text generation: used inside Gamma for content creation.</li>\n<li>Codex: used internally by Gamma to accelerate engineering work.</li>\n<li>Video: https://www.youtube.com/watch?v=PB7DBemxl3E</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Gamma's lesson for AI products: the model is only part of the advantage.</p>\n<p>The real edge is building a team and workflow that can absorb new capabilities quickly, ship them into the product, and learn from users fast. Grant Lee's advice is simple: keep AI decisions close to the builders, stay adaptable, and make sure every integration creates visible customer value.</p>"
+    },
+    {
+      "id": "2026-07-24-2026世界杯-ai改变了足球-吗.md",
+      "file": "2026-07-24-2026世界杯-ai改变了足球-吗.md",
+      "title": "2026世界杯：AI改变了足球....吗？",
+      "channel": "硅谷101",
+      "status": "generated",
+      "published": "2026-07-24T03:42:10+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=jXZGeF6sJOc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jXZGeF6sJOc/mqdefault.jpg",
+      "excerpt": "这期视频讨论 AI 是否真的改变了足球。结论比较克制：AI 暂时还没有可靠证据证明能显著提升球队胜率或竞技成绩，但它正在改变世界杯的判罚、赛事运营、数据采集和观赛体验。 AI 可能还没有改变足球比赛本身，但已经改变了世界杯的后台。",
+      "html": "<h1>2026世界杯：AI改变了足球....吗？</h1>\n<h2>What This Is About</h2>\n<p>这期视频讨论 AI 是否真的改变了足球。结论比较克制：AI 暂时还没有可靠证据证明能显著提升球队胜率或竞技成绩，但它正在改变世界杯的判罚、赛事运营、数据采集和观赛体验。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>竞技提升很难验证：足球低得分、高随机、变量多，单一 AI 系统很难证明自己带来了胜率变化。</li>\n<li>TacticAI 案例：Google DeepMind 与利物浦合作做角球战术建议，但公开数据中还看不出角球进球率的明确改善。</li>\n<li>数据壁垒：球员身体、伤病、体能、动作和心理等关键数据高度分散，公开数据远远不够。</li>\n<li>Football Tech 商业修正：SciSports、StatsBomb、Second Spectrum 等案例说明单点工具很难独立长成巨头，更适合被整合进视频、数据和球队工作流平台。</li>\n<li>世界杯技术化：IMU 智能足球、半自动越位、3D 重建、边缘计算和 AI 分析工具正在提升判罚、转播和运营效率。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI 在足球里的短期价值更像“辅助基础设施”，而不是“超级教练”。</li>\n<li>复杂对抗系统里，相关性模型很难替代因果理解、团队化学反应和现场决策。</li>\n<li>体育科技创业不能只看足球产业规模，还要看职业俱乐部实际软件预算、销售周期和工作流整合成本。</li>\n<li>AI 最先落地的地方通常是数据采集、裁判辅助、内容呈现和运营调度这些可量化环节。</li>\n<li>足球也提醒我们：不是每个领域都会出现立刻可复制的 ChatGPT 时刻。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>如果无法证明胜率提升，俱乐部应该如何衡量 AI 工具的 ROI？</li>\n<li>足球里的哪些数据可以共享，哪些会永远留在俱乐部内部？</li>\n<li>AI 应该服务教练、球探、裁判、转播方，还是球迷体验？</li>\n<li>当判罚越来越精确，足球的戏剧性会被削弱还是变得更公平？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Google DeepMind TacticAI: 利物浦角球战术建议系统。</li>\n<li>AiSCOUT: 用 AI 分析青训球员技术动作。</li>\n<li>Sevilla FC Scout Advisor: 基于 IBM watsonx 和大模型理解球探报告。</li>\n<li>SciSports BallJames: 将比赛视频转成实时 3D 数据的早期尝试。</li>\n<li>FIFA AI Pro: 用自然语言查询比赛数据、图表、视频和 3D 视角。</li>\n<li>2026 世界杯技术栈：16 台光学追踪摄像头、500Hz IMU 足球、半自动越位、3D 球员扫描。</li>\n<li>Video: https://www.youtube.com/watch?v=jXZGeF6sJOc</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>AI 可能还没有改变足球比赛本身，但已经改变了世界杯的后台。</p>\n<p>它现在更擅长做三件事：更精确的越位和触球判罚、更细的比赛数据采集、更丰富的转播和观赛视角。至于“AI 教练带队夺冠”，目前证据还很弱。足球太低比分、太随机、太依赖人和人之间的化学反应，这也许正是它迷人的地方。</p>"
+    },
+    {
+      "id": "2026-07-23-what-is-ai-slop.md",
+      "file": "2026-07-23-what-is-ai-slop.md",
+      "title": "What is AI Slop?",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-07-23T20:51:09+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=-_p2a6uWfjk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-_p2a6uWfjk/mqdefault.jpg",
+      "excerpt": "The video visits Tiat's exhibition \"Epistemologies of Slop,\" which explores how AI abundance changes truth, trust, taste, and meaning. Artists and organizers describe Codex as a pr",
+      "html": "<h1>What is AI Slop?</h1>\n<h2>What This Is About</h2>\n<p>The video visits Tiat's exhibition &quot;Epistemologies of Slop,&quot; which explores how AI abundance changes truth, trust, taste, and meaning. Artists and organizers describe Codex as a practical collaborator for planning, engineering, and interactive art-making while leaving creative direction to humans.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>AI slop as cultural question: the exhibition treats &quot;slop&quot; as a lens for judging meaning, taste, and trust in AI-generated abundance.</li>\n<li>Creative technologists: Tiat positions itself as a gallery and gathering place for artists who use technology as a medium.</li>\n<li>Codex as production partner: Codex helped with conceptual support, artist coordination, scheduling, programming, and game prototyping.</li>\n<li>Human-led creative direction: one artist explicitly wanted Codex to act like an engineer while the human kept control of the creative vision.</li>\n<li>Interactive critique: one game asks users to guess whether something is slop through a scratch-off interaction.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>&quot;AI slop&quot; is not only a quality label; it is also a debate about who decides what counts as meaningful work.</li>\n<li>AI tools can support creative production without replacing the artist's taste or intent.</li>\n<li>The most productive AI collaboration may come from assigning the model a clear role, such as engineer, coordinator, or prototyping partner.</li>\n<li>Slop is partly contextual: the same output may feel empty, playful, critical, or meaningful depending on the frame.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What criteria should we use to distinguish low-effort AI output from deliberate AI-mediated art?</li>\n<li>How much of artistic value comes from process, authorship, audience reaction, or final artifact quality?</li>\n<li>When should Codex be treated as a collaborator, tool, assistant, or infrastructure?</li>\n<li>Can an exhibition turn AI slop into a useful object of critique rather than just more noise?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Tiat: San Francisco gallery for artworks and artists using technology as a medium.</li>\n<li>&quot;Epistemologies of Slop&quot;: exhibition about truth, trust, taste, and meaning in an age of AI excess.</li>\n<li>Codex: used for show planning, coordination, programming, and game design iteration.</li>\n<li>Scratch-off slop guessing game: interactive example of making the audience judge AI output.</li>\n<li>Video: https://www.youtube.com/watch?v=-_p2a6uWfjk</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Maybe &quot;AI slop&quot; is not just bad content.</p>\n<p>This exhibition frames slop as a question: who decides what is good, meaningful, trustworthy, or empty when AI makes production cheap? The useful pattern is not &quot;let AI be the artist,&quot; but &quot;give AI a role.&quot; In this case, Codex acted as engineer and production partner while humans kept the taste, intent, and creative direction.</p>"
+    },
     {
       "id": "2026-07-23-how-ai-agents-will-redesign-enterprise-work-barak-kaufman-wonderful.md",
       "file": "2026-07-23-how-ai-agents-will-redesign-enterprise-work-barak-kaufman-wonderful.md",
