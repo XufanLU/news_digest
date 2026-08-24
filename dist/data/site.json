@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T11:04:08.127Z",
+  "generatedAt": "2026-08-24T11:32:37.769Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-08-18T11:04:08.127Z",
+    "latestRunAt": "2026-08-24T11:32:37.769Z",
     "latestVideoCount": 3,
-    "processedCount": 169,
-    "noteCount": 155
+    "processedCount": 172,
+    "noteCount": 158
   },
   "notes": [
+    {
+      "id": "2026-08-24-what-codex-unlocks-for-ntt-data.md",
+      "file": "2026-08-24-what-codex-unlocks-for-ntt-data.md",
+      "title": "What Codex Unlocks for NTT Data",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-08-24T01:27:29+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=VDI4MiD6eh4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VDI4MiD6eh4/mqdefault.jpg",
+      "excerpt": "NTT Data describes how Codex moved from a new internal tool to a major adoption program, growing to more than 10,000 active users and becoming the company's largest internal commun",
+      "html": "<h1>What Codex Unlocks for NTT Data</h1>\n<h2>What This Is About</h2>\n<p>NTT Data describes how Codex moved from a new internal tool to a major adoption program, growing to more than 10,000 active users and becoming the company's largest internal community within a few months. The example focuses on practical enterprise automation: complex instant analysis, performance analysis, record creation, and sales operations maintenance.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Center of Excellence adoption: a dedicated OpenAI COE drives Codex usage and broader OpenAI product adoption across the company.</li>\n<li>High-complexity workflow automation: Codex is positioned as useful for analytical work that previously required expert technical staff.</li>\n<li>Internal community scale: usage crossed 10,000 active users quickly, suggesting adoption spread through shared workflows rather than only top-down rollout.</li>\n<li>Cross-functional use: the sales team uses Codex for customer list maintenance, not just engineering or technical analysis.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>A useful AI rollout story needs both usage growth and concrete workflow compression.</li>\n<li>The strongest proof point is time saved on a real repeated task: work that took two days can now be completed automatically in about 30 minutes.</li>\n<li>Adoption expands when non-engineering teams can see a direct operations use case, such as maintaining customer lists.</li>\n<li>Centers of Excellence can help turn isolated pilots into broader operating changes.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What controls did NTT Data put around Codex use for technical analysis and record creation?</li>\n<li>Which internal workflows became templates that other teams copied?</li>\n<li>How did the COE measure quality, risk, and user satisfaction after automation?</li>\n<li>What training helped sales and technical teams use Codex safely for different tasks?</li>\n</ul>\n<h2>Useful Examples/Tools/Links</h2>\n<ul>\n<li>Codex for performance analysis and instant analysis workflows.</li>\n<li>Codex for automated record creation.</li>\n<li>Codex for sales operations tasks such as customer list maintenance.</li>\n<li>OpenAI Center of Excellence model for enterprise adoption.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>NTT Data's Codex example is a good reminder that enterprise AI adoption is not just about demos.</p>\n<p>The useful signal is workflow compression: a technical analysis and record creation process that used to take two days can now run automatically in about 30 minutes. Even better, the adoption moved beyond technical teams into sales operations, where Codex helps maintain customer lists.</p>\n<p>Takeaway: the best internal AI programs pair a Center of Excellence with repeatable, measurable workflows that teams can copy.</p>"
+    },
+    {
+      "id": "2026-08-23-openai-pays-280-000-for-this-job-you-don-t-have-to-be-an-engineer.md",
+      "file": "2026-08-23-openai-pays-280-000-for-this-job-you-don-t-have-to-be-an-engineer.md",
+      "title": "OpenAI Pays $280,000 For This Job. You Don't Have To Be An Engineer.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-08-23T17:00:33+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=0bLI31EFDDs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0bLI31EFDDs/mqdefault.jpg",
+      "excerpt": "Nate B Jones explains why forward deployed engineer roles are becoming valuable in AI: companies need people who can translate general AI capability into working systems inside mes",
+      "html": "<h1>OpenAI Pays $280,000 For This Job. You Don't Have To Be An Engineer.</h1>\n<h2>What This Is About</h2>\n<p>Nate B Jones explains why forward deployed engineer roles are becoming valuable in AI: companies need people who can translate general AI capability into working systems inside messy real workflows. The role blends business diagnosis, product judgment, technical delivery, eval design, and post-launch ownership.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Last-mile AI deployment: the hard part is not buying a model, but fitting it into data, policies, customer behavior, permissions, and real operating constraints.</li>\n<li>Leverage point selection: FDEs choose the workflow intervention where a small build removes a large bottleneck without giving the model unsafe authority.</li>\n<li>Domain expertise: experts in the task succeed more often because they know which exceptions, risks, and edge cases matter.</li>\n<li>Technical delivery: requirements vary by title, but many roles expect enough coding, architecture, data, and system inspection skill to own the build.</li>\n<li>Evals and guardrails: AI systems need test cases, permission boundaries, failure checks, and clear criteria before deployment.</li>\n<li>Deployment ownership: the work continues after launch through measurement, user observation, iteration, and impact proof.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Start with real examples, not abstract process maps: pull 10 to 20 recent cases and reconstruct what actually happened.</li>\n<li>Sit next to the people doing the work; unofficial workarounds often reveal the best automation target.</li>\n<li>Good FDE work connects technical design to money, time, risk, and capacity.</li>\n<li>Non-engineers can build toward the role by combining domain knowledge with small AI-enabled software projects and eval practice.</li>\n<li>A credible portfolio project should show the full loop: observed workflow, quantified bottleneck, simple system, test set, live user feedback, and measured impact.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which recurring workflow in my own work has enough volume, pain, and available examples to become a 30-day FDE-style project?</li>\n<li>What data and permissions would the model actually need, and what should be explicitly blocked?</li>\n<li>How would I design a small eval set from successful and failed historical cases?</li>\n<li>Which adjacent titles match my current skill balance: solutions engineer, implementation engineer, AI product lead, applied AI engineer, or FDE?</li>\n</ul>\n<h2>Useful Examples/Tools/Links</h2>\n<ul>\n<li>Insurance claims intake example: detect missing documents early, draft customer follow-up, and leave fraud or injury decisions to people.</li>\n<li>A 30-day project plan: week 1 case review, week 2 observation and impact math, week 3 build and evals, week 4 live user testing.</li>\n<li>Portfolio checklist: document the workflow, bottleneck math, guardrails, evals, production behavior, and business outcome.</li>\n<li>Adjacent search terms: forward deployed engineer, applied AI engineer, customer engineer, solutions engineer, implementation engineer, technical deployment lead, AI operations, AI product.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Forward deployed engineering is less mysterious if you treat it as a complete ownership loop.</p>\n<p>Pick a recurring workflow. Pull 10 to 20 real cases. Watch the people doing the work. Find the bottleneck where a small AI system can save meaningful time without taking dangerous authority. Build the simplest tool, test it against real cases, then watch users try it and fix what breaks.</p>\n<p>The career signal is not &quot;I used AI.&quot; It is &quot;I found leverage, built responsibly, and proved impact.&quot;</p>"
+    },
+    {
+      "id": "2026-08-21-消失-的万亿债务-深扒数据中心-影子借贷-gpu金融化与次贷风险.md",
+      "file": "2026-08-21-消失-的万亿债务-深扒数据中心-影子借贷-gpu金融化与次贷风险.md",
+      "title": "“消失”的万亿债务：深扒数据中心“影子借贷”、GPU金融化与次贷风险",
+      "channel": "硅谷101",
+      "status": "generated",
+      "published": "2026-08-21T15:06:10+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=89ThCi5qq-A",
+      "thumbnailUrl": "https://i.ytimg.com/vi/89ThCi5qq-A/mqdefault.jpg",
+      "excerpt": "《硅谷101》拆解 AI 数据中心建设背后的巨额融资结构：大型云厂商需要为芯片、电力、土地和机房投入长期资本，但又希望资产负债表看起来更轻。节目围绕 hyperscaler 发债、SPV、租赁、残值担保、私募信贷、GPU 抵押贷款和 ABS/SRT 等工具，解释这些债务如何被转移、切分和重新定价。 AI 数据中心最值得看的不只是芯片，而是钱从哪里来。",
+      "html": "<h1>“消失”的万亿债务：深扒数据中心“影子借贷”、GPU金融化与次贷风险</h1>\n<h2>What This Is About</h2>\n<p>《硅谷101》拆解 AI 数据中心建设背后的巨额融资结构：大型云厂商需要为芯片、电力、土地和机房投入长期资本，但又希望资产负债表看起来更轻。节目围绕 hyperscaler 发债、SPV、租赁、残值担保、私募信贷、GPU 抵押贷款和 ABS/SRT 等工具，解释这些债务如何被转移、切分和重新定价。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Shadow Borrowing: 国际清算银行用来描述表外或不显眼融资安排的说法，核心是让真实还款义务不直接呈现在传统债务科目里。</li>\n<li>Hyperscaler 资本开支压力: 亚马逊、微软、谷歌、Meta、Oracle 的 AI 数据中心投入增速远高于经营现金流增速，迫使它们寻找外部资本。</li>\n<li>SPV 与合资结构: Meta Hyperion 案例中，Blue Owl 等外部资本持有控股权益，债务放在项目公司层面，Meta 通过租约和残值担保承担经济义务。</li>\n<li>租赁会计: 融资租赁、经营租赁、尚未起租的长期租约在资产负债表上的呈现方式不同，可能让相同的经济承诺看起来差异很大。</li>\n<li>私募信贷迁移: SaaS 贷款故事变弱后，Blue Owl、PIMCO、黑石、KKR、贝莱德等资管机构把资金和结构能力转向 AI 基建。</li>\n<li>GPU 金融化: 显卡和推理芯片正在被视为可抵押资产，但它们的折旧周期比传统基础设施短得多。</li>\n<li>风险重新定价: Oracle CDS 上升更像市场把轻资产软件公司重新定价为重资本建设公司，而不必然等同于系统性危机。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>AI 竞争正在把科技公司从轻资产软件模式推向重资产基础设施模式。</li>\n<li>债务不出现在传统债务科目里，并不代表风险消失；风险只是通过租约、担保、证券化和项目融资转移给不同持有人。</li>\n<li>投资人真正关注的是资本开支能否转化为可持续现金流，例如 Azure AI compute 需求和云收入增速。</li>\n<li>数据中心债务目前可能还不足以构成 2008 式系统性风险，但养老金、保险资金和私募信贷之间的互联性值得持续跟踪。</li>\n<li>GPU 抵押贷款的关键问题不是“能不能融资”，而是价格、残值假设、折旧年限和需求曲线是否说得通。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>如果 token 需求增长放缓，哪些融资结构会最先承压：公开债、项目融资、GPU 抵押贷款、ABS，还是 SRT？</li>\n<li>数据中心债的最终风险承担者是谁，普通养老金账户的间接敞口有多大？</li>\n<li>云厂商延长数据中心和设备折旧年限，会怎样影响利润、自由现金流和市场叙事？</li>\n<li>Meta、微软、谷歌、亚马逊、Oracle 的不同融资方式，哪一种对股东最透明，哪一种对债权人风险最高？</li>\n<li>当银行重新获得更多放贷能力后，私募信贷在 AI 基建中的定价权会不会下降？</li>\n</ul>\n<h2>Useful Examples/Tools/Links</h2>\n<ul>\n<li>Meta Hyperion: 273 亿美元项目债，Blue Owl 控股项目公司，Meta 通过租约和残值担保提供经济支撑。</li>\n<li>Meta Sopaipilla: 得州 El Paso 项目，125 亿美元，贝莱德取代 Blue Owl 承担类似结构中的主要外部资本角色。</li>\n<li>微软融资租赁: 总债务看似下降，但融资租赁负债大幅增加，并拆入其他负债科目。</li>\n<li>谷歌信用衍生品式担保: 给他人建设的数据中心提供付款担保，账面只确认担保当下价值的一小部分。</li>\n<li>Oracle 长期租约: 大量尚未起租的数据中心租赁承诺暂未进入资产负债表。</li>\n<li>NVIDIA AI 算力融资平台: 与 Apollo、贝莱德、黑石、Brookfield、高盛、KKR 等机构合作，推动算力成为可融资资产类别。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>AI 数据中心最值得看的不只是芯片，而是钱从哪里来。</p>\n<p>这期《硅谷101》的核心提醒是：债务不一定消失，它可能被放进 SPV、租约、残值担保、ABS、私募信贷和 GPU 抵押贷款里。资产负债表可以更干净，但还款义务仍然沿着金融链条存在。</p>\n<p>我最想继续跟踪三个指标：云收入是否真的覆盖资本开支、GPU 残值假设是否可靠、养老金和保险资金对这类债务的间接敞口有多大。</p>"
+    },
     {
       "id": "2026-08-17-stop-overthinking-which-ai-to-use-do-this.md",
       "file": "2026-08-17-stop-overthinking-which-ai-to-use-do-this.md",
