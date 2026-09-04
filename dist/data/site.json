@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T12:38:25.443Z",
+  "generatedAt": "2026-09-04T11:10:26.927Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-09-02T12:38:25.443Z",
+    "latestRunAt": "2026-09-04T11:10:26.927Z",
     "latestVideoCount": 3,
-    "processedCount": 199,
-    "noteCount": 185
+    "processedCount": 202,
+    "noteCount": 188
   },
   "notes": [
+    {
+      "id": "2026-09-04-具身智能的-最后一块拼图-详解机器人触觉-实地探访前线实验室.md",
+      "file": "2026-09-04-具身智能的-最后一块拼图-详解机器人触觉-实地探访前线实验室.md",
+      "title": "具身智能的“最后一块拼图”：详解机器人触觉｜实地探访前线实验室",
+      "channel": "硅谷101",
+      "status": "generated",
+      "published": "2026-09-04T01:00:29+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=BmcoQDwdkeM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BmcoQDwdkeM/mqdefault.jpg",
+      "excerpt": "这期视频解释为什么触觉被视为具身智能的重要缺口：很多真实任务不能只靠视觉完成，机器人还需要感知压力、滑动、摩擦、材质和形变。视频从传感器路线、光学式视触觉、数据采集、仿真训练、模型架构和量产难题几个层面拆解了行业进展。 机器人为什么需要“触觉”？",
+      "html": "<h1>具身智能的“最后一块拼图”：详解机器人触觉｜实地探访前线实验室</h1>\n<h2>What This Is About</h2>\n<p>这期视频解释为什么触觉被视为具身智能的重要缺口：很多真实任务不能只靠视觉完成，机器人还需要感知压力、滑动、摩擦、材质和形变。视频从传感器路线、光学式视触觉、数据采集、仿真训练、模型架构和量产难题几个层面拆解了行业进展。</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>触觉不只是“摸到东西”，而是包含静态力、动态力、剪切力、摩擦、振动、材质和形态等多维信号。</li>\n<li>主要传感路线包括压阻式、压电式、电容式、光学式和磁感应，各自在成本、精度、动态范围、抗干扰和三维力感知上有取舍。</li>\n<li>光学式视触觉用柔性材料、照明层和相机观察接触形变，再通过算法反推出力和接触形貌，是当前高精度方向之一。</li>\n<li>触觉数据采集存在悖论：要采人的触觉就要在人手和物体之间加传感器，但这又会屏蔽人的真实触觉，降低示范质量。</li>\n<li>仿真数据是规模化关键路径之一，Isaac Lab、TacSL、Tabero 等思路都在尝试把真实物理参数、触觉传感器特征和机器人轨迹结合起来。</li>\n<li>模型侧不能简单把触觉信号直接塞进大模型；触觉需要编码器、专家模块或异步高频反馈系统来减少噪声并匹配实时控制需求。</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>机器人“成功率高”不等于可用性强；如果只能靠视觉慢慢试错，很多精密、柔性或力控任务仍然不可用。</li>\n<li>触觉硬件的难点不只是传感原理，还包括软而耐磨的材料、薄型结构、稳定光路、算法解算和批量一致性。</li>\n<li>触觉对具身模型的价值可能不在数据量绝对更大，而在它直接捕捉关键操作瞬间的物理反馈，减少大量无效过程数据。</li>\n<li>真实数据和仿真数据大概率要混合使用：仿真补规模，真机数据做校准、后训练和现实差距修正。</li>\n<li>触觉模型路线仍未收敛：一种思路是先单独训练触觉语义模块再融合，另一种是从一开始就结合视觉和空间分布来理解“力”。</li>\n<li>规模化落地会先出现在柔性装配、分拣检测、实验室精密操作等明确需要力反馈的场景。</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>哪些机器人任务是视觉看起来能做、但没有触觉就很难稳定量产的？</li>\n<li>光学式触觉的成本下降主要依赖材料、相机/芯片、照明结构，还是算法压缩？</li>\n<li>触觉数据的标准格式会由硬件公司、机器人本体厂商，还是仿真平台主导？</li>\n<li>触觉专家作为“反射系统”与高层规划模型之间，最佳通信频率和语义边界是什么？</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>GelSight：MIT 相关的经典视触觉路线，用相机观察软材料形变。</li>\n<li>NVIDIA Isaac Lab：用于机器人仿真与训练的框架，可加入物体物理属性和传感器特征。</li>\n<li>TacSL：用软接触近似和数据增强做视触觉仿真的研究方向。</li>\n<li>Tabero：复用已有机器人轨迹并生成“视觉-触觉-语言-动作”数据的论文思路。</li>\n<li>T-Rex / MoT：把触觉专家作为高频反馈模块，与视觉语言和动作专家异步协作。</li>\n<li>工业例子：电池包柔性装配、工厂分拣检测、滴管取液、夹薯片/树叶等精细力控任务。</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>机器人为什么需要“触觉”？</p>\n<p>因为很多任务不是看见就能做好。拧螺丝、夹薯片、拿豆腐、插拔零件，都需要知道力够不够、有没有滑、物体有没有变形。</p>\n<p>这期最有意思的点：触觉不是单一传感器问题，而是硬件、材料、数据、仿真和模型架构一起卡住。</p>\n<p>现在的关键矛盾：</p>\n<ul>\n<li>高精度方案贵、复杂、难量产</li>\n<li>真机触觉数据几乎为零</li>\n<li>直接把触觉信号塞进模型反而可能变成噪声</li>\n<li>高频触觉反馈和低频视觉语言规划需要分层协作</li>\n</ul>\n<p>如果未来机器人真的进入家庭和工厂，触觉普及可能会是一个重要转折点。</p>"
+    },
+    {
+      "id": "2026-09-04-why-you-still-need-human-feedback.md",
+      "file": "2026-09-04-why-you-still-need-human-feedback.md",
+      "title": "Why you still need human feedback",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-09-04T03:00:05+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=amZ6kRkc4z8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/amZ6kRkc4z8/mqdefault.jpg",
+      "excerpt": "Nate argues that even strong AI models do not replace the need for trusted human feedback. A small community of builders, colleagues, or readers can notice audience, context, taste",
+      "html": "<h1>Why you still need human feedback</h1>\n<h2>What This Is About</h2>\n<p>Nate argues that even strong AI models do not replace the need for trusted human feedback. A small community of builders, colleagues, or readers can notice audience, context, taste, and situational details that models miss.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Human feedback as a quality loop: real people test whether an idea actually lands, not just whether it sounds plausible.</li>\n<li>Community critique: exposing work-in-progress thinking creates faster correction than building alone.</li>\n<li>Contextual judgment: people who know the builder, the audience, or the work can spot issues outside the model's view.</li>\n<li>Outlier reactions: one unexpected human response can reveal a perspective that would not emerge from model-only iteration.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Do not treat AI evaluation as complete until a real person has reacted to the work.</li>\n<li>Build around a small group of trusted reviewers who can say plainly what is good and what is not.</li>\n<li>Comments, Slack groups, peer circles, and informal reviewer networks can all become part of the product-development system.</li>\n<li>The more personal or audience-sensitive the work is, the more valuable human feedback becomes.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What parts of my current projects are being judged only by models and not by people?</li>\n<li>Who are the three to five people most likely to give direct, useful feedback on my work?</li>\n<li>How can I make it easier for others to critique unfinished ideas instead of only polished outputs?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Slack or Discord communities for recurring critique.</li>\n<li>YouTube comments, private beta groups, or small reader circles as lightweight feedback channels.</li>\n<li>A simple review checklist: clarity, usefulness, surprise, audience fit, and what felt off.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>AI can help you build faster, but it cannot fully replace the weirdly specific signal you get from another person.</p>\n<p>A trusted reviewer may know your audience, your blind spots, or the context around the work in a way the model does not. One unexpected reaction can change the whole direction.</p>\n<p>Useful loop: build with AI, then expose the work to humans early. Ask what landed, what felt weak, and what they would ignore. That feedback is part of the system.</p>"
+    },
+    {
+      "id": "2026-09-03-first-impressions-of-gpt-6-astra-from-developers.md",
+      "file": "2026-09-03-first-impressions-of-gpt-6-astra-from-developers.md",
+      "title": "First impressions of GPT-6 Astra from developers",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-09-03T21:20:49+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=-TTyyY3VWh8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-TTyyY3VWh8/mqdefault.jpg",
+      "excerpt": "Developers describe first impressions of GPT-6 Astra as a model that unlocks more ambitious workflows: richer creative prototyping, puzzle solving, multi-agent search, and sustaine",
+      "html": "<h1>First impressions of GPT-6 Astra from developers</h1>\n<h2>What This Is About</h2>\n<p>Developers describe first impressions of GPT-6 Astra as a model that unlocks more ambitious workflows: richer creative prototyping, puzzle solving, multi-agent search, and sustained execution on problems that previous models could not finish reliably.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Workflow unlock: the perceived improvement is not only smarter answers, but new categories of work that become practical.</li>\n<li>Generative prototyping: Astra can create interactive artifacts such as a voxel-style historic London simulation or multiple distinct website design directions.</li>\n<li>Model as inspiration partner: developers highlight surprising design ideas and image prompts they would not have produced themselves.</li>\n<li>Tool-using reasoning: for puzzles, the model can form theories, send agents to test them, and use external hints in a human-like solving loop.</li>\n<li>Better task persistence: developers specifically notice fewer “doom loops” and stronger ability to stay on track.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Model progress should be evaluated by whether it makes previously blocked workflows feasible, not only by benchmark-style intelligence.</li>\n<li>Creative systems become more useful when they produce varied alternatives, not just one polished first draft.</li>\n<li>Parallel agent testing matters for hard reasoning tasks because it lets the main model orchestrate hypotheses instead of serially guessing.</li>\n<li>The most valuable improvement may be reliability over time: staying oriented, recovering from bad branches, and finishing accumulated hard tasks.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which current projects are waiting on a model that can stay on task longer?</li>\n<li>How should multi-agent hypothesis testing be structured so it produces evidence rather than noise?</li>\n<li>What evaluation would measure “fewer doom loops” in real developer workflows?</li>\n<li>Where does Astra's creative surprise help, and where does it still need strong human taste?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Voxel 3D historic London map that moves across medieval, Tudor, and modern eras.</li>\n<li>Matcha shop website concepts with generated image prompts and multiple design variants.</li>\n<li>DEF CON puzzle solving using an official hint plus model-generated theories and parallel agent checks.</li>\n<li>Multi-agent orchestration pattern: main agent proposes theories, worker agents test them, main agent integrates results.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>The most interesting GPT-6 Astra feedback is not “it feels smarter.”</p>\n<p>It is: people are using it for workflows they previously could not get done.</p>\n<p>Examples from developers:</p>\n<ul>\n<li>turning a historic London map into a playable voxel simulation</li>\n<li>generating multiple surprising design directions for a website</li>\n<li>solving a DEF CON puzzle by testing theories in parallel</li>\n<li>staying out of repeated failure loops long enough to finish old blocked tasks</li>\n</ul>\n<p>That is the useful way to judge a new model: not just better answers, but newly possible work.</p>"
+    },
     {
       "id": "2026-09-01-friction-maxing-how-i-avoid-ai-brainrot-ai-criticalthinking-claude-productivity-.md",
       "file": "2026-09-01-friction-maxing-how-i-avoid-ai-brainrot-ai-criticalthinking-claude-productivity-.md",
