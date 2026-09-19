@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:02:49.816Z",
+  "generatedAt": "2026-09-19T11:42:19.858Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-09-15T20:02:49.816Z",
+    "latestRunAt": "2026-09-19T11:42:19.858Z",
     "latestVideoCount": 3,
-    "processedCount": 229,
-    "noteCount": 215
+    "processedCount": 232,
+    "noteCount": 218
   },
   "notes": [
+    {
+      "id": "2026-09-18-use-chatgpt-work-to-ground-analysis-in-your-semantic-layer.md",
+      "file": "2026-09-18-use-chatgpt-work-to-ground-analysis-in-your-semantic-layer.md",
+      "title": "Use ChatGPT Work to ground analysis in your semantic layer",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-09-18T13:28:31+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=bbNTY8O0GTY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bbNTY8O0GTY/mqdefault.jpg",
+      "excerpt": "This clip explains how ChatGPT Work can answer data questions more reliably when it has access to a company's semantic layer: shared definitions for entities, metrics, filters, dim",
+      "html": "<h1>Use ChatGPT Work to ground analysis in your semantic layer</h1>\n<h2>What This Is About</h2>\n<p>This clip explains how ChatGPT Work can answer data questions more reliably when it has access to a company's semantic layer: shared definitions for entities, metrics, filters, dimensions, pitfalls, and open questions. The core idea is to turn scattered analytics knowledge into a reviewed skill or plugin that agents can use when deciding what data to query and how to interpret it.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Semantic layer: a shared map of business entities, metrics, dimensions, filters, and assumptions.</li>\n<li>Agent context: the data definitions and operational knowledge the model needs before it can choose the right query.</li>\n<li>Shared skill/plugin: a packaged form of the semantic layer that can be reviewed by the data team and reused across the company.</li>\n<li>Existing semantic systems: tools like Snowflake Cortex or Databricks Genie can be brought into the workflow instead of rebuilt from scratch.</li>\n<li>Governance effort: semantic grounding works best when a focused team keeps definitions current and trustworthy.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Data agents are only as good as the definitions and context they can access.</li>\n<li>Even &quot;simple&quot; analytics questions may depend on complex metric logic, filters, and caveats.</li>\n<li>A reviewed semantic layer reduces ambiguity and helps agents make better decisions about which data to query.</li>\n<li>Start with a well-contained domain where the metrics and entities are clear enough to encode and review.</li>\n<li>Treat semantic grounding as ongoing infrastructure, not a one-time setup task.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>Which recurring business questions in our workflow depend on hidden metric definitions?</li>\n<li>Where do our most trusted metric definitions currently live?</li>\n<li>Who should review and maintain a semantic layer before it becomes agent-accessible?</li>\n<li>Could an existing warehouse or BI semantic layer be reused instead of duplicated?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>ChatGPT Work data plugin for grounding analytics workflows.</li>\n<li>Company semantic layer packaged as a reusable plugin or shared skill.</li>\n<li>Snowflake Cortex and Databricks Genie as examples of existing semantic-layer investments.</li>\n<li>Useful domains to start with: product adoption, revenue reporting, customer segmentation, or support operations.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Before asking AI to analyze company data, give it the map.</p>\n<p>The strongest idea here: analytics agents need access to your semantic layer, not just your database. Metric definitions, standard filters, known pitfalls, and open questions are often scattered across people and tools. Package that knowledge into a reviewed skill or plugin, and the agent has a much better chance of querying the right data and explaining it correctly.</p>"
+    },
+    {
+      "id": "2026-09-18-use-chatgpt-work-to-build-dashboards-from-a-business-question.md",
+      "file": "2026-09-18-use-chatgpt-work-to-build-dashboards-from-a-business-question.md",
+      "title": "Use ChatGPT Work to build dashboards from a business question",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-09-18T13:27:46+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=GzCsKuDgr6Q",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GzCsKuDgr6Q/mqdefault.jpg",
+      "excerpt": "This clip shows ChatGPT Work using a data plugin plus a site semantic layer to turn a business question into a dashboard for measuring site adoption and usage. The demo emphasizes ",
+      "html": "<h1>Use ChatGPT Work to build dashboards from a business question</h1>\n<h2>What This Is About</h2>\n<p>This clip shows ChatGPT Work using a data plugin plus a site semantic layer to turn a business question into a dashboard for measuring site adoption and usage. The demo emphasizes custom visuals, tabbed views, refreshed source data, and scheduled refreshes so the dashboard can stay useful after the first build.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Business-question-first dashboarding: starting from the decision or question rather than a preselected chart.</li>\n<li>Data plugin: the connective layer used to query source data and assemble dashboard views.</li>\n<li>Semantic layer: the definitions that help the system understand metrics like adoption, usage, funnels, and customer segments.</li>\n<li>Custom visualizations: dashboard components tailored to the analysis instead of generic tables only.</li>\n<li>Refresh cadence: manual or scheduled data updates that keep the dashboard current.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>A good dashboard workflow can begin with a plain-language business question when the data context is available.</li>\n<li>Adoption and usage analysis often benefits from multiple lenses, such as funnel trends and organization-level segments.</li>\n<li>Showing the last refreshed time is important for trust; users need to know whether the dashboard is current.</li>\n<li>Scheduled refresh turns a one-off analysis into an operational surface.</li>\n<li>The semantic layer matters because it keeps the dashboard aligned with agreed business definitions.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What business question should each dashboard answer in one sentence?</li>\n<li>Which adoption and usage metrics need agreed definitions before visualization?</li>\n<li>Which dashboard tabs would different stakeholders naturally expect?</li>\n<li>How fresh does this data need to be for decisions: hourly, daily, weekly, or on demand?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>ChatGPT Work data plugin for dashboard creation.</li>\n<li>Site semantic layer for adoption and usage metrics.</li>\n<li>Funnel-over-time view for conversion or activation analysis.</li>\n<li>Organization/customer-segment tab for comparing customer cohorts.</li>\n<li>Scheduled refresh for recurring source-data pulls.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Dashboard prompt worth stealing:</p>\n<p>&quot;Create a dashboard from this business question, using our data plugin and semantic layer.&quot;</p>\n<p>The interesting part is not just chart generation. It is the full workflow: custom visuals, funnel trends, customer-segment tabs, visible refresh time, and scheduled refresh. That is the difference between a quick analysis and something a team can keep using.</p>"
+    },
+    {
+      "id": "2026-09-18-jensen-huang-s-mic-drop-answer-on-ai-safety-dreamforce-aisafety-meta-zuckerberg-.md",
+      "file": "2026-09-18-jensen-huang-s-mic-drop-answer-on-ai-safety-dreamforce-aisafety-meta-zuckerberg-.md",
+      "title": "Jensen Huang's mic-drop answer on AI safety #dreamforce #aisafety #meta #zuckerberg #nvidia",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-09-18T03:00:02+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=jopulPr2upk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jopulPr2upk/mqdefault.jpg",
+      "excerpt": "This short commentary summarizes Jensen Huang's answer to an AI safety question at Dreamforce: safety should be treated as an engineering problem. The speaker connects that framing",
+      "html": "<h1>Jensen Huang's mic-drop answer on AI safety #dreamforce #aisafety #meta #zuckerberg #nvidia</h1>\n<h2>What This Is About</h2>\n<p>This short commentary summarizes Jensen Huang's answer to an AI safety question at Dreamforce: safety should be treated as an engineering problem. The speaker connects that framing to Mark Zuckerberg's later comments about delaying Meta's Muse app until alignment issues were solved, presenting both as examples of shipping only after engineering teams address safety concerns.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Safety as engineering: the idea that AI safety problems should be specified, tested, fixed, and validated before release.</li>\n<li>Release gating: delaying launch when a system is not yet aligned or safe enough.</li>\n<li>Reframing: moving the conversation from abstract doom narratives to concrete engineering responsibility.</li>\n<li>Alignment: ensuring a model or app behaves according to intended constraints before public deployment.</li>\n<li>Executive messaging: how leaders shape public understanding of AI risk through concise frames.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Treating safety as engineering does not dismiss risk; it assigns ownership and a path to resolution.</li>\n<li>The practical standard implied here is: if you are not confident, keep engineering until you are.</li>\n<li>Public safety narratives can influence how teams justify launch timing and risk controls.</li>\n<li>Short, memorable frames can be powerful, but they should still be backed by rigorous safety processes.</li>\n<li>The Muse example highlights a useful product principle: delay release when alignment is not ready.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What safety criteria should be met before an AI feature ships?</li>\n<li>Which AI risks are genuinely engineering-testable, and which require policy or governance decisions too?</li>\n<li>How should teams communicate delays caused by alignment or safety work?</li>\n<li>What evidence should support a claim that a model is &quot;safe enough&quot; to release?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Dreamforce discussion between Jensen Huang and Marc Benioff.</li>\n<li>Meta Muse launch-delay example as described in the clip.</li>\n<li>Safety review checklists, red-team evaluations, and release gates.</li>\n<li>Alignment testing as part of product readiness.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Jensen Huang's AI safety frame is simple: safety is an engineering problem.</p>\n<p>That does not mean &quot;ignore the risk.&quot; It means make the risk concrete, assign engineers to it, test it, fix it, and hold release until the system is ready. The useful product lesson: if alignment is not good enough yet, delay the launch and keep working.</p>"
+    },
     {
       "id": "2026-09-14-sam-altman-and-apple-s-new-ceo-are-fighting-over-one-thing-it-s-not-what-you-thi.md",
       "file": "2026-09-14-sam-altman-and-apple-s-new-ceo-are-fighting-over-one-thing-it-s-not-what-you-thi.md",
