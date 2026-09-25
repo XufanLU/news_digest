@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T11:42:19.858Z",
+  "generatedAt": "2026-09-25T11:02:57.463Z",
   "summary": {
     "channels": [
       {
@@ -27,12 +27,48 @@
     "perChannelLimit": 2,
     "lookbackDays": 30,
     "candidateLimit": 15,
-    "latestRunAt": "2026-09-19T11:42:19.858Z",
+    "latestRunAt": "2026-09-25T11:02:57.463Z",
     "latestVideoCount": 3,
-    "processedCount": 232,
-    "noteCount": 218
+    "processedCount": 235,
+    "noteCount": 221
   },
   "notes": [
+    {
+      "id": "2026-09-25-why-world-models-matter-nvidia-ai-physicalai-robots.md",
+      "file": "2026-09-25-why-world-models-matter-nvidia-ai-physicalai-robots.md",
+      "title": "Why world models matter #nvidia #ai #physicalai #robots",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "status": "generated",
+      "published": "2026-09-25T03:00:28+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=8B6KuqZuHng",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8B6KuqZuHng/mqdefault.jpg",
+      "excerpt": "This short clip explains why world models matter for physical AI and robotics. Instead of testing robots in thousands of real kitchens or workspaces, developers can put a physical ",
+      "html": "<h1>Why world models matter #nvidia #ai #physicalai #robots</h1>\n<h2>What This Is About</h2>\n<p>This short clip explains why world models matter for physical AI and robotics. Instead of testing robots in thousands of real kitchens or workspaces, developers can put a physical agent inside a simulated world model and trade compute for faster iteration.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>World models: Simulated environments that let agents practice actions before deployment.</li>\n<li>Physical agents: Robots or embodied AI systems that need to act in messy real-world spaces.</li>\n<li>Compute-for-velocity tradeoff: Spending compute on simulation can speed up product development.</li>\n<li>Scaled environment variation: Generating many simulated kitchens or scenarios is cheaper than building them physically.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Robotics progress depends on creating enough varied experience for agents to generalize.</li>\n<li>World models can turn scarce real-world testing into abundant simulated interaction.</li>\n<li>The core promise is not just better demos; it is a faster learning loop for embodied AI.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>How accurate does a world model need to be before it improves real robot performance?</li>\n<li>Which failures transfer poorly from simulation to reality?</li>\n<li>What parts of robotics development still need physical testing even with strong simulation?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>NVIDIA physical AI and robotics work.</li>\n<li>Simulated kitchen environments for household robotics.</li>\n<li>Policy training workflows that use synthetic interaction data.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>World models matter because they change the cost curve of robotics. Instead of building a thousand real kitchens to test a robot, you can generate many kitchens in simulation and let the agent practice there first. The big idea: trade compute for faster physical AI development.</p>"
+    },
+    {
+      "id": "2026-09-23-today-s-forecast-nothing-but-80s-baby.md",
+      "file": "2026-09-23-today-s-forecast-nothing-but-80s-baby.md",
+      "title": "Today’s forecast? Nothing but 80s, baby.",
+      "channel": "OpenAI",
+      "status": "generated",
+      "published": "2026-09-23T18:48:52+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=rmDu2sSBIrw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rmDu2sSBIrw/mqdefault.jpg",
+      "excerpt": "This is a playful OpenAI “On Your Radar” promo framing a current visual trend: 1980s-style aesthetics are showing up everywhere, and ChatGPT can help people explore or recreate tha",
+      "html": "<h1>Today’s forecast? Nothing but 80s, baby.</h1>\n<h2>What This Is About</h2>\n<p>This is a playful OpenAI “On Your Radar” promo framing a current visual trend: 1980s-style aesthetics are showing up everywhere, and ChatGPT can help people explore or recreate that retro look.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>Trend spotting: The clip presents 1980s nostalgia as a design and culture signal.</li>\n<li>Style prompting: ChatGPT is positioned as a way to “take a ride back in time” creatively.</li>\n<li>Retro visual language: Shoulder pads, big hair, acid-wash denim, and synth-era references define the mood.</li>\n<li>Lightweight brand format: The weather-report framing turns a product prompt into entertainment.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>Short product clips can teach by giving users a memorable promptable theme.</li>\n<li>Nostalgia works well as a creative constraint because it provides instant visual vocabulary.</li>\n<li>For AI image or writing tasks, naming concrete era markers improves the result.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>What makes an “80s” prompt produce recognizable results without becoming generic?</li>\n<li>How can brands use trend formats without making the product feel secondary?</li>\n<li>Which other eras or subcultures are especially promptable in ChatGPT?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>ChatGPT for brainstorming retro captions, image prompts, mood boards, and party themes.</li>\n<li>1980s references: shoulder pads, acid-wash jeans, big hair, synth music, neon palettes.</li>\n<li>“On Your Radar” as a recurring short-form trend format.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>Tiny prompt idea: ask ChatGPT to turn a modern photo shoot, invite, outfit, or product concept into a full 1980s creative direction. Give it era markers like acid wash, shoulder pads, mall glam, synth pop, and big-hair drama, then ask for captions, image prompts, and a color palette.</p>"
+    },
+    {
+      "id": "2026-09-22-硬核-俄乌打了四年多-到底谁在买单.md",
+      "file": "2026-09-22-硬核-俄乌打了四年多-到底谁在买单.md",
+      "title": "【硬核】俄乌打了四年多，到底谁在买单？",
+      "channel": "小Lin说",
+      "status": "generated",
+      "published": "2026-09-22T09:00:26+00:00",
+      "videoUrl": "https://www.youtube.com/watch?v=R1-j8TFlqCo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R1-j8TFlqCo/mqdefault.jpg",
+      "excerpt": "This video analyzes how more than four years of war have reshaped the Russian and Ukrainian economies. The core question is who is paying for a long war of attrition: Russia throug",
+      "html": "<h1>【硬核】俄乌打了四年多，到底谁在买单？</h1>\n<h2>What This Is About</h2>\n<p>This video analyzes how more than four years of war have reshaped the Russian and Ukrainian economies. The core question is who is paying for a long war of attrition: Russia through reserves, energy income, militarized production, and economic distortion; Ukraine through domestic collapse, external aid, loans, and European-backed financing.</p>\n<h2>Important Concepts</h2>\n<ul>\n<li>War economy: Russia has redirected capital, labor, and industrial capacity toward defense production, creating short-term GDP support but long-term structural strain.</li>\n<li>External financing: Ukraine’s economy now depends heavily on aid and loans from Europe, the United States, IMF programs, and mechanisms tied to frozen Russian assets.</li>\n<li>Inflation divergence: Ukraine’s inflation is framed as a supply shock from destroyed capacity and labor displacement, while Russia’s is driven more by overheated military demand and labor scarcity.</li>\n<li>Frozen reserves: Around $300 billion of Russian foreign reserves remain frozen, with interest and future income streams being used or pledged to support Ukraine.</li>\n<li>Labor shock: Ukraine lost a huge share of its workforce to displacement and mobilization; Russia faces tight labor markets because military and defense industries are absorbing workers.</li>\n<li>Drone industrialization: Both sides rapidly scaled drone production, turning unmanned systems into a major new military-industrial sector.</li>\n</ul>\n<h2>Learning Takeaways</h2>\n<ul>\n<li>GDP alone can mislead during war: military spending and reconstruction can lift measured output while ordinary economic health deteriorates.</li>\n<li>Russia’s early resilience came from capital controls, high interest rates, energy revenues, redirected exports, gold exposure, and defense demand, but those buffers have visible side effects.</li>\n<li>Ukraine’s survival depends less on normal tax revenue and more on the credibility, timing, and conditions of outside support.</li>\n<li>IMF money matters beyond its size because IMF oversight can unlock confidence from other lenders and donors.</li>\n<li>Long wars shift the battlefield into finance: sanctions, reserves, debt, aid packages, and industrial capacity become strategic weapons.</li>\n<li>The drone boom shows how quickly war can create new procurement platforms, production ecosystems, and feedback loops between front-line demand and industry.</li>\n</ul>\n<h2>Questions To Explore</h2>\n<ul>\n<li>How long can Russia sustain defense-led growth before private-sector crowding out becomes irreversible?</li>\n<li>What happens to Ukraine’s fiscal position if European aid slows or becomes more loan-heavy?</li>\n<li>Could frozen Russian reserve income become a durable financing source, or is it a one-off bridge?</li>\n<li>How will Ukraine’s refugee and workforce losses affect postwar reconstruction?</li>\n<li>Which drone-production lessons will reshape defense procurement outside Ukraine and Russia?</li>\n</ul>\n<h2>Useful Examples, Tools, Or Links</h2>\n<ul>\n<li>Russia’s central bank rate hikes and capital controls after the ruble shock.</li>\n<li>Euroclear-held Russian reserves, G7 lending backed by future income from frozen assets, and debates over confiscation versus interest capture.</li>\n<li>IMF programs as a credibility signal for other Ukraine aid.</li>\n<li>Russia’s Alabuga drone factory and Iranian Shahed technology transfer.</li>\n<li>Ukraine’s Brave1 platform for connecting military units with drone and defense-tech suppliers.</li>\n</ul>\n<h2>Optional Post Draft</h2>\n<p>俄乌战争打到第四年，真正的战场已经不只是前线，而是财政、劳动力、通胀和工业体系。</p>\n<p>俄罗斯靠能源、黄金、资本管制和军工订单撑住了早期冲击，但代价是民用经济被挤出、劳动力极度紧张、通胀反复抬头。乌克兰则是经济产能被打穿，靠欧美援助、IMF背书和冻结俄资产的收益续命。</p>\n<p>最值得记的一点：战争经济里的GDP不等于健康。军费和重建可以让数字看起来还在动，但普通人的生活、产业结构和未来增长能力，可能已经被慢慢透支。</p>"
+    },
     {
       "id": "2026-09-18-use-chatgpt-work-to-ground-analysis-in-your-semantic-layer.md",
       "file": "2026-09-18-use-chatgpt-work-to-ground-analysis-in-your-semantic-layer.md",
